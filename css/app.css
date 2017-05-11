@@ -58,3 +58,10 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#ac-milan {
+    background: #e11624;
+    background: -webkit-gradient( linear, left top, right top, color-stop(50%, #e11624), color-stop(51%, #1a161a));
+    background: linear-gradient( 90deg, #e11624 50%, #1a161a 51%);
+    background-size: 34px;
+}
