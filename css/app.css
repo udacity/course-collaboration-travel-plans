@@ -62,3 +62,19 @@ h2 {
 #newyork {
     background-color: #F4FD42;
 }
+<<<<<<< HEAD
+||||||| parent of af1139d... Add destination to Scotland
+
+#paris {
+    background-color: #F4FD42;
+}
+=======
+
+#paris {
+    background-color: #0099DD;
+}
+
+#scotland {
+    background-color: #FF3344;
+}
+>>>>>>> af1139d... Add destination to Scotland
