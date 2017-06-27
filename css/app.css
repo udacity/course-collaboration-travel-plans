@@ -51,10 +51,16 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#fayoum {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#beni-suef {
     background-color: #800000;
+}
+#cairo {
+    background-color: #45afbc;
+}
+#giza {
+    background-color: #76caab;
 }
