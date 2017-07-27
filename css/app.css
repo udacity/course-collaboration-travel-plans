@@ -38,6 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 5px;
 }
 
 .destination:hover h2 {
@@ -52,12 +53,26 @@ h2 {
 }
 
 #belize {
-    background-color: red;
-    border-radius: 5px;
+    background-color: yellow;
     color: #fff;
 }
 
 #barcelona {
     background-color: green;
+    color: #000;
+}
+
+#beijing {
+    background-color: pink;
+    color: #fff;
+}
+
+#shanghai {
+    background-color: blue;
+    color: #000;
+}
+
+#hongkong {
+    background-color: red;
     color: #000;
 }
