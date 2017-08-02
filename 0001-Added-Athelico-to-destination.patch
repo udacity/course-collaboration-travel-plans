@@ -1,0 +1,27 @@
+From efb6a683fcb1a6c0f8222596f0abd3ce02cebced Mon Sep 17 00:00:00 2001
+From: Koustav Chandra <koustavchandra@gmail.com>
+Date: Wed, 2 Aug 2017 10:39:21 +0530
+Subject: [PATCH] Added Athelico to destination
+
+---
+ index.html | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/index.html b/index.html
+index c520305..64b68c9 100644
+--- a/index.html
++++ b/index.html
+@@ -20,7 +20,9 @@
+             <div class="destination" id="madrid">
+                 <h2>Madrid</h2>
+             </div>
+-
++            <div class="destination" id="Athelico">
++                <h2>Athelico</h2>
++            </div>
+         </div>
+     </div>
+ 
+-- 
+2.13.1
+
