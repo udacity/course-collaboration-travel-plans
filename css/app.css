@@ -59,6 +59,14 @@ h2 {
     background-color: #800000;
 }
 
+#Texas {
+    background-color: blue;
+}
+
+#California {
+    background-color: yellow;
+}
+
 .hello {
     text-align: center;
     margin: auto;
