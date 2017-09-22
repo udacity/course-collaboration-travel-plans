@@ -61,3 +61,22 @@ h2 {
 #korea {
     background-color: #03a9f4;
 }
+
+@media screen and (max-width: 480px) {
+        
+    .destination {
+        box-shadow: 0 1px 4.5px 0 rgba(0, 0, 0, 0.4);
+        min-height: 150px;
+        flex: 0 1 150px;
+        display: flex;
+    }
+    
+    h2 {
+        text-shadow: 0 0 2.5px #01579b;
+
+    }
+    
+    body {
+    background-color: lightblue;
+}
+}
