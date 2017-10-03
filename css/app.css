@@ -3,9 +3,7 @@ html {
     height: 100%;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: inherit;
 }
 
@@ -69,4 +67,8 @@ h2 {
 
 #scotland {
     background-color: #388e3c;
+}
+
+#maputo {
+    background-color: #ff00dc;
 }
