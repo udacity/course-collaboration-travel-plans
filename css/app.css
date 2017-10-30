@@ -50,11 +50,20 @@ h2 {
     transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
 }
+h3 {
+    margin: 0;
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #01574b;
+}
 
 #belize {
     background-color: #4dd0e1;
 }
 
-#barcelona {
-    background-color: #800000;
+#mumbai {
+    background-color: #800010;
+
+#california {
+    background-color: #800010;
 }
