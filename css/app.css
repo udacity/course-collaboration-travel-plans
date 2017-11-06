@@ -42,6 +42,11 @@ body {
 
 .destination:hover h2 {
     transform: rotate(0deg);
+
+}
+
+#florida{
+	background: #03a9f4;
 }
 
 h2 {
