@@ -38,6 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: none;
 }
 
 .destination:hover h2 {
