@@ -58,3 +58,8 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+.social {
+  background-color: red;
+  text-shadow: 0 0 5px #01579b;
+  text-align: center;
+}
