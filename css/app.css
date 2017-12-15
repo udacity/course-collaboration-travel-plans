@@ -51,10 +51,26 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
+#venezuela {
+    background-color: #760cdb;
+}
+
+#sydney {
+    background-color: #b6f5ca;
+}
+
+#florida {
+    background-color: #03a9f4;
+}
+
+#paris {
+    background-color: #d32f2f;
+}
+
 #belize {
-    background-color: #4dd0e1;
+    background-color: #0e4e1c;
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #8a7b0b;
 }
