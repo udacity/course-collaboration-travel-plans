@@ -56,5 +56,17 @@ h2 {
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #ff9900;
+}
+
+#bogota{
+    background-color: #00007e;
+}
+
+#medellin{
+    background-color: #00a500;
+}
+
+#sanfrancisco{
+    background-color: #790001;
 }
