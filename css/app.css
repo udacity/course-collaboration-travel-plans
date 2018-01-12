@@ -13,6 +13,7 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -56,5 +57,9 @@ h2 {
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #f5ff70;
+}
+
+#japan {
+    background-color: #ff97e0;
 }
