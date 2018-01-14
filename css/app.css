@@ -51,10 +51,22 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#bangkok {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#chiangmai {
     background-color: #800000;
+}
+
+#singapore {
+    background-color: #FF5733;
+}
+
+#hanoi {
+    background-color: #17A589;
+}
+
+#tokyo {
+    background-color: #D7BDE2;
 }
