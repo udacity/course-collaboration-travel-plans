@@ -2,3 +2,4 @@
 
 A simple app to keep track of destinations I'd like to visit.
 Hello from Julia!
+Hello from branch 2!
