@@ -43,6 +43,19 @@ body {
 .destination:hover h2 {
     transform: rotate(0deg);
 }
+h1{
+    margin: 0;
+    text-shadow: 0 0 6px #81bef7;
+    text-align: center;
+    color: #08088a;
+    font-family: cursive;
+    font-size: 4em;
+}
+
+h1:hover{
+    color: #0B0B61;
+    text-shadow: 0 0 25px #81bef7
+}
 
 h2 {
     margin: 0;
