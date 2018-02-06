@@ -52,9 +52,18 @@ h2 {
 }
 
 #belize {
-    background-color: #4dd0e1;
+    background-color: gray;
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: red;
+}
+#egypt {
+    background-color: black;
+}#russia {
+    background-color: blue;
+}#uraguay {
+    background-color: purple;
+}#ksa {
+    background-color: green;
 }
