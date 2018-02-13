@@ -58,3 +58,11 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#netherlands {
+    background: linear-gradient(red, white, blue);
+}
+
+#zbarazh {
+    background: linear-gradient(blue, yellow);
+}
