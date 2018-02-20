@@ -60,9 +60,13 @@ h2 {
 }
 
 #florida {
-    background-color: #jne5t4;
+    background-color: blue;
 }
 
 #paris {
-    background-color: #7nr5t4;
+    background-color: purple;
+}
+
+#london {
+    background-color: yellow;
 }
