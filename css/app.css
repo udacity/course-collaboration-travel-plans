@@ -51,10 +51,34 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#brasil {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#paraguai {
     background-color: #800000;
+}
+
+#argentina {
+    background-color: #194f4a;
+}
+
+#estados-unidos {
+    background-color: #00108a;
+}
+
+#peru {
+    background-color: #75aec1;
+}
+
+#chile {
+    background-color: #52867a;
+}
+
+#australia {
+    background-color: #92782b;
+}
+
+#nova-zelandia {
+    background-color: #0f6398;
 }
