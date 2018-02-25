@@ -3,6 +3,10 @@ html {
     height: 100%;
 }
 
+body {
+    background-color: #00cae4;
+}
+
 *,
 *::before,
 *::after {
