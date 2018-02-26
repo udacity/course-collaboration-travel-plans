@@ -39,6 +39,8 @@ body {
     align-items: center;
     text-align: center;
 }
+.cairo{ background:url(https://pbs.twimg.com/profile_images/644186206998171648/BoR7UDvr_400x400.jpg) no-repeat;}
+.sao{ background:url(http://www.newgeography.com/files/imagecache/Chart_Story_Inset/Hong-Kong-Night-Views-6083266_0-bigstock.jpg) no-repeat;}
 
 .destination:hover h2 {
     transform: rotate(0deg);
