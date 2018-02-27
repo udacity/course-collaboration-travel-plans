@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^<html lang="en">$/;"	function	line:2
+head	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^<head>$/;"	function	line:3
+meta	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^    <meta charset="utf-8">$/;"	function	line:4
+title	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^    <title>Travels<\/title>$/;"	function	line:5
+meta	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^    <meta name="description" content="">$/;"	function	line:6
+link	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^    <link rel="stylesheet" href="css\/app.css">$/;"	function	line:7
+body	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^<body>$/;"	function	line:9
+div	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^    <div class="container">$/;"	function	line:11
+div	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^        <div class="destination-container">$/;"	function	line:12
+div	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^            <div class="destination" id="belize">$/;"	function	line:13
+h	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^                <h2>Belize<\/h2>$/;"	function	line:14
+div	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^            <div class="destination" id="barcelona">$/;"	function	line:17
+h	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/index.html	/^                <h2>Sao Paolo<\/h2>$/;"	function	line:18
+html	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^html {$/;"	function	line:1
+*	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^*,$/;"	function	line:6
+*::before	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^*::before,$/;"	function	line:7
+*::after	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^*::after {$/;"	function	line:8
+body	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^body {$/;"	function	line:12
+.container	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^.container {$/;"	function	line:18
+.destination-container	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^.destination-container {$/;"	function	line:24
+.destination	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^.destination {$/;"	function	line:30
+.destination:hover h2	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^.destination:hover h2 {$/;"	function	line:43
+h2	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^h2 {$/;"	function	line:47
+#belize	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^#belize {$/;"	function	line:54
+#barcelona	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/css/app.css	/^#barcelona {$/;"	function	line:58
+Travel Destinations	/Users/manon/Documents/Learn_programming/Version_control_udacity/udacity-remote/course-collaboration-travel-plans/README.md	/^# Travel Destinations$/;"	function	line:1
