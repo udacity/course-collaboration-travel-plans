@@ -2,6 +2,9 @@ html {
     box-sizing: border-box;
     height: 100%;
 }
+h2{
+    background-color: #01579b;
+}
 
 *,
 *::before,
