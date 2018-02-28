@@ -11,7 +11,7 @@ html {
 
 body {
     display: flex;
-    margin: 0;
+    margin: 9;
     height: 100%;
 }
 
@@ -55,6 +55,6 @@ h2 {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#egypt {
     background-color: #800000;
 }
