@@ -38,6 +38,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 71px 71px 71px 71px;
+    -moz-border-radius: 71px 71px 71px 71px;
+    -webkit-border-radius: 71px 71px 71px 71px;
 }
 
 .destination:hover h2 {
@@ -57,4 +60,17 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+
+#rome {
+    background-color: #de5000;
+}
+
+#paris {
+    background-color: #bac123;
+}
+
+#london {
+    background-color: #010cb0;
 }
