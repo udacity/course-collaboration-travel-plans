@@ -58,3 +58,18 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#Moscow{
+    background-color: #808080;
+}
+#algiers{
+     background-color: #800960;
+}
+
+.bottom-bar{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 5%;
+}
