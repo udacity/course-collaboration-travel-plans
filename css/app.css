@@ -13,12 +13,13 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background-color: yellow;
 }
 
 .container {
     margin: auto;
     padding: 1em;
-    width: 80%;
+    width: 70%;
 }
 
 .destination-container {
