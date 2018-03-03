@@ -51,6 +51,20 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
+h1 {
+    padding: 10px;
+    transform: ;
+    text-shadow: 0 0 3px #fff725;
+}
+
+#tafilalet {
+    background-color: #8370e1;
+}
+
+#sjlmassa {
+    background-color: orange;
+}
+
 #belize {
     background-color: #4dd0e1;
 }
