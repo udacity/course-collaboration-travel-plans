@@ -1,0 +1,106 @@
+/**
+ * @license Copyright 2017 Google Inc. All Rights Reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+ */
+'use strict';
+
+const MultiCheckAudit = require('./multi-check-audit');
+const SWAudit = require('./service-worker');
+
+/**
+ * @fileoverview
+ * Audits if a page is configured to prompt users with the webapp install banner.
+ * https://github.com/GoogleChrome/lighthouse/issues/23#issuecomment-270453303
+ *
+ * Requirements:
+ *   * manifest is not empty
+ *   * manifest has valid start url
+ *   * manifest has a valid name
+ *   * manifest has a valid shortname
+ *   * manifest display property is standalone, minimal-ui, or fullscreen
+ *   * manifest contains icon that's a png and size >= 192px
+ *   * SW is registered, and it owns this page and the manifest's start url
+ *   * Site engagement score of 2 or higher
+
+ * This audit covers these requirements with the following exceptions:
+ *   * it doesn't consider SW controlling the starturl
+ *   * it doesn't consider the site engagement score (naturally)
+ */
+
+class WebappInstallBanner extends MultiCheckAudit {
+  /**
+   * @return {!AuditMeta}
+   */
+  static get meta() {
+    return {
+      name: 'webapp-install-banner',
+      description: 'User can be prompted to Install the Web App',
+      failureDescription: 'User will not be prompted to Install the Web App',
+      helpText: 'Browsers can proactively prompt users to add your app to their homescreen, ' +
+          'which can lead to higher engagement. ' +
+          '[Learn more](https://developers.google.com/web/tools/lighthouse/audits/install-prompt).',
+      requiredArtifacts: ['URL', 'ServiceWorker', 'Manifest', 'StartUrl'],
+    };
+  }
+
+  static assessManifest(artifacts, result) {
+    const {manifestValues, failures} = result;
+    if (manifestValues.isParseFailure) {
+      failures.push(manifestValues.parseFailureReason);
+      return;
+    }
+
+    const bannerCheckIds = [
+      'hasName',
+      'hasShortName',
+      'hasStartUrl',
+      'hasPWADisplayValue',
+      'hasIconsAtLeast192px',
+    ];
+    manifestValues.allChecks
+      .filter(item => bannerCheckIds.includes(item.id))
+      .forEach(item => {
+        if (!item.passing) {
+          failures.push(item.failureText);
+        }
+      });
+  }
+
+
+  static assessServiceWorker(artifacts, result) {
+    const hasServiceWorker = SWAudit.audit(artifacts).rawValue;
+    if (!hasServiceWorker) {
+      result.failures.push('Site does not register a service worker');
+    }
+  }
+
+  static assessOfflineStartUrl(artifacts, result) {
+    const hasOfflineStartUrl = artifacts.StartUrl.statusCode === 200;
+
+    if (!hasOfflineStartUrl) {
+      result.failures.push('Service worker does not successfully serve the manifest\'s start_url');
+      if (artifacts.StartUrl.debugString) result.failures.push(artifacts.StartUrl.debugString);
+    }
+
+    if (artifacts.StartUrl.debugString) {
+      result.warnings.push(artifacts.StartUrl.debugString);
+    }
+  }
+
+  static audit_(artifacts) {
+    const failures = [];
+    const warnings = [];
+
+    return artifacts.requestManifestValues(artifacts.Manifest).then(manifestValues => {
+      const result = {warnings, failures, manifestValues};
+      WebappInstallBanner.assessManifest(artifacts, result);
+      WebappInstallBanner.assessServiceWorker(artifacts, result);
+      WebappInstallBanner.assessOfflineStartUrl(artifacts, result);
+
+      return result;
+    });
+  }
+}
+
+module.exports = WebappInstallBanner;

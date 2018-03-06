@@ -1,0 +1,49 @@
+clone_depth: 10
+
+version: "{build}"
+
+branches:
+  only:
+  - master
+
+environment:
+  fast_finish: true
+  matrix:
+    - nodejs_version: "6"
+      platform: x86
+    # node 7 is skipped, as appveyor only allows 1 concurrent job
+    # and we want appveyor finishing ASAP. see #2382
+    # - nodejs_version: "7"
+    #   platform: x86
+
+build: off
+
+install:
+  - ps: Install-Product node $env:nodejs_version $env:platform
+  - npm install yarn -g
+  - yarn
+  - yarn install-all
+
+before_test:
+  - set "PATH=C:\MinGW\msys\1.0\bin;%PATH%"
+  - set "LIGHTHOUSE_CHROMIUM_PATH=%CD%\chrome-win32\chrome.exe"
+  - bash ./lighthouse-core/scripts/download-chrome.sh
+  - yarn build-all
+
+test_script:
+  - node --version
+  - npm --version
+  - yarn --version
+  - which yarn
+  - yarn lint
+  - yarn unit
+  - yarn type-check
+  - yarn smoke
+  - yarn smokehouse
+
+cache:
+  #- chrome-win32 -> appveyor.yml,package.json
+  - node_modules -> appveyor.yml,package.json,yarn.lock
+  - lighthouse-extension\node_modules -> appveyor.yml,package.json,yarn.lock,lighthouse-extension\package.json,lighthouse-extension\yarn.lock
+  - lighthouse-viewer\node_modules -> appveyor.yml,package.json,yarn.lock,lighthouse-viewer\package.json,lighthouse-viewer\yarn.lock
+  - '%LOCALAPPDATA%\Yarn -> appveyor.yml,package.json,yarn.lock'

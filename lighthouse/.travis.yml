@@ -1,0 +1,50 @@
+sudo: required
+language: node_js
+branches:
+  only:
+  - master
+matrix:
+  include:
+    - node_js: "6.9.1"
+    - node_js: "8"
+      if: head_branch IS blank AND branch = master
+    - node_js: "9"
+      if: head_branch IS blank AND branch = master
+dist: trusty
+cache:
+  yarn: true
+  directories:
+    - node_modules
+    - lighthouse-extension/node_modules
+    - lighthouse-viewer/node_modules
+    - /home/travis/.rvm/gems/
+install:
+  - yarn
+  # travis can't handle the parallel install (without caches)
+  - yarn run install-all:task:windows
+before_script:
+  - export DISPLAY=:99.0
+  - export CHROME_PATH="$(pwd)/chrome-linux/chrome"
+  - sh -e /etc/init.d/xvfb start
+  - yarn build-all
+script:
+  - echo $TRAVIS_EVENT_TYPE;
+  - echo $TRAVIS_BRANCH
+  - yarn bundlesize
+  - yarn lint
+  - yarn unit
+  - yarn type-check
+  - yarn closure
+  - yarn smoke
+  - yarn smokehouse
+  # _JAVA_OPTIONS is breaking parsing of compiler output. See #3338.
+  - unset _JAVA_OPTIONS
+  - yarn compile-devtools
+before_cache:
+  # the `yarn compile-devtools` task adds these to node_modules, which slows down caching
+  - rm -rf ./node_modules/temp-devtoolsfrontend/
+  - rm -rf ./node_modules/temp-devtoolsprotocol/
+after_success:
+  - yarn coveralls
+addons:
+  chrome: stable

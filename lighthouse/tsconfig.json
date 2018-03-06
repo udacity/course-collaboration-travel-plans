@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "module": "commonjs",
+    "target": "ES2017",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    // "listFiles": true,
+    "typeRoots": [
+      "@types",
+      "./typings"
+    ],
+
+    "diagnostics": true
+  },
+  "include": [
+    "lighthouse-cli/**/*.js",
+    "lighthouse-core/lib/dependency-graph/**/*.js",
+    "./typings/externs.d.ts"
+  ],
+  "exclude": [
+    "lighthouse-cli/test/**/*.js"
+  ]
+}

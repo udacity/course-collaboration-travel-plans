@@ -1,0 +1,54 @@
+# use npm modules `pkgfiles` or `irish-pub` to validate which files are selected
+
+# folders
+.vscode/
+.github/
+assets/
+build/
+coverage/
+
+lighthouse-core/scripts/
+lighthouse-core/test/
+lighthouse-core/third_party/src/
+lighthouse-viewer/
+lighthouse-extension/
+lighthouse-cli/results/
+lighthouse-logger/
+
+# excluding cli/test minus smokehouse
+lighthouse-cli/test
+!lighthouse-cli/test/smokehouse
+!lighthouse-cli/test/fixtures/
+
+!lighthouse-cli/index.js
+lighthouse-cli/*.map
+lighthouse-cli/commands/*.map
+lighthouse-cli/types/*.js
+lighthouse-cli/types/*.map
+
+node_modules/
+results/
+
+plots/
+
+# generated files
+**/pages/scripts/lighthouse-report.js
+*.report.html
+*.dom.html
+*.screenshots.html
+*.screenshots.json
+*.devtoolslog.json
+*.trace.json
+closure-error.log
+last-run-results.html
+latest.artifacts.log
+npm-debug.log
+results.html
+
+# dev files
+.appveyor.yml
+.DS_Store
+.editorconfig
+.eslintignore
+.eslintrc.js
+.travis.yml
