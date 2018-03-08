@@ -41,7 +41,7 @@ body {
 }
 
 .destination:hover h2 {
-    transform: rotate(0deg);
+    transform: rotate(45deg);
 }
 
 h2 {
@@ -52,9 +52,17 @@ h2 {
 }
 
 #belize {
-    background-color: #4dd0e1;
+    background-color: #ff00e1;
 }
-
+#Cairo {
+    background-color: #4320e1;
+}
+#Alex {
+    background-color: #4dffe1;
+}
+#Assuit {
+    background-color: #1110e1;
+}
 #barcelona {
     background-color: #800000;
 }
