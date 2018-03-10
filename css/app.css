@@ -38,8 +38,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+	transition: min-height .5s;
 }
+.destination:hover{
+    min-height: 300px;
 
+}
 .destination:hover h2 {
     transform: rotate(0deg);
 }
