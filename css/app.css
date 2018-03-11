@@ -56,5 +56,10 @@ h2 {
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #a10773;
+}
+
+#belize,#barcelona {
+    border-radius: 5px;
+    border: 2px solid #333;
 }
