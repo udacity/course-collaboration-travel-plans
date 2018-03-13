@@ -46,15 +46,19 @@ body {
 
 h2 {
     margin: 0;
-    transform: rotate(-45deg);
+    transform:  scale(2);
     transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
-    background-color: #4dd0e1;
+#cairo {
+    background-color: #0B0B61;
 }
 
-#barcelona {
-    background-color: #800000;
+#alex {
+    background-color: #FE2EF7;
+}
+
+#mansoura {
+    background-color: #FF0000;
 }
