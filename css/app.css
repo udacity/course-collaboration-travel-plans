@@ -50,7 +50,15 @@ h2 {
     transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
 }
-
+#florida {
+    background-color: #e14f4c;
+}
+#scotland {
+    background-color: #e14f4c;
+}
+#syria {
+    background-color: #48f442;
+}
 #belize {
     background-color: #4dd0e1;
 }
