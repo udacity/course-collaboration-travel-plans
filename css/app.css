@@ -8,6 +8,9 @@ html {
 *::after {
     box-sizing: inherit;
 }
+.mystyle{ font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;}
+.mystyle2{ font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;}
+
 
 body {
     display: flex;
