@@ -18,7 +18,7 @@ body {
 .container {
     margin: auto;
     padding: 1em;
-    width: 80%;
+    width: 100%;
 }
 
 .destination-container {
@@ -40,14 +40,15 @@ body {
     text-align: center;
 }
 
-.destination:hover h2 {
+.destination:hover h2   {
     transform: rotate(0deg);
+    color: black;
 }
 
 h2 {
     margin: 0;
-    transform: rotate(-45deg);
-    transition: transform 0.5s;
+    transform: rotate(-360deg);
+    transition: transform 2s;
     text-shadow: 0 0 5px #01579b;
 }
 
@@ -62,8 +63,17 @@ h2 {
     background-color: #03a9f4;
 }
 #paris{
-    background-color: black;
+    background-color: #c15285;
 }
 #scotland{
-    background-color: green;
+    background-color: #9b8cda;
+}
+#cairo{
+    background-color: #ee3636;
+}
+#mans{
+    background-color: #6c8000;
+}
+#alex{
+    background-color: #80003b;
 }
