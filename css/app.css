@@ -41,6 +41,7 @@ body {
 }
 
 .destination:hover h2 {
+
     transform: rotate(0deg);
 }
 
@@ -59,6 +60,10 @@ h2 {
     background-color: #800000;
 }
 
-#washinton {
+#washington {
     background-color: #1ca560;
+}
+
+#peru {
+    background-color: #d18126;
 }
