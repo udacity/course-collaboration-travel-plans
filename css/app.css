@@ -51,10 +51,22 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#madrid {
     background-color: #4dd0e1;
 }
 
 #barcelona {
     background-color: #800000;
+}
+
+#london {
+    background-color: #49a4b9;
+}
+
+#stockholm {
+    background-color: #33eeee;
+}
+
+#amsterdam {
+    background-color: #22aa45;
 }
