@@ -51,10 +51,26 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#Yemen {
     background-color: #4dd0e1;
 }
 
-#barcelona {
-    background-color: #800000;
+#Palastain {
+    background-color: #800090;
+}
+
+#Eygpt {
+    background-color: #800090;
+}
+
+#Algira {
+    background-color: #ce0e00;
+}
+
+/*** Footer Styling ***/
+footer {
+    border-top: 2px solid #dbe2e8;
+    margin-top: 4em;
+    padding: 2em;
+    text-align: center;
 }
