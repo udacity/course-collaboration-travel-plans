@@ -19,7 +19,7 @@ body {
 .container {
     margin: auto;
     padding: 1em;
-    width: 80%;
+    width: 100%;
 }
 
 .destination-container {
@@ -58,4 +58,33 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+header {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+
+	width: 100%;
+	height: 80%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+	margin-bottom: 30px;
 }
