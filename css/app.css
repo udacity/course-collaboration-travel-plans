@@ -28,7 +28,8 @@ body {
 }
 
 .destination {
-    background: #03a9f4;
+    background: #03a9f4 no-repeat center center scroll;
+    background-size: cover;
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
     color: white;
     margin: 0.5em;
@@ -57,4 +58,14 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#berlin {
+    background-color: #b08020;
+    background-image: url('../img/berlin--pexels-photo-109630-w400-h400.jpg');
+}
+
+#paris {
+    background-color: #460080;
+    background-image: url('../img/paris--pexels-photo-338515-w400-h400.jpg');
 }
