@@ -52,9 +52,18 @@ h2 {
 }
 
 #belize {
-    background-color: #4dd0e1;
+    background-color: #000555;
+	opacity:0.8;
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #555000;
+	opacity:0.8;
+}
+
+#barcelona:hover ,#belize:hover{
+	opacity:1;
+	cursor:pointer;
+	transition:all 0.2s;
+	box-shadow:0px 5px 6px rgba(0,0,0,0.5);
 }
