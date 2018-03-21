@@ -49,16 +49,19 @@ h2 {
     transform: rotate(-45deg);
     transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 6px grey;
 }
 
 #paris {
-    background-color: #4dd0e1;
+    background-color: #c0df85;
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #deb986;
 }
 
 #venice {
-    background-color: #3f0d12;
+    background-color: #db6c79;
 }
