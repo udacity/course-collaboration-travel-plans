@@ -13,6 +13,7 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background-color: #e5e5e5
 }
 
 .container {
@@ -56,5 +57,5 @@ h2 {
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #ff5151;
 }
