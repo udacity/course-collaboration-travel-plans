@@ -15,6 +15,9 @@ body {
     height: 100%;
 }
 
+header {
+    background-color: black;
+}
 .container {
     margin: auto;
     padding: 1em;
