@@ -21,6 +21,10 @@ body {
     width: 80%;
 }
 
+.title {
+	color: lightgreen;
+}
+
 .destination-container {
     display: flex;
     flex-flow: wrap;
