@@ -21,10 +21,6 @@ body {
     width: 80%;
 }
 
-.title {
-	color: lightgreen;
-}
-
 .destination-container {
     display: flex;
     flex-flow: wrap;
@@ -61,4 +57,16 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#paris {
+    background-color: green;
+}
+
+#berlin {
+    background-color: purple;
+}
+
+#scotland {
+    background-color: pink;
 }
