@@ -55,6 +55,14 @@ h2 {
     background-color: #4dd0e1;
 }
 
+#belize:hover {
+    background-color: #f7cccc;
+}
+
 #barcelona {
     background-color: #800000;
+}
+
+#barcelona:hover {
+    background-color: #008073;
 }
