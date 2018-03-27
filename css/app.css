@@ -66,3 +66,27 @@ h2 {
 #barcelona:hover {
     background-color: #008073;
 }
+
+#florida {
+    background-color: #800000;
+}
+
+#florida:hover {
+    background-color: #008073;
+}
+
+#paris {
+    background-color: #845555;
+}
+
+#paris:hover {
+    background-color: #133333;
+}
+
+#scotland {
+    background-color: #d09393;
+}
+
+#scotland:hover {
+    background-color: #93c0d0;
+}
