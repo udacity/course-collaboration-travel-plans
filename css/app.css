@@ -44,6 +44,11 @@ body {
     transform: rotate(0deg);
 }
 
+
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
+
 h2 {
     margin: 0;
     transform: rotate(-45deg);
