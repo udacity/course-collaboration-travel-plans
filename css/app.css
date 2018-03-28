@@ -7,9 +7,7 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
-}
-
-body {
+}body {
     display: flex;
     margin: 0;
     height: 100%;
