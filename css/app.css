@@ -13,7 +13,9 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background-color: #00cae4;
 }
+
 
 .container {
     margin: auto;
