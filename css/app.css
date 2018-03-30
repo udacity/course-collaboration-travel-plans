@@ -58,3 +58,9 @@ h2 {
 #egy {
     background-color: #800000;
 }
+#egy2 {
+    background-color: #800000;
+}
+#egy3 {
+    background: linear-gradient(90deg,#800000,#4dd0e1);
+}
