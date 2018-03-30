@@ -38,9 +38,11 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+	filter:invert(0%);
 }
 
 .destination:hover h2 {
+	filter:invert(100%);
     transform: rotate(0deg);
 }
 
@@ -51,10 +53,16 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
-    background-color: #4dd0e1;
+#Paris {
+    background-color: #000088;
 }
 
-#barcelona {
-    background-color: #800000;
+#Berlin {
+    background-color: #880000;
+}
+#Italy {
+    background-color: #008800;
+}
+#Israel {
+    background-color: #00ddff;
 }
