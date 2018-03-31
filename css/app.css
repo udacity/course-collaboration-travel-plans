@@ -53,8 +53,15 @@ h2 {
 
 #belize {
     background-color: #4dd0e1;
+    color: white;
 }
 
 #barcelona {
     background-color: #800000;
+    color: white;
+}
+
+#porto {
+  background-color: orange;
+  color: white;
 }
