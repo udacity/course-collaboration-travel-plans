@@ -40,6 +40,10 @@ body {
     text-align: center;
 }
 
+.destination:hover {
+    cursor: pointer;
+}
+
 .destination:hover h2 {
     transform: rotate(0deg);
 }
