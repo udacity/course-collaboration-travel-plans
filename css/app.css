@@ -40,7 +40,7 @@ body {
     text-align: center;
 }
 
-.destination:hover h2 {
+.destination canda h2 {
     transform: rotate(0deg);
 }
 
