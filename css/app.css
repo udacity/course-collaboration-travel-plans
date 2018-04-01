@@ -13,6 +13,7 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+	background: radial-gradient(whitesmoke, black 300%);
 }
 
 .container {
@@ -29,7 +30,7 @@ body {
 
 .destination {
     background: #03a9f4;
-    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.8);
     color: white;
     margin: 0.5em;
     min-height: 200px;
@@ -38,6 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+	font-family: calibri;
 }
 
 .destination:hover h2 {
