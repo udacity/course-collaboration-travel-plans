@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align:  left;
 }
 
 .destination:hover h2 {
@@ -51,10 +51,10 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#egypt {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#tokyo {
     background-color: #800000;
 }
