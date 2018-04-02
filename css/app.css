@@ -52,9 +52,21 @@ h2 {
 }
 
 #belize {
-    background-color: #4dd0e1;
+    background-color: #e14d4d;
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #e2df0e;
+}
+
+#san-francisco {
+    background-color: #3a8000;
+}
+
+#berlin {
+    background-color: #0357f4;
+}
+
+#london {
+    background-color: #000000;
 }
