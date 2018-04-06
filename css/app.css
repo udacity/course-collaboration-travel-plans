@@ -13,6 +13,7 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background-color: pink;
 }
 
 .container {
@@ -58,3 +59,11 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#portugal {
+    background-color: #5d4835;
+}
+
+#madrid {
+    background-color: #556677;
+  }
