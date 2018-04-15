@@ -7,7 +7,3 @@ Cool!
 Changed something!
 
 Add Florida.
-
-Add Paris.
-
-Add China.
