@@ -58,3 +58,7 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#santiago {
+    background: linear-gradient(to bottom, #0066cc 0%, #ff0000 100%);
+}
