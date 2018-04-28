@@ -10,13 +10,14 @@ html {
 }
 
 body {
-    display: flex;
+    box-sizing: content-box;
     margin: 0;
-    height: 100%;
+    height: auto;
 }
 
 .container {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1em;
     width: 80%;
 }
@@ -42,6 +43,10 @@ body {
 
 .destination:hover h2 {
     transform: rotate(0deg);
+}
+
+h1{
+    text-align: center;
 }
 
 h2 {
