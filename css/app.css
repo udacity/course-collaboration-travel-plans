@@ -21,6 +21,10 @@ body {
     width: 80%;
 }
 
+.header {
+    text-align: center;
+}
+
 .destination-container {
     display: flex;
     flex-flow: wrap;
