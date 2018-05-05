@@ -58,6 +58,15 @@ h2 {
 #michigan {
     background-color: #800000;
 }
+
 #indiana {
-    background-color: beige;
+    background-color: rgb(66, 131, 125);
+}
+
+#iowa {
+    background-color: royalblue;
+}
+
+#texas {
+    background-color: rgb(78, 21, 21);
 }
