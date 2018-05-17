@@ -58,3 +58,14 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+/* changed it so that the colors alternate via pseudo-class
+rather than relying on IDs */
+
+div[class="destination"]:nth-child(odd) {
+    background-color: #4dd0e1;
+}
+
+div[class="destination"]:nth-child(even) {
+    background-color: #800000;
+}
