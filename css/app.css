@@ -51,10 +51,18 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#germany {
+    border: solid orange 2px;
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#ireland {
+    border: solid black 2px;
     background-color: #800000;
 }
+
+#japan {
+    border: solid red 2px;
+    background-color: #000000;
+}
+
