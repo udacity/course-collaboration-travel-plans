@@ -33,7 +33,7 @@ body {
     color: white;
     margin: 0.5em;
     min-height: 200px;
-    flex: 0 1 200px;
+    flex: 0 2 200px;
     display: flex;
     justify-content: center;
     align-items: center;
