@@ -38,10 +38,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-color: black;
+
 }
 
 .destination:hover h2 {
     transform: rotate(0deg);
+    color: navy;
 }
 
 h2 {
@@ -57,4 +60,5 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+
 }
