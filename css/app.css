@@ -13,12 +13,18 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    font-family: 'Pacifico', cursive;
+    background-color: cadetblue;
 }
 
 .container {
     margin: auto;
     padding: 1em;
     width: 80%;
+}
+
+h1 {
+    text-align: center;
 }
 
 .destination-container {
@@ -28,33 +34,22 @@ body {
 }
 
 .destination {
-    background: #03a9f4;
-    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
-    color: white;
-    margin: 0.5em;
-    min-height: 200px;
-    flex: 0 1 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 380px;
+    padding: 15px 15px 30px 15px;
+    margin: 50px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 10px 10px 45px white;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+
+.caption {
+    margin: 0;
     text-align: center;
 }
 
-.destination:hover h2 {
-    transform: rotate(0deg);
-}
 
-h2 {
-    margin: 0;
-    transform: rotate(-45deg);
-    transition: transform 0.5s;
-    text-shadow: 0 0 5px #01579b;
-}
-
-#belize {
-    background-color: #4dd0e1;
-}
-
-#barcelona {
-    background-color: #800000;
-}
