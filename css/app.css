@@ -29,7 +29,9 @@ body {
 
 .destination {
     background: #03a9f4;
-    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
     color: white;
     margin: 0.5em;
     min-height: 200px;
