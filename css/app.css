@@ -58,3 +58,35 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+<<<<<<< HEAD
+
+#ottawa {
+    background-color: #4286f4;
+}
+
+#paris {
+    background-color: #c12889;
+}
+<<<<<<< HEAD
+
+#scotland {
+    background-color: #3ac128;
+}
+||||||| parent of 4d26a85... Add destination to Ottawa
+=======
+
+#ottawa {
+    background-color: #4286f4;
+}
+
+#paris {
+    background-color: #c12889;
+}
+>>>>>>> 4d26a85... Add destination to Ottawa
+||||||| parent of a8f8a11... Added destination to Scotland
+=======
+
+#scotland {
+    background-color: #3ac128;
+}
+>>>>>>> a8f8a11... Added destination to Scotland
