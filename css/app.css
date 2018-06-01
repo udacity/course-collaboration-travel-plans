@@ -13,6 +13,8 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .container {
@@ -47,14 +49,28 @@ body {
 h2 {
     margin: 0;
     transform: rotate(-45deg);
+    font-size: xx-large;
     transition: transform 0.5s;
-    text-shadow: 0 0 5px #01579b;
+    text-shadow: #01579b 0 1px 0, #01579b 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #01579b 0 5px 0,rgba(0,0,0,.1) 0 6px 1px, rgba(0,0,0,.1) 0 0 5px, rgba(0,0,0,.3) 0 1px 3px, rgba(0,0,0,.15) 0 3px 5px, rgba(0,0,0,.2) 0 5px 10px, rgba(0,0,0,.2) 0 10px 10px, rgba(0,0,0,.1) 0 20px 20px;
 }
 
-#belize {
+#italy {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#spain {
     background-color: #800000;
+}
+
+#japan {
+    background-color: #03a9f4;
+}
+
+.footer {
+    padding: 24px;
+    padding: 1.5rem;
+    background: #404040;
+    color: #999;
+    font-size: .85em;
+    text-align: center;
 }
