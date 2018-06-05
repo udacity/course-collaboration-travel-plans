@@ -50,12 +50,13 @@ h2 {
     transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
     font-family: Arial;
+
 }
 
 #belize {
-    background-color: #4dd0e1;
+    background-color: #000026;
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #e59400;
 }
