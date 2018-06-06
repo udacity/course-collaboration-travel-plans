@@ -58,3 +58,27 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#Doha {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 36%, rgba(143,2,34,1) 69%, rgba(109,0,25,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 36%,rgba(143,2,34,1) 69%,rgba(109,0,25,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 36%,rgba(143,2,34,1) 69%,rgba(109,0,25,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#6d0019',GradientType=1 );
+}
+
+#Istanbul {
+    background: rgb(255,255,255);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 3%, rgba(255,255,255,1) 13%, rgba(207,4,4,1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 3%,rgba(255,255,255,1) 13%,rgba(207,4,4,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 3%,rgba(255,255,255,1) 13%,rgba(207,4,4,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cf0404',GradientType=1 );
+}
+
+#Tokyo {
+    background: rgb(209,0,20);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(209,0,20,1) 17%, rgba(255,255,255,1) 22%, rgba(255,255,255,1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(209,0,20,1) 17%,rgba(255,255,255,1) 22%,rgba(255,255,255,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(209,0,20,1) 17%,rgba(255,255,255,1) 22%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d10014', endColorstr='#ffffff',GradientType=1 );
+}
