@@ -41,7 +41,7 @@ body {
 }
 
 .destination:hover h2 {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
 }
 
 h2 {
