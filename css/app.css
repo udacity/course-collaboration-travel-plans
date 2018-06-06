@@ -25,6 +25,7 @@ body {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    background-color: grey;
 }
 
 .destination {
