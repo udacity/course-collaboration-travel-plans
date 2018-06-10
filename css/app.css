@@ -32,7 +32,7 @@ body {
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
     color: white;
     margin: 0.5em;
-    min-height: 200px;
+    min-height: 198px;
     flex: 0 1 200px;
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@ body {
 h2 {
     margin: 0;
     transform: rotate(-45deg);
-    transition: transform 0.5s;
+    transition: transform 0.6s;
     text-shadow: 0 0 5px #01579b;
 }
 
