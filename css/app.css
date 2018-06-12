@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .destination:hover h2 {
@@ -48,7 +48,7 @@ h2 {
     margin: 0;
     transform: rotate(-45deg);
     transition: transform 0.5s;
-    text-shadow: 0 0 5px #01579b;
+    text-shadow: 0 0 10px #01579b;
 }
 
 #belize {
