@@ -58,3 +58,13 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#london {
+    background-color: rgb(105, 11, 63);
+}
+#paris {
+    border-right-color: antiquewhite;
+}
+#seol {
+    background-color: rgb(34, 9, 105);
+}
