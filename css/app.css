@@ -1,3 +1,5 @@
+/* Last Updated: 06.12.18 */
+
 html {
     box-sizing: border-box;
     height: 100%;
@@ -57,4 +59,16 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#florida {
+  background-color: #03a9f4;
+}
+
+#paris {
+  background-color: #d32f2f;
+}
+
+#scotland {
+  background-color: #388e3c;
 }
