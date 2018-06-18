@@ -53,8 +53,29 @@ h2 {
 
 #belize {
     background-color: #4dd0e1;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 #barcelona {
     background-color: #800000;
+    box-shadow: 5px 10px 18px #888888;
 }
+
+#egypt {
+    background-color: orange;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#paris {
+    background-color: red;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+
+#scotland {
+    background-color: blue;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+
+
