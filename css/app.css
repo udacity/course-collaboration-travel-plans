@@ -10,6 +10,7 @@ html {
 }
 
 body {
+    color:cyan;
     display: flex;
     margin: 0;
     height: 100%;
