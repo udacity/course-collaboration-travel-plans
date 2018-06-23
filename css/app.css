@@ -58,3 +58,10 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#Damascus {
+
+background-color: #1a1a00;
+color: #ffff1a;
+filter: blur(2px) brightness =(200%);
+}
