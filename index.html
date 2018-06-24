@@ -1,4 +1,486 @@
-<!doctype html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+<meta name="Name" content="How to solve the GitHub error fatal: HttpRequestException encountered" />
+<meta name="Description" content="GitHub has been upgraded from using TLS 1.0 to TLS 1.2 and it has caused issues for people. This post should help you solve this issue." />
+<meta name="Keywords" content="git,github,command,line,fatal,error,http,request,exception,httprequestexception,solve,fix,howto,tls,1.0,1.2,update,upgrade" />
+<title>How to solve the GitHub error fatal: HttpRequestException encountered | codeshare.co.uk .NET Web Developer Blog by Paul Seal</title>
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://codeshare.co.uk/blog/how-to-solve-the-github-error-fatal-httprequestexception-encountered/" />
+<meta property="og:title" content="How to solve the GitHub error fatal: HttpRequestException encountered" />
+<meta property="og:description" content="GitHub has been upgraded from using TLS 1.0 to TLS 1.2 and it has caused issues for people. This post should help you solve this issue." />
+<meta name="google-site-verification" content="Gm5l8fg7kxS96hU_Y0ZqYewvcCR8r143Z_dqDFIFzyo" />
+<meta property="fb:admins" content="630769126" />
+<meta property="fb:app_id" content="922215877863183" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@CodeSharePaul">
+<meta name="twitter:creator" content="@CodeSharePaul">
+<meta name="twitter:title" content="How to solve the GitHub error fatal: HttpRequestException encountered">
+<meta name="twitter:description" content="GitHub has been upgraded from using TLS 1.0 to TLS 1.2 and it has caused issues for people. This post should help you solve this issue.">
+<meta name="twitter:image" content="https://codeshare.co.uk//media/1300/goran-ivos-246271.jpg?width=1910&amp;height=1000&amp;mode=crop&amp;anchor=center">
+
+<meta name="msvalidate.01" content="7C2D1807E6B3AF017BD2F69178966D63" />
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/media/share.png?width=57&height=57">
+	<link rel="apple-touch-icon" sizes="60x60" href="/media/share.png?width=60&height=60">
+	<link rel="apple-touch-icon" sizes="72x72" href="/media/share.png?width=72&height=72">
+	<link rel="apple-touch-icon" sizes="76x76" href="/media/share.png?width=76&height=76">
+	<link rel="apple-touch-icon" sizes="114x114" href="/media/share.png?width=114&height=114">
+	<link rel="apple-touch-icon" sizes="120x120" href="/media/share.png?width=120&height=120">
+	<link rel="apple-touch-icon" sizes="144x144" href="/media/share.png?width=144&height=144">
+	<link rel="apple-touch-icon" sizes="152x152" href="/media/share.png?width=152&height=152">
+	<link rel="apple-touch-icon" sizes="180x180" href="/media/share.png?width=180&height=180">
+
+	<meta property="og:image" content="https://codeshare.co.uk//media/1300/goran-ivos-246271.jpg?width=1910&amp;height=1000&amp;mode=crop&amp;anchor=center">
+
+<link rel="canonical" href="https://codeshare.co.uk/blog/how-to-solve-the-github-error-fatal-httprequestexception-encountered/" />
+
+<link rel="publisher" href="https://plus.google.com/u/0/+PaulSealUK">
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+
+
+    <link href="/DependencyHandler.axd?s=L2Nzcy9wcmV0dGlmeS5jc3M7&amp;t=Css&amp;cdv=856599205" type="text/css" rel="stylesheet"/><link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" type="text/css" rel="stylesheet"/><link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" type="text/css" rel="stylesheet"/><link href="/DependencyHandler.axd?s=L2Nzcy9ib290c3RyYXAubWluLmNzczsvY3NzL25vdy11aS1raXQuY3NzOy9jc3MvY29kZXNoYXJlLmNzczs&amp;t=Css&amp;cdv=856599205" type="text/css" rel="stylesheet"/>
+</head>
+
+<body class="blog-post">
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg  navbar-absolute navbar-transparent">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" href="/" data-placement="bottom">
+                <i class="fa fa-share-alt"></i> codeshare
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" data-nav-image="/assets/img/blurred-image-1.jpg" data-color="orange">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                        <i class="now-ui-icons ui-2_favourite-28" aria-hidden="true"></i>
+                        <p>Resources</p>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/pixelarity/" target="_blank" rel="tooltip" data-placement="left" data-original-title="98 HTML Templates for $19">
+                            <i class="fa fa-picture-o fa-2x"></i> Pixelarity
+                        </a>
+                        <a class="dropdown-item" href="/pluralsight/" target="_blank" rel="tooltip" data-placement="left" data-original-title="10 day free trial">
+                            <i class="fa fa-video-camera fa-2x"></i> Pluralsight
+                        </a>
+                        <a class="dropdown-item" href="/hosting/" target="_blank" rel="tooltip" data-placement="left" data-original-title="Recommended UK Hosting">
+                            <i class="fa fa-globe fa-2x"></i> UK Hosting
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                        <i class="now-ui-icons ui-2_settings-90" aria-hidden="true"></i>
+                        <p>Tools</p>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/tools/stock-image-search-tool/">
+                            <i class="fa fa-picture-o fa-2x"></i> Stock Image Search Tool
+                        </a>
+                        <a class="dropdown-item" href="/tools/password-generator/">
+                            <i class="fa fa-lock fa-2x"></i> Password Generator
+                        </a>
+                        <a class="dropdown-item" href="/tools/security-headers/">
+                            <i class="fa fa-shield fa-2x"></i> Security Headers
+                        </a>
+                        <a class="dropdown-item" href="/tools/free-bootstrap-templates/">
+                            <i class="fa fa-globe fa-2x"></i> Free Bootstrap Templates
+                        </a>
+                        <a class="dropdown-item" href="/tools/font-awesome-icon-search-tool/">
+                            <i class="fa fa-font fa-2x"></i> Font Awesome Search Tool
+                        </a>
+                        <a class="dropdown-item" href="/tools/hangman-bot/">
+                            <i class="fa fa-android"></i> Hangman Bot
+                        </a>
+                        <a class="dropdown-item" href="/tools/free-online-fixture-list-generator/">
+                            <i class="fa fa-soccer-ball-o"></i> Fixture List Generator
+                        </a>
+                        <a class="dropdown-item" href="/tools/feedback/">
+                            <i class="now-ui-icons ui-2_chat-round"></i> Feedback
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown">
+                        <i class="fa fa-link fa-2x" aria-hidden="true"></i>
+                        <p>Links</p>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" target="_blank" href="https://www.youtube.com/user/pcHelpFromPaul" rel="tooltip" data-placement="left" data-original-title="My YouTube Channel">
+                            <i class="fa fa-youtube-square fa-2x"></i> YouTube Channel
+                        </a>
+                        <a class="dropdown-item" target="_blank" href="https://www.youtube.com/watch?v=VWy2HlRDCRM&list=PL90L_HquhD--OWQNLyO1-KRxVDd0NPBfZ" rel="tooltip" data-placement="left" data-original-title="My first free Umbraco course - MVC style">
+                            <i class="fa fa-youtube-play fa-2x"></i> Umbraco Series 1
+                        </a>
+                        <a class="dropdown-item" target="_blank" href="https://www.youtube.com/watch?v=ttWuV88OJfM&list=PL90L_HquhD-_Wu55PJ9N8mZ6Lh5Rhy0X6" rel="tooltip" data-placement="left" data-original-title="My second free Umbraco course - View based">
+                            <i class="fa fa-youtube-play fa-inverse fa-2x"></i> Umbraco Series 2
+                        </a>
+                        <a class="dropdown-item" target="_blank" href="https://github.com/prjseal/" rel="tooltip" data-placement="left" data-original-title="My GitHub Repository">
+                            <i class="fa fa-github fa-2x"></i> GitHub
+                        </a>
+                        <a class="dropdown-item" target="_blank" href="https://our.umbraco.org/projects/starter-kits/codeshare-starter-kit/" rel="tooltip" data-placement="left" data-original-title="A Bootstrap starter kit for Umbraco - uses Nested Content">
+                            <i class="fa fa-laptop fa-2x"></i> Starter Kit
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about/">
+                        <i class="now-ui-icons business_bulb-63"></i>
+                        <p>About</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog/">
+                        <i class="now-ui-icons design_bullet-list-67"></i>
+                        <p>Blog</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/videos/">
+                        <i class="now-ui-icons media-1_button-play"></i>
+                        <p>Videos</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary" href="/search/">
+                        <i class="fa fa-search"></i>
+                        <p>Search</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End Navbar -->
+
+
+    <div class="wrapper">
+
+
+<div class="page-header page-header-small dt-blogPost">
+    <div class="page-header-image center" data-parallax="true" style="background-image: url('/media/1300/goran-ivos-246271.jpg') ;">
+    </div>
+    <div class="content-center">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <h1 class="title"><i class="fa fa-share-alt"></i> How to solve the GitHub error fatal: HttpRequestException encountered</h1>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="section dt-blogPost">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12" style="min-height: 100px; min-width: 100%;">
+<div style="margin-top:1em; margin-bottom: 1em;">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5444011910797735"
+         data-ad-slot="9193805005"
+         data-ad-format="auto"></ins>
+    <script src="/scripts/googleadspush.js"></script>
+</div>
+
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+
+    <div class="container">
+    <div class="row">
+            <div class="col-md-12 ml-auto mr-auto">
+
+
+<p>I had an issue with GitHub when trying to push or pull.</p>
+<p>It was asking me to log in every time, but still failing with an error.</p>
+<p><img id="__mcenew" style="width: auto !important;" src="/media/1348/login.jpg" alt="" data-udi="umb://media/20d581ad6bd040beb8247dab38a41edf" /></p>
+<p>Here are the error messages I was getting from all 3 ways I work with GitHub:</p>
+<h3>Visual Studio</h3>
+<pre class="prettyprint">Git failed with a fatal error.
+HttpRequestException encountered.
+   An error occurred while sending the request.
+cannot spawn askpass: No such file or directory
+could not read Username for 'https://github.com': terminal prompts disabled</pre>
+<h3>Command Line</h3>
+<pre class="prettyprint">fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Username for 'https://github.com':</pre>
+<h3>TortoiseGit</h3>
+<pre class="prettyprint">fatal: HttpRequestException encountered.
+An error occurred while sending the request.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/username/reponame.git/'</pre>
+<h2>What has caused the error?</h2>
+<p>It is my understanding that GitHub has switched to using TLS 1.2, which is causing this error when your program is still trying to connect to GitHub using TLS 1.0.</p>
+<h2>How to solve it</h2>
+<h3>Step 1</h3>
+<p>Firstly you need to download and install the latest version of the <strong>Git Windows Credential Manager.</strong></p>
+<p>Here is the link to it on GitHub. <a rel="noopener noreferrer" href="https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/latest" target="_blank">https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/latest</a></p>
+<h3>Step 2</h3>
+<p>Restart your machine.</p>
+<h3>Step 3</h3>
+<p>Enter a git command in the command line and you will be prompted to login again.</p>
+<h3>Step 4</h3>
+<p>If you still get the same fatal error, you will need to update Git by downloading the latest version from here: <br /><a rel="noopener noreferrer" href="https://git-scm.com/downloads" target="_blank">https://git-scm.com/downloads</a></p>
+<h3>Step 5</h3>
+<p>Enter a git command in the command line and you will be prompted to login again. The problem should be solved now and you should be able to carry on working as normally.</p>
+<h3>Visual Studio</h3>
+<p>If you are using the GitHub extension for Visual Studio, click on the Tools menu, click on Extensions and Updates, and you may have an update for the GitHub Extension and possibly one for Visual Studio itself. Install these and it should solve the issue for you.</p>
+
+            </div>
+    </div>
+    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12" style="min-height: 100px; min-width: 100%;">
+<div style="margin-top:1em; margin-bottom: 1em;">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5444011910797735"
+         data-ad-slot="2588757804"
+         data-ad-format="auto"></ins>
+    <script src="/scripts/googleadspush.js"></script>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-image" id="authorblock" style="background-image: url('/media/1185/how-to-deploy-net-website.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <h2 class="title">About the author</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mr-auto ml-auto">
+                <div class="card card-profile">
+                    <div class="card-avatar">
+                        <a href="/search/?author=1117">
+                            <img class="img img-raised" src="/media/1002/paul-seal.jpg?width=130&height=130&mode=crop&anchor=center" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Paul Seal</h3>
+                        <p class="card-description">
+                            Umbraco MVP and .NET Web Developer from Derby (UK) who specialises in building Content Management System (CMS) websites using MVC with Umbraco as a framework. Paul is passionate about web development and programming as a whole. Apart from when he&#39;s with his wife and son, if he&#39;s not writing code, he&#39;s thinking about it or listening to a podcast about it.
+                        </p>
+                            <a class="author-mvp-badge" href="/blog/im-now-an-umbraco-mvp/">
+                                <img class="img" src="https://codeshare.co.uk/media/1412/umbraco_mvp_logo_01.png" />
+                            </a>
+                                                    <div class="card-footer">
+                                            <a href="http://www.codeshare.co.uk/" class="btn btn-icon btn-neutral btn-round" target="_blank" title="codeshare.co.uk"><i class="fa fa-link"></i></a>
+
+                                    <a href="https://twitter.com/CodeSharePaul" class="btn btn-icon btn-neutral btn-round" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="http://www.facebook.com/codeshare.co.uk/" class="btn btn-icon btn-neutral btn-round" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://plus.google.com/+paulsealuk" class="btn btn-icon btn-neutral btn-round" target="_blank" title="google-plus"><i class="fa fa-google-plus"></i></a>
+                                    <a href="https://uk.linkedin.com/pub/paul-seal/2/489/306" class="btn btn-icon btn-neutral btn-round" target="_blank" title="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCvWcP8GIYl6l2lJ1Z5-s4ew" class="btn btn-icon btn-neutral btn-round" target="_blank" title="youtube-play"><i class="fa fa-youtube-play"></i></a>
+                                    <a href="https://github.com/prjseal" class="btn btn-icon btn-neutral btn-round" target="_blank" title="github"><i class="fa fa-github"></i></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        <div class="cd-section" id="projects">
+            <div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h2 class="title">Related Posts</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-6 px-0">
+                                <div class="card card-background card-background-product card-no-shadow" style="background-image: url('/media/1381/ursula-spaulding-479132-unsplash_preview.jpg?width=760&height=430&mode=crop&anchor=center&quality=30')">
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <a href="/blog/how-to-keep-your-fork-up-to-date-with-the-master-repository-in-github/">How to keep your fork up to date with the master repository in GitHub</a>
+                                        </h3>
+                                        <p class="card-description">
+                                            This post gives you the commands you will need to keep your fork up to date with the master reposito&hellip;
+                                        </p>
+                                        <a href="/blog/how-to-keep-your-fork-up-to-date-with-the-master-repository-in-github/" class="btn btn-danger btn-round">
+                                            Read Post <i class="fa fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 px-0">
+                                <div class="card card-background card-background-product card-no-shadow" style="background-image: url('/media/1185/how-to-deploy-net-website_preview.jpg?width=760&height=430&mode=crop&anchor=center&quality=30')">
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <a href="/blog/how-to-solve-the-git-error-fatal-unable-to-access-configgitconfig/">How to solve the git error fatal: unable to access &#39;\/.config/git/config</a>
+                                        </h3>
+                                        <p class="card-description">
+                                            This post shows you how to solve the git error fatal: unable to access '\/.config/git/config
+                                        </p>
+                                        <a href="/blog/how-to-solve-the-git-error-fatal-unable-to-access-configgitconfig/" class="btn btn-danger btn-round">
+                                            Read Post <i class="fa fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 px-0">
+                                <div class="card card-background card-background-product card-no-shadow" style="background-image: url('/media/1239/lucas-defibaugh-176202_preview.jpg?width=760&height=430&mode=crop&anchor=center&quality=30')">
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <a href="/blog/how-to-create-a-custom-404-page-handler-via-a-package-action-in-umbraco/">How  to create a custom 404 page handler via a package action in Umbraco</a>
+                                        </h3>
+                                        <p class="card-description">
+                                            This post shows you how you can use package actions to modify, update, or set configurations for you&hellip;
+                                        </p>
+                                        <a href="/blog/how-to-create-a-custom-404-page-handler-via-a-package-action-in-umbraco/" class="btn btn-danger btn-round">
+                                            Read Post <i class="fa fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 px-0">
+                                <div class="card card-background card-background-product card-no-shadow" style="background-image: url('/media/1210/umbraco-so-rubbish_preview.jpg?width=760&height=430&mode=crop&anchor=center&quality=30')">
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <a href="/blog/why-is-umbraco-cms-so-rubbish/">Why is Umbraco CMS so rubbish?</a>
+                                        </h3>
+                                        <p class="card-description">
+                                            You may have used it before, or you may be using it now and the thought might go through your head "&hellip;
+                                        </p>
+                                        <a href="/blog/why-is-umbraco-cms-so-rubbish/" class="btn btn-danger btn-round">
+                                            Read Post <i class="fa fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="social-line social-line-big-icons social-line-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                &nbsp;
+            </div>
+            <div class="col-md-2">
+                <a class="sponsor btn btn-neutral btn-icon btn-footer" target="_blank" href="https://www.appveyor.com?utm_source=codeshare&utm_medium=website&utm_campaign=sidebar-ad-2018-Jun-24">
+                    <svg viewBox="0 0 374.97 68.23" xmlns="http://www.w3.org/2000/svg"><title>Sponsored by AppVeyor</title><path d="M34.12 0A34.11 34.11 0 1 1 .01 34.11 34.11 34.11 0 0 1 34.12 0zm8.37 40.74a10.76 10.76 0 0 0-1.47-15.18 11 11 0 0 0-15.28 2 10.76 10.76 0 0 0 1.47 15.22 11 11 0 0 0 15.28-2zM24.27 62.88a29.57 29.57 0 0 0 8.77 1.67l14.84-21.44a16.5 16.5 0 0 0-3.14-22.22 16.69 16.69 0 0 0-20.3-.06l-20.63 16a30 30 0 0 0 2 8.34L17.59 32.3a16.12 16.12 0 0 0 19.75 18.08zm80.35-54.56l19.72 42.34h-4.55l-6.61-13.92H94.87l-6.53 13.92h-4.72l20-42.34h1.06zm-.53 8.88l-7.28 15.41h14.53zm26.25 2.15h4v5.76a15.93 15.93 0 0 1 5.49-4.9 14.77 14.77 0 0 1 6.94-1.62 15.5 15.5 0 0 1 11.42 4.8 15.81 15.81 0 0 1 4.75 11.54 16.13 16.13 0 0 1-4.71 11.7 15.87 15.87 0 0 1-18.22 3.25 17.4 17.4 0 0 1-5.67-4.64V62.1h-4V19.35zm16.15 3.13a11.82 11.82 0 0 0-8.8 3.64 12.39 12.39 0 0 0-3.58 9.05 12.81 12.81 0 0 0 1.59 6.39 11.61 11.61 0 0 0 4.56 4.5 12.66 12.66 0 0 0 6.27 1.66 11.85 11.85 0 0 0 6.1-1.68 12.25 12.25 0 0 0 4.55-4.68 12.63 12.63 0 0 0 0-12.61 12.16 12.16 0 0 0-10.72-6.27zm24.04-3.13h4v5.76a15.93 15.93 0 0 1 5.49-4.9 14.77 14.77 0 0 1 6.94-1.62 15.5 15.5 0 0 1 11.42 4.8 15.81 15.81 0 0 1 4.75 11.54 16.13 16.13 0 0 1-4.71 11.7 15.87 15.87 0 0 1-18.22 3.25 17.4 17.4 0 0 1-5.67-4.64V62.1h-4V19.35zm16.15 3.13a11.82 11.82 0 0 0-8.8 3.64 12.39 12.39 0 0 0-3.54 9.04 12.81 12.81 0 0 0 1.59 6.39 11.61 11.61 0 0 0 4.56 4.5 12.66 12.66 0 0 0 6.27 1.66 11.85 11.85 0 0 0 6.1-1.68 12.25 12.25 0 0 0 4.55-4.68 12.63 12.63 0 0 0 0-12.61 12.16 12.16 0 0 0-10.73-6.26zm21.48-14.15h4.61l14.05 32.77 14.29-32.77h4.61l-18.46 42.33h-.94L208.16 8.33m70.38 31.95l3.4 1.79a18.54 18.54 0 0 1-3.87 5.27 15.57 15.57 0 0 1-4.93 3 17.37 17.37 0 0 1-6.21 1q-7.69 0-12-5a16.85 16.85 0 0 1-4.33-11.32 16.64 16.64 0 0 1 3.68-10.59 15 15 0 0 1 12.41-5.87 15.54 15.54 0 0 1 12.83 6.06 16.86 16.86 0 0 1 3.47 10.68h-28.3a12.64 12.64 0 0 0 3.5 8.9 11.22 11.22 0 0 0 8.36 3.48 13.6 13.6 0 0 0 4.68-.83 12.26 12.26 0 0 0 3.86-2.19 18.51 18.51 0 0 0 3.44-4.41zm0-8.43a13.33 13.33 0 0 0-2.36-5.15 11.22 11.22 0 0 0-4.11-3.11 12.62 12.62 0 0 0-5.36-1.18 11.58 11.58 0 0 0-8 3 13.37 13.37 0 0 0-3.69 6.48h23.48zm8.51-12.5h4.19l10.8 24.01 10.49-24.01h4.3L298.14 62.1h-4.3l6.14-14.01-12.93-28.74m49.83-.79a15.54 15.54 0 0 1 12 5.23 16.71 16.71 0 0 1-.24 22.77 16.63 16.63 0 0 1-23.57 0 16.67 16.67 0 0 1-.25-22.69 15.54 15.54 0 0 1 12-5.26zm0 4a11.62 11.62 0 0 0-8.63 3.69 12.35 12.35 0 0 0-3.61 9 12.75 12.75 0 0 0 1.64 6.31 11.69 11.69 0 0 0 4.45 4.51 12.64 12.64 0 0 0 12.28 0 11.69 11.69 0 0 0 4.45-4.51 12.75 12.75 0 0 0 1.64-6.31 12.33 12.33 0 0 0-3.63-9 11.61 11.61 0 0 0-8.61-3.69zm22.23-3.21h4.13v4.58a14.18 14.18 0 0 1 3.89-4 7.81 7.81 0 0 1 4.26-1.32 7.38 7.38 0 0 1 3.58 1.06l-2.1 3.38a5.63 5.63 0 0 0-2.13-.55 5.84 5.84 0 0 0-3.89 1.65 10.52 10.52 0 0 0-2.86 5.14q-.75 2.67-.75 10.81v10.56h-4.13V19.35z" fill="#09A9ED" fill-rule="evenodd"></path></svg>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="sponsor btn btn-neutral btn-icon btn-footer" target="_blank" href="https://raygun.com?utm_source=codeshare&utm_medium=website&utm_campaign=sidebar-ad-2018-Jun-24">
+                    <svg width="100%" height="100%" viewBox="0 0 7667 2167" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><title>Sponsored by Raygun</title><g transform="matrix(4.16667,0,0,4.16667,0,0)"><path d="M366.156,189.28C359.937,188.645 353.668,188.172 347.356,187.863C332.864,171.462 311.674,161.121 288.067,161.121C256.611,161.121 229.444,179.483 216.7,206.074C191.178,214.739 166.964,226.247 144.436,240.214C154.167,246.248 164.214,251.819 174.543,256.905C148.652,262.836 124.482,273.274 102.901,287.363C124.357,278.783 147.748,274.013 172.266,274.013C181.206,274.013 189.977,274.72 198.582,275.939C195.842,269.083 193.868,261.841 192.764,254.318C194.344,258.913 196.265,263.349 198.492,267.603C204.482,270.015 210.553,272.267 216.7,274.354C229.444,300.945 256.611,319.31 288.067,319.31C311.671,319.31 332.864,308.966 347.356,292.568C353.665,292.259 359.931,291.786 366.152,291.151C365.58,274.172 365.289,257.184 365.289,240.28C365.289,223.332 365.58,206.3 366.156,189.28ZM345.007,275.902C344.785,276.262 344.556,276.615 344.325,276.969C340.897,282.208 336.758,286.941 332.044,291.026C331.637,291.376 331.225,291.724 330.812,292.068C326.664,295.49 322.097,298.427 317.202,300.786C316.222,301.258 315.231,301.708 314.224,302.131C312.215,302.982 310.154,303.739 308.049,304.392C307.523,304.555 306.995,304.714 306.466,304.865C300.62,306.526 294.448,307.414 288.07,307.414C270.672,307.414 254.819,300.801 242.885,289.956C242.091,289.231 241.312,288.489 240.552,287.729C239.792,286.969 239.05,286.19 238.328,285.396C237.602,284.601 236.898,283.788 236.213,282.959C234.64,281.048 233.169,279.046 231.809,276.969C231.396,276.337 230.989,275.702 230.598,275.057C224.423,264.897 220.867,252.97 220.867,240.211C220.867,223.976 226.629,209.083 236.213,197.469C236.557,197.056 236.904,196.643 237.255,196.237C239.016,194.206 240.896,192.28 242.885,190.472C243.464,189.946 244.058,189.433 244.656,188.926C245.7,188.041 246.767,187.187 247.862,186.364C248.725,185.72 249.604,185.098 250.496,184.491C251.112,184.078 251.738,183.674 252.366,183.28C252.923,182.93 253.483,182.589 254.049,182.257C255.482,181.413 256.952,180.621 258.45,179.883C259.314,179.461 260.186,179.054 261.068,178.666C262.157,178.188 263.261,177.737 264.381,177.315C264.71,177.193 265.038,177.071 265.37,176.952C272.461,174.406 280.103,173.017 288.07,173.017C297.926,173.017 307.289,175.138 315.722,178.951C316.219,179.176 316.71,179.408 317.202,179.642C339.724,190.493 355.264,213.538 355.264,240.211C355.264,253.327 351.504,265.561 345.007,275.902Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M309.559,235.36L290.002,231.932L298.626,190.241L264.118,242.786L284.25,246.215L274.472,290.189L309.559,235.36Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M370.581,240.28C370.581,278.549 372.032,316.477 374.879,354.016C381.695,352.809 388.339,351.279 394.782,349.456C397.404,313.405 398.739,276.997 398.739,240.28C398.739,203.579 397.407,167.19 394.786,131.158C388.342,129.331 381.695,127.802 374.875,126.591C372.032,164.115 370.581,202.027 370.581,240.28Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M201.508,170.122C209.028,162.152 217.837,154.845 227.69,148.404C237.531,141.969 248.398,136.414 259.984,131.888C263.275,130.602 266.622,129.401 270.022,128.284C265.786,127.99 261.539,127.84 257.288,127.84C238.288,127.84 219.576,130.762 201.671,136.52C186.303,141.466 171.695,148.438 158.163,157.288L186.665,189.366C190.807,182.641 195.781,176.194 201.508,170.122Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M257.286,122.33C266.364,122.33 275.288,122.983 284.019,124.238C290.484,122.614 297.063,121.297 303.738,120.284C279.849,111.528 254.043,106.761 227.119,106.761C204.744,106.761 183.139,110.036 162.763,116.18L172.679,142.527C198.082,129.612 226.835,122.33 257.286,122.33Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M496.952,240.977C496.952,228.615 486.93,218.596 474.571,218.596C462.209,218.596 452.189,228.615 452.189,240.977C452.189,253.336 462.209,263.358 474.571,263.358C486.93,263.358 496.952,253.336 496.952,240.977Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M448.307,250.411C447.238,247.423 446.678,244.245 446.678,240.976C446.678,237.711 447.238,234.532 448.307,231.545C431.882,231.467 416.67,226.353 404.077,217.691C404.189,225.233 404.249,232.765 404.249,240.279C404.249,248.261 404.183,256.26 404.055,264.265C416.655,255.6 431.876,250.489 448.307,250.411Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M242.388,168.989C256.01,160.237 271.804,155.611 288.067,155.611C300.41,155.611 312.309,158.21 323.436,163.337C328.772,165.796 333.871,168.827 338.591,172.349C342.651,175.374 346.449,178.774 349.908,182.478C355.32,182.775 360.75,183.197 366.131,183.738C366.85,164.479 367.936,145.244 369.381,126.176L369.415,125.7C358.986,124.136 348.191,123.307 337.127,123.307C261.103,123.307 197.475,162.164 181.284,214.227C191.582,209.52 202.092,205.3 212.771,201.596C219.587,188.327 229.788,177.088 242.388,168.989Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M369.42,354.908L369.386,354.432C367.935,335.308 366.849,316.014 366.127,296.692C360.746,297.233 355.319,297.655 349.904,297.952C346.445,301.656 342.647,305.056 338.59,308.081C333.867,311.603 328.768,314.634 323.435,317.093C312.308,322.223 300.409,324.822 288.066,324.822C271.806,324.822 256.01,320.193 242.387,311.44C229.787,303.342 219.586,292.103 212.77,278.83C209.999,277.87 207.227,276.869 204.478,275.84L207.231,282.728L197.809,281.396C194.058,280.864 190.405,280.448 186.807,280.144C195.425,297.564 209.536,313.058 227.604,325.507L227.566,325.482C238.495,337.394 245.224,353.191 245.224,370.636C245.224,381.653 242.521,392.016 237.81,401.181C236.932,402.946 237.069,406.693 239.916,407.969C248.083,411.51 257.082,413.49 266.551,413.49C270.824,413.49 274.994,413.049 279.045,412.283L279.026,412.186C278.112,407.772 277.606,403.211 277.606,398.529C277.606,381.062 284.29,365.181 295.22,353.238L295.145,353.222C302.455,354.677 309.975,355.756 317.664,356.441L317.376,356.416C317.626,365.856 319.875,374.787 323.632,382.876L329.538,376.97C327.823,371.609 326.879,365.909 326.879,359.988C326.879,359.006 326.907,358.036 326.957,357.066L326.657,357.054C330.12,357.216 333.61,357.301 337.129,357.301C348.193,357.301 358.991,356.475 369.42,354.908Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M668.041,193.512C668.041,215.519 651.699,228.857 627.026,228.857L605.466,228.857C605.466,228.857 601.016,228.857 601.016,224.408L601.016,164.615C601.016,164.615 601.016,160.166 603.847,159.998C606.681,159.829 615.023,159.166 626.358,159.166C652.367,159.166 668.041,167.167 668.041,193.512ZM715.062,190.509C715.062,144.823 685.045,122.817 623.691,122.817C598.35,122.817 574.003,124.148 559.761,125.421C559.761,125.421 555.331,125.82 555.331,130.269L555.331,352.796C555.331,352.796 555.331,357.245 559.781,357.245L596.567,357.245C596.567,357.245 601.016,357.245 601.016,352.796L601.016,268.656C601.016,268.656 601.016,264.207 605.466,264.207L626.242,264.207C626.242,264.207 630.692,264.207 632.561,268.243L671.841,353.204C671.841,353.204 673.71,357.245 678.16,357.245L719.612,357.245C719.612,357.245 724.061,357.245 722.091,353.257L674.018,256.192C674.018,256.192 672.043,252.199 672.043,251.868C672.043,251.868 672.043,252.199 672.043,251.868C672.043,251.868 672.043,251.536 676.291,250.215C696.721,243.868 715.062,221.188 715.062,190.509Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M1732.14,357.243C1732.14,357.243 1736.59,357.243 1736.59,352.794L1736.59,128.264C1736.59,128.264 1736.59,123.814 1732.14,123.814L1697.02,123.814C1697.02,123.814 1692.57,123.814 1692.57,128.264L1692.57,213.739C1692.57,213.739 1692.57,218.188 1692.68,222.633L1694.13,283.434C1694.13,283.434 1694.24,287.884 1693.91,287.884C1693.91,287.884 1694.24,287.884 1693.91,287.884C1693.91,287.884 1693.57,287.884 1691.73,283.833C1668.56,232.858 1636.88,177.836 1609.03,127.706C1609.03,127.706 1606.87,123.814 1602.42,123.814L1558.63,123.814C1558.63,123.814 1554.18,123.814 1554.18,128.264L1554.18,352.794C1554.18,352.794 1554.18,357.243 1558.63,357.243L1593.42,357.243C1593.42,357.243 1597.87,357.243 1597.87,352.794L1597.87,263.652C1597.87,263.652 1597.87,259.203 1597.78,254.759L1596.62,194.288C1596.62,194.288 1596.53,189.839 1597.03,189.839C1597.03,189.839 1596.53,189.839 1597.03,189.839C1597.03,189.839 1597.54,189.839 1599.42,193.87C1615.21,227.524 1640.22,271.874 1684.77,353.341C1684.77,353.341 1686.9,357.243 1691.35,357.243L1732.14,357.243Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M1421.95,360.578C1484.97,360.578 1514.31,325.564 1514.31,256.868L1514.31,128.264C1514.31,128.264 1514.31,123.814 1509.87,123.814L1472.08,123.814C1472.08,123.814 1467.63,123.814 1467.63,128.264L1467.63,266.209C1467.63,303.889 1452.29,323.229 1422.95,323.229C1394.94,323.229 1379.26,302.222 1379.26,266.209L1379.26,128.264C1379.26,128.264 1379.26,123.814 1374.82,123.814L1337.02,123.814C1337.02,123.814 1332.57,123.814 1332.57,128.264L1332.57,263.874C1332.57,329.898 1365.26,360.578 1421.95,360.578Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M1061.8,123.815C1061.8,123.815 1057.35,123.815 1055.65,127.928L1034.01,180.172L1015.34,231.523L1015,231.523C1015,231.523 1014.67,231.523 1013.13,227.352L995.664,180.172L974.335,127.938C974.335,127.938 972.653,123.815 968.204,123.815L924.085,123.815C924.085,123.815 919.636,123.815 921.601,127.803L988.361,263.216C988.361,263.216 990.331,267.204 990.331,271.654L990.331,352.795C990.331,352.795 990.331,357.244 994.78,357.244L1034.56,357.244C1034.56,357.244 1039.01,357.244 1039.01,352.795L1039.01,271.654C1039.01,271.654 1039.01,267.204 1041,263.221L1108.39,127.799C1108.39,127.799 1110.37,123.815 1105.92,123.815L1061.8,123.815Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M1256.47,260.375C1256.47,260.375 1252.02,260.375 1252.02,264.825L1252.02,314.445C1252.02,314.445 1252.02,318.895 1249.52,319.726C1247.02,320.562 1238.68,321.898 1228.34,321.898C1185,321.898 1157.65,291.881 1157.65,240.863C1157.65,188.177 1186.66,160.164 1230.35,160.164C1253.02,160.164 1275.37,163.835 1290.04,169.831L1291.51,136.264C1291.51,136.264 1291.71,131.815 1287.61,130.08C1278.36,126.15 1255.69,121.148 1229.68,121.148C1153.98,121.148 1109.3,170.499 1109.3,242.198C1109.3,311.226 1147.65,359.915 1225.68,359.915C1253.02,359.915 1281.37,353.908 1293.53,349.44C1293.53,349.44 1297.71,347.907 1297.71,343.458L1297.71,264.825C1297.71,264.825 1297.71,260.375 1293.26,260.375L1256.47,260.375Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M808.314,260.488L819.544,216.586L833.339,161.862L834.323,161.862C834.323,161.862 835.309,162.016 836.351,166.34L848.445,216.663L860.088,260.488L906.926,260.488L866.627,127.704C866.627,127.704 865.335,123.303 860.885,123.303L809.756,123.303C809.756,123.303 805.307,123.447 804.019,127.709L763.907,260.488L808.314,260.488Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M917.982,296.824L869.774,296.824L884.55,352.259L885.28,354.575C885.28,354.575 886.005,356.891 890.455,356.891L931.912,356.891C931.912,356.891 936.361,357.098 935.069,352.84L917.982,296.824Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /><path d="M752.904,296.824L735.899,352.84C735.899,352.84 734.612,356.891 739.061,356.891L778.971,356.891C778.971,356.891 783.42,357.098 784.525,352.792L798.964,296.824L752.904,296.824Z" style="fill:rgb(46,54,69);fill-rule:nonzero;" /></g></svg>
+                </a>
+            </div>
+            <div class="col-md-4">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer " data-background-color="black">
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="/feed/">
+                        RSS Feed
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            &copy; 2018 <a href="https://codeshare.co.uk/linkedin/" target="_blank">Paul Seal</a>.
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="/DependencyHandler.axd?s=L3NjcmlwdHMvbm93L2NvcmUvanF1ZXJ5LjMuMi4xLm1pbi5qczsvc2NyaXB0cy9ub3cvY29yZS9wb3BwZXIubWluLmpzOy9zY3JpcHRzL25vdy9jb3JlL2Jvb3RzdHJhcC5taW4uanM7L3NjcmlwdHMvbm93L3BsdWdpbnMvbW9tZW50Lm1pbi5qczs&amp;t=Javascript&amp;cdv=856599205" type="text/javascript"></script><script src="/scripts/run_prettify.js?autoload=true&amp;skin=sunburst" type="text/javascript"></script><script src="/DependencyHandler.axd?s=L3NjcmlwdHMvbm93L25vdy11aS1raXQuanM7&amp;t=Javascript&amp;cdv=856599205" type="text/javascript"></script><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="text/javascript"></script><script src="/DependencyHandler.axd?s=L3NjcmlwdHMvZ2EuanM7&amp;t=Javascript&amp;cdv=856599205" type="text/javascript"></script>
+    <script>
+        $('.selectpicker').on('change', function () {
+            var form = $(this).closest('form');
+            $(form).submit();
+        })
+
+        $(document).on("click", "#copy-icon", function (e) {
+            e.preventDefault();
+            var copyIcon = this;
+            var copyText = document.getElementById("Password");
+            copyText.select();
+            document.execCommand("Copy");
+            $(copyIcon).removeClass("btn-default");
+            $(copyIcon).addClass("btn-success");
+            setTimeout(function () {
+                $(copyIcon).removeClass("btn-success");
+                $(copyIcon).addClass("btn-default");
+            }, 1000);
+        });
+    </script>
+
+</body>
+</html><!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
