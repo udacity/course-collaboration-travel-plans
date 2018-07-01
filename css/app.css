@@ -58,3 +58,29 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#Germany {
+    background-color: orange;
+}
+
+#USA {
+    background-color: pink;
+}
+
+#UEA {
+    background-color: yellow;
+}
+
+#KSA {
+    background-color: blue;
+}
+#UK {
+    background-color: gray;
+}
+
+#Heaven {
+    background-color: white;
+    border: solid 1px pink ;
+    border-radius: 50%;
+    color: gray;
+}
