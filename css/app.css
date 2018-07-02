@@ -1,4 +1,4 @@
-html {
+﻿html {
     box-sizing: border-box;
     height: 100%;
 }
@@ -57,4 +57,20 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#egypt{
+    background-color: #745862;
+}
+
+#USA{
+    background-color: #458569;
+}
+
+#dobi{
+    background-color: #802245;
+}
+
+#soudia{
+    background-color: #547589;
 }
