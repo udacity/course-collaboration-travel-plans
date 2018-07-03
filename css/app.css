@@ -18,7 +18,7 @@ body {
 .container {
     margin: auto;
     padding: 1em;
-    width: 80%;
+    width: 79%;
 }
 
 .destination-container {
@@ -55,6 +55,9 @@ h2 {
     background-color: #4dd0e1;
 }
 
-#barcelona {
-    background-color: #800000;
+#paris {
+    background-color: #f33e3e;
+}
+#sotland {
+    background-color: #23f5b6;
 }
