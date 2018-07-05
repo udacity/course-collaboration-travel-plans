@@ -21,6 +21,11 @@ body {
     width: 80%;
 }
 
+.header{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
 .destination-container {
     display: flex;
     flex-flow: wrap;
