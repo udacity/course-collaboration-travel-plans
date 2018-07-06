@@ -18,7 +18,7 @@ body {
 .container {
     margin: auto;
     padding: 1em;
-    width: 70%;
+    width: 90%;
 }
 
 .destination-container {
@@ -58,5 +58,3 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
-/*comment 2
-8/
