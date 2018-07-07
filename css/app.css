@@ -13,6 +13,7 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background: linear-gradient( to left, #121DB3, #04094A, #000000) fixed;
 }
 
 .container {
