@@ -60,4 +60,5 @@ h2 {
 }
 .beta{
     color: red;
+    background-size: contain;
 }
