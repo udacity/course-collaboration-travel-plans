@@ -13,6 +13,8 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background-color: lightblue;
+
 }
 
 .container {
