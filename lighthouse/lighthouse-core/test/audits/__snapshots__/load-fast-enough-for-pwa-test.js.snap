@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PWA: load-fast-enough-for-pwa audit overrides with simulated result when throttling is modified 1`] = `3427`;

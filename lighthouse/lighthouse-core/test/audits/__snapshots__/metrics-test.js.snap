@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Performance: metrics evaluates valid input correctly 1`] = `
+Object {
+  "estimatedInputLatency": 104,
+  "estimatedInputLatencyTs": undefined,
+  "firstCPUIdle": 3351,
+  "firstCPUIdleTs": undefined,
+  "firstContentfulPaint": 911,
+  "firstContentfulPaintTs": undefined,
+  "firstMeaningfulPaint": 1355,
+  "firstMeaningfulPaintTs": undefined,
+  "interactive": 3427,
+  "interactiveTs": undefined,
+  "observedDomContentLoaded": 560,
+  "observedDomContentLoadedTs": 225414732309,
+  "observedFirstContentfulPaint": 499,
+  "observedFirstContentfulPaintTs": 225414670885,
+  "observedFirstMeaningfulPaint": 783,
+  "observedFirstMeaningfulPaintTs": 225414955343,
+  "observedFirstPaint": 499,
+  "observedFirstPaintTs": 225414670868,
+  "observedFirstVisualChange": 520,
+  "observedFirstVisualChangeTs": 225414692015,
+  "observedLastVisualChange": 818,
+  "observedLastVisualChangeTs": 225414990015,
+  "observedLoad": 2199,
+  "observedLoadTs": 225416370913,
+  "observedNavigationStart": 0,
+  "observedNavigationStartTs": 225414172015,
+  "observedSpeedIndex": 605,
+  "observedSpeedIndexTs": 225414776724,
+  "observedTraceEnd": 12540,
+  "observedTraceEndTs": 225426711887,
+  "speedIndex": 1656,
+  "speedIndexTs": undefined,
+}
+`;

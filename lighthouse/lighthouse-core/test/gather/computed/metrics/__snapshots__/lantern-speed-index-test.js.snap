@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Metrics: Lantern Speed Index should compute predicted value 1`] = `
+Object {
+  "optimistic": 605,
+  "pessimistic": 1630,
+  "timing": 1656,
+}
+`;

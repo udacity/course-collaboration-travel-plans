@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Metrics: Lantern FCP should compute predicted value 1`] = `
+Object {
+  "optimistic": 911,
+  "pessimistic": 911,
+  "timing": 911,
+}
+`;

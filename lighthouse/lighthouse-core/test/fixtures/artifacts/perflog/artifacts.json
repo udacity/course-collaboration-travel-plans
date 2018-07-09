@@ -1,0 +1,20 @@
+{
+  "LighthouseRunWarnings": [
+    "I'm a warning!",
+    "Also a warning"
+  ],
+  "UserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3358.0 Safari/537.36",
+  "fetchTime": "2018-03-13T00:55:45.840Z",
+  "URL": {
+    "requestedUrl": "https://www.reddit.com/r/nba",
+    "finalUrl": "https://www.reddit.com/r/nba"
+  },
+  "Viewport": null,
+  "ViewportDimensions": {
+    "innerWidth": 412,
+    "innerHeight": 732,
+    "outerWidth": 412,
+    "outerHeight": 732,
+    "devicePixelRatio": 2.625
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Chrome 扩展程序对此网页的加载性能产生了负面影响。请尝试在无痕模式下或使用未安装这些扩展程序的 Chrome 个人资料审核此网页。"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "脚本评估"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "脚本解析"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "总计"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "考虑减少为解析、编译和执行 JS 而花费的时间。您可能会发现，提供较小的 JS 负载有助于实现此目标。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/bootup)。"
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "缩短 JavaScript 执行用时"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "JavaScript 执行用时"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "使用大型 GIF 提供动画内容会导致效率低下。不妨考虑改用 MPEG4/WebM 视频（来提供动画）和 PNG/WebP（来提供静态图片）以减少网络活动消耗的字节数。[了解详情](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "使用视频格式提供动画内容"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "考虑在所有关键资源加载完毕后推迟加载屏幕外图片和处于隐藏状态的图片，从而缩短可交互前的耗时。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)。"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "推迟加载屏幕外图片"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "资源阻止了系统对您网页的首次绘制。请考虑以内嵌方式提供关键的 JS/CSS 并推迟提供所有非关键的 JS/样式。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)。"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "移除阻塞渲染的资源"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "网络负载过大不仅会让用户付出真金白银，还极有可能会延长加载用时。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)。"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "总大小为 {totalBytes, number, bytes} KB"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "避免网络负载过大"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "避免网络负载过大"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "缩减 CSS 文件大小可缩减网络负载规模。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/minify-css)。"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "缩减 CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "如果缩减 JavaScript 文件大小，则既能缩减负载规模，又能缩短脚本解析用时。[了解详情](https://developers.google.com/speed/docs/insights/MinifyResources)。"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "缩减 JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "从样式表中移除未使用的规则，以减少网络活动消耗的不必要的字节数。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/unused-css)。"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "推迟加载未使用的 CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "移除未使用的 JavaScript 可减少网络活动消耗的字节数。"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "移除未使用的 JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "延长缓存期限可加快重访您网页的速度。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)。"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{找到了 1 项资源}other{找到了 # 项资源}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "采用高效的缓存策略提供静态资源"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "针对静态资源使用高效的缓存策略"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "如果图片经过了优化，则加载速度会更快，且消耗的移动数据网络流量会更少。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)。"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "对图片进行高效编码"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "提供适当大小的图片可节省移动数据网络流量并缩短加载用时。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)。"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "适当调整图片大小"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "对于文本资源，应先压缩（gzip、deflate 或 brotli），然后再提供，以最大限度地减少网络活动消耗的字节总数。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/text-compression)。"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "启用文本压缩"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "JPEG 2000、JPEG XR 和 WebP 等图片格式的压缩效果通常比 PNG 或 JPEG 好，因此下载速度更快，消耗的数据流量更少。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/webp)。"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "采用新一代格式提供图片"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "下面的关键请求链显示了以高优先级呈现的资源。请考虑缩短链长、缩减资源的下载文件大小，或者推迟下载不必要的资源，从而提高网页加载速度。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)。"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{找到了 1 条请求链}other{找到了 # 条请求链}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "最大限度地缩短关键请求深度"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "最大 DOM 深度"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "DOM 节点总数"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "子元素数量最高值"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "浏览器工程师建议，网页包含的 DOM 节点最好少于 1500 个左右。理想状况是，树深度少于 32 个元素，且少于 60 个子/父元素。大型 DOM 可能会增加内存使用量、导致[样式计算](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations)用时延长并产生高昂的[布局重排](https://developers.google.com/speed/articles/reflow)费用。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/dom-size)。"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 个节点}other{# 个节点}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "避免 DOM 规模过大"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "避免 DOM 规模过大"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "利用 font-display 这项 CSS 功能，确保文本在网页字体加载期间始终对用户可见。[了解详情](https://developers.google.com/web/updates/2016/02/font-display)。"
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "确保文本在网页字体加载期间保持可见状态"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "在网页字体加载期间，所有文本都保持可见状态"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "类别"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "考虑减少为解析、编译和执行 JS 而花费的时间。您可能会发现，提供较小的 JS 负载有助于实现此目标。"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "最大限度地减少主线程工作"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "最大限度地减少主线程工作"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "上面的分数是估算值，表示您的应用在网页加载最繁忙的 5 秒期间大概需要花费多长时间（以毫秒为单位）才能对用户输入做出响应。如果您的延迟时间超过了 50 毫秒，用户可能会感觉您的应用运行迟缓。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)。"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "输入延迟（估算值）"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "首次内容绘制时间标记了绘制出首个文本或首张图片的时间。[了解详情](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)。"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "首次内容绘制时间"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "首次 CPU 闲置时间标记了网页的主线程首次有空处理输入操作的时间。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)。"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "首次 CPU 闲置时间"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "首次有效绘制时间测量了网页主要内容开始对用户可见的时间。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)。"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "首次有效绘制时间"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "可交互前的耗时标记了网页提供完整交互功能的时间。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)。"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "可交互前的耗时"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "速度指数表明了网页内容的可见填充速度。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/speed-index)。"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "速度指数"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "重定向会在网页可加载前引入更多延迟。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/redirects)。"
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "避免多次网页重定向"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "首字节显示前的耗时表明了服务器发出响应的时间。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/ttfb)。"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "根文档花费了 {timeInMs, number, milliseconds} 毫秒"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "缩短服务器响应用时 (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "服务器响应用时较短 (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "考虑使用 User Timing API 检测您的应用，从而为衡量关键用户体验打造切实可行的自定义方法。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/user-timing)。"
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 项 User Timing 结果}other{# 项 User Timing 结果}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "User Timing 标记和测量结果"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "考虑添加 preconnect 或 dns-prefetch 资源提示，以尽早与重要的第三方来源建立连接。[了解详情](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)。"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "预先连接到必要的来源"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "考虑使用 <link rel=preload> 来优先提取当前在网页加载后期请求的资源。[了解详情](https://developers.google.com/web/tools/lighthouse/audits/preload)。"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "预加载关键请求"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "详细了解您的应用的性能。"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "诊断结果"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "像素在屏幕上的呈现速度是性能的最重要方面。关键指标：首次内容绘制时间、首次有效绘制时间"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "改进首次绘制"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "这些优化建议可以加快网页加载速度。"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "优化建议"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "指标"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "改善整体的加载体验，使该网页响应迅速且可尽快投入使用。关键指标：可交互前的耗时、速度指数"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "整体改进"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "性能"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "缓存 TTL"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "大小 (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "花费的时间"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "网址"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "有望节省的流量 (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "有望节省的时间（毫秒）"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "有望节省 {wastedBytes, number, bytes} KB"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "有望节省 {wastedMs, number, milliseconds} 毫秒"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} 毫秒"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "显示审核结果"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "出错了！"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "报告错误：没有任何审核信息"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "待手动检查的其他项"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "不适用"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "优化建议"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "有望节省的总时间（估算值）"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "已通过的审核"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "分数等级："
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "此次 Lighthouse 运行并不顺利，原因如下："
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "这些值都是估算值，且可能会因时而异。"
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "警告： "
+  }
+}

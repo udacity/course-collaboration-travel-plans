@@ -1,0 +1,20 @@
+# Each line is a file pattern followed by one or more owners.
+# Order is important. The last matching pattern has the most precedence.
+# https://help.github.com/articles/about-codeowners/
+
+lighthouse-cli/                     @patrickhulce       @paulirish
+lighthouse-cli/test/fixtures/       @patrickhulce       @brendankenny
+lighthouse-cli/test/smokehouse/     @patrickhulce       @brendankenny
+
+lighthouse-core/gather/             @patrickhulce       @paulirish
+lighthouse-core/audits/             @patrickhulce       @brendankenny   @paulirish
+lighthouse-core/report/             @paulirish
+
+lighthouse-core/config/             @patrickhulce       @brendankenny
+lighthouse-core/lib/                @brendankenny       @paulirish
+lighthouse-extension/               @paulirish          @patrickhulce
+lighthouse-viewer/                  @ebidel             @brendankenny
+
+docs/                               @paulirish
+
+# no explicit owner for plots, travis, etc

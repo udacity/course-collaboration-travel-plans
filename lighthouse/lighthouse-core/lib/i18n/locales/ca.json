@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Les extensions de Chrome han afectat negativament el rendiment de càrrega de la pàgina. Audita la pàgina en mode d'incògnit o des d'un perfil de Chrome buit."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "Avaluació de scripts"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "Anàlisi de scripts"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "Total"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "Et recomanem que redueixis el temps dedicat a analitzar, compilar i executar JavaScript. Et pot ajudar utilitzar càrregues útils de JavaScript més petites. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "Redueix el temps d'execució de JavaScript"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "Temps d'execució de JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "Els GIF grans no són eficients a l'hora de publicar contingut animat. Per estalviar bytes de la xarxa, pots substituir-los per vídeos MPEG4/WebM en el cas d'animacions i per PNG/WebP en el cas d'imatges estàtiques. [Més informació] (https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "Utilitza formats de vídeo per al contingut animat"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "Et recomanem que utilitzis la càrrega diferida de les imatges ocultes i que no es mostren a la pantalla un cop s'acabin de carregar tots els recursos crítics a fi de reduir el temps necessari perquè la pàgina sigui interactiva. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "Ajorna les imatges fora de pantalla"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "Els recursos estan bloquejant la primera renderització de la pàgina. Et recomanem que publiquis els fitxers JavaScript o CSS inserits i ajornis tots els estils i els fitxers JavaScript que no siguin crítics. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "Elimina els recursos que bloquegen la renderització"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "Si la càrrega útil de la xarxa és molt gran, els usuaris consumeixen més dades mòbils i els temps de càrrega són més llargs. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "Mida total: {totalBytes, number, bytes} kB"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "Evita càrregues útils de xarxa enormes"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "Evita càrregues útils de xarxa enormes"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "Reduir els fitxers CSS pot disminuir les mides de càrrega útil a la xarxa. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "Redueix els CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "Reduir els fitxers JavaScript pot disminuir les mides de càrrega i els temps d'anàlisi de scripts. [Més informació] (https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "Redueix els fitxers JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "Suprimeix dels fulls d'estil les regles que no s'utilitzen per reduir els bytes que es consumeixen de manera innecessària durant l'activitat de la xarxa. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "Ajorna els CSS no utilitzats"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "Suprimeix els fitxers JavaScript que no s'utilitzen per reduir els bytes que es consumeixen durant l'activitat de la xarxa."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "Suprimeix els fitxers JavaScript no utilitzats"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "Si la memòria cau té una vida llarga, es poden accelerar les visites repetides a la teva pàgina. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{S'ha trobat 1 recurs}other{S'han trobat # recursos}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "Publica recursos estàtics amb una política de memòria cau eficient"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "Utilitza una política de memòria cau eficient per als recursos estàtics"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "Les imatges optimitzades es carreguen més ràpidament i utilitzen menys dades mòbils. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "Codifica les imatges amb eficiència"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "Publica imatges amb la mida correcta per estalviar dades mòbils i millorar el temps de càrrega. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "Adapta la mida de les imatges"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "Els recursos basats en text s'han de publicar comprimits (gzip, deflate o brotli) per minimitzar el total de bytes a la xarxa. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "Activa la compressió de text"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "Els formats d'imatge com JPEG 2000, JPEG XR i WebP solen oferir millors resultats de compressió que PNG o JPEG. Això implica baixades més ràpides i menys consum de dades. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "Publica imatges en format d'última generació"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "Les cadenes de sol·licituds crítiques de sota et mostren quins recursos es publiquen amb prioritat alta. Et recomanem que escurcis les cadenes, redueixis la mida de baixada dels recursos o ajornis la baixada de recursos innecessaris per millorar la càrrega de pàgines. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{S'ha trobat 1 cadena}other{S'han trobat # cadenes}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "Minimitza la profunditat de les sol·licituds crítiques"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "Profunditat màxima de DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "Total de nodes de DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "Nombre màxim d'elements secundaris"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "Els enginyers de navegadors recomanen que les pàgines continguin menys d'uns 1.500 nodes de DOM. La situació ideal és una profunditat d'arbre inferior a 32 elements i menys de 60 elements superiors o secundaris. Un DOM gran pot augmentar l'ús de la memòria, provocar [càlculs d'estil] més llargs (https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations) i produir costosos [reinicis de reflux del disseny] (https://developers.google.com/speed/articles/reflow). [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 node}other{# nodes}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "Evita una mida de DOM excessiva"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "Evita una mida excessiva de DOM"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "Aprofita la funció CSS que permet mostrar els tipus de lletra per assegurar-te que els usuaris puguin veure el text mentre es carreguen els tipus de lletra per a llocs web. [Més informació] (https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "Assegura't que el text continuï visible durant la càrrega dels tipus de lletra per a llocs web"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "Tot el text continua visible durant les càrregues dels tipus de lletra per a llocs web"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "Categoria"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "Et recomanem que redueixis el temps dedicat a analitzar, compilar i executar JavaScript. Et pot ajudar utilitzar càrregues útils de JavaScript més petites."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "Minimitza el treball principal al fil"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "Minimitza el treball principal al fil"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "La puntuació de més amunt és una estimació de quant tarda en mil·lisegons la teva aplicació a respondre a una acció de l'usuari durant el període de 5 segons amb més càrregues de pàgines. Si la latència és superior a 50 ms, és possible que els usuaris considerin que l'aplicació és lenta. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "Latència estimada de les accions"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "La mètrica Primera renderització de contingut marca el moment en què es renderitza el primer text o la primera imatge. [Més informació] (https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "Primera renderització de contingut"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "La mètrica Primera inactivitat de la CPU marca el primer moment en què el fil principal de la pàgina està suficientment inactiu per gestionar accions. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "Primera inactivitat de la CPU"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "La mètrica Primera renderització significativa mesura el moment en què el contingut principal d'una pàgina està visible. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "Primera renderització significativa"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "La mètrica Temps fins que és interactiva marca el moment en què la pàgina és completament interactiva. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "Temps fins que és interactiva"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "L'índex de velocitat mostra la rapidesa amb què s'emplena el contingut d'una pàgina. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "Índex de velocitat"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "La mètrica Redireccions introdueix retards addicionals abans de poder carregar la pàgina. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "Evita les redireccions múltiples a pàgines"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "La mètrica Temps fins al primer byte identifica el moment en què el teu servidor envia una resposta. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "El document arrel ha tardat {timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "Redueix els temps de resposta del servidor (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "Els temps de resposta del servidor són baixos (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "Et recomanem que utilitzis l'API Temps d'usuari amb la teva aplicació per crear mesures reals i personalitzades de les experiències clau dels usuaris. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 temps d'usuari}other{# temps d'usuari}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "Marques i mesures de Temps d'usuari"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "Et recomanem que afegeixis suggeriments de recursos per connectar-se prèviament o per obtenir el DNS prèviament a fi d'establir connexions anticipades a orígens importants de tercers. [Més informació] (https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "Connecta't prèviament als orígens necessaris"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "Et recomanem que utilitzis <link rel=preload> per prioritzar l'obtenció de recursos que en aquests moments se sol·liciten en un moment posterior de la càrrega de pàgines. [Més informació] (https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "Carrega prèviament les sol·licituds de clau"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "Més informació sobre el rendiment de la teva aplicació."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "Diagnòstic"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "L'aspecte més crític del rendiment és la velocitat amb què es renderitzen els píxels en pantalla. Mètriques clau: Primera renderització de contigut, Primera renderització significativa"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "Millores de la primera renderització"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "Aquestes optimitzacions poden accelerar la càrrega de la pàgina."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "Oportunitats"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "Mètriques"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "Millora l'experiència general de càrrega, de manera que la pàgina respongui i estigui preparada per utilitzar-se al més aviat possible. Mètriques clau: Temps fins que és interactiva, Índex de velocitat"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "Millores generals"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "Rendiment"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "TTL de la memòria cau"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "Mida (kB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "Temps invertit"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "Possible estalvi (kB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "Possible estalvi (ms)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "Possible estalvi de {wastedBytes, number, bytes} kB"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "Possible estalvi de {wastedMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "Mostra les auditories"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "Error"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "Error de l'informe: no hi ha informació d'auditoria"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "Elements addicionals per comprovar manualment"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "No aplicable"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "Oportunitat"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "Estalvi estimat"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "Auditories aprovades"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "Escala de puntuació:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Hi ha hagut problemes que afecten aquesta execució de Lighthouse:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "Els valors són estimacions i poden variar."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "Advertiments: "
+  }
+}

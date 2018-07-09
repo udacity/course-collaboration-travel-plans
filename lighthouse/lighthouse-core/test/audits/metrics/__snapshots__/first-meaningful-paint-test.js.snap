@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Performance: first-meaningful-paint audit computes FMP correctly for simulated 1`] = `
+Object {
+  "rawValue": 1354.506000038469,
+  "score": 1,
+}
+`;

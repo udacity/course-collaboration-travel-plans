@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Chrome-udvidelser påvirkede denne sides indlæsning negativt. Prøv at revidere siden i inkognitotilstand eller fra en Chrome-profil uden udvidelser."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "Scriptevaluering"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "Scriptparsing"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "I alt"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "Overvej at reducere den tid, der bruges på at parse, kompilere og udføre JavaScript. Levering af mindre JavaScript-datapakker kan hjælpe med dette. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "Reducer udførelsestiden for JavaScript"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "Udførelsestid for JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "Store giffer er ikke tilstrækkelige til at levere animeret indhold. Overvej at bruge MPEG4-/WebM-videoer til animationer og PNG/WebP til statiske billeder i stedet for giffer for at spare netværksbytes. [Få flere oplysninger](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "Brug videoformater til animeret indhold"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "Overvej at udskyde indlæsningen af skjulte billeder og billeder, der ikke er på skærmen, til efter alle kritiske ressourcer er blevet indlæst for at reducere den tid, der går, inden siden er interaktiv. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "Udskyd billeder, der ikke er på skærmen"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "Ressourcer blokerer første udfyldning af din side. Overvej at levere kritisk JavaScript/CSS indlejret og udskyde alle ikke-kritiske JavaScript-elementer/typografier. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "Fjern ressourcer til blokering af gengivelse"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "Store datapakker på netværk koster brugerne mange penge og er forbundet med lang indlæsningstid. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "Den samlede størrelse var {totalBytes, number, bytes} kB"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "Undgå kæmpe datapakker på netværk"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "Undgår kæmpe datapakker på netværk"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "Formindskelse af CSS-filer kan reducere størrelsen på datapakker på netværk. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "Formindsk CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "Formindskelse af JavaScript-filer kan reducere størrelsen på datapakker og varigheden af scriptparsing. [Få flere oplysninger](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "Formindsk JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "Fjern regler, som ikke bruges, fra typografiark for at skære ned på antallet af unødvendige bytes, der anvendes ved netværksaktivitet. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "Udskyd CSS, som ikke bruges"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "Fjern JavaScript, der ikke bruges, for at skære ned på antallet af bytes, der anvendes ved netværksaktivitet."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "Fjern JavaScript, som ikke bruges"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "En lang cachelevetid kan gøre indlæsningen hurtigere for tilbagevendende besøgende på din side. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{Der blev fundet 1 ressource}one{Der blev fundet # ressource}other{Der blev fundet # ressourcer}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "Vis statiske aktiver med en effektiv cachepolitik"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "Anvender effektiv cachepolitik på statiske aktiver"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "Optimerede billeder indlæses hurtigere og bruger mindre mobildata. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "Kryptér billeder effektivt"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "Vis billeder i korrekte størrelser for at spare mobildata og forbedre indlæsningstiden. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "Brug korrekte billedstørrelser"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "Tekstbaserede ressourcer bør vises i komprimeret format (gzip, Deflate eller Brotli), så netværkets samlede antal bytes formindskes. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "Aktivér tekstkomprimering"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "Billedformater såsom JPEG 2000, JPEG XR og WebP giver ofte en bedre komprimering end PNG og JPEG, hvilket betyder hurtigere downloads og mindre dataforbrug. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "Vis billeder i formater af næste generation"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "Kæderne med kritiske anmodninger nedenfor viser dig, hvilke ressourcer der udsendes med høj prioritet. Overvej at reducere kædernes længde, så ressourcernes downloadstørrelse bliver mindre, eller at udskyde download af unødvendige ressourcer, så sideindlæsningen forbedres. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{Der blev fundet 1 kæde}one{Der blev fundet # kæde}other{Der blev fundet # kæder}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "Minimer dybden for kritiske anmodninger"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "Maksimal DOM-dybde"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "Samlet antal DOM-noder"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "Maksimalt antal underordnede elementer"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "Browserudviklere anbefaler, at sider højst indeholder 1.500 DOM-noder. Det bedste er en træstrukturdybde med under 32 elementer og mindre end 60 underordnede/overordnede elementer. En stor DOM kan øge hukommelsesforbruget, medføre længere [beregninger af typografi](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations) og producere dyre [omformateringer af layout](https://developers.google.com/speed/articles/reflow). [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 node}one{# node}other{# noder}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "Undgå en overdreven DOM-størrelse"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "Undgår en overdreven DOM-størrelse"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "Udnyt CSS-funktionen til skrifttypevisning for at sikre dig, at teksten kan ses af brugerne, mens webfonts indlæses. [Få flere oplysninger](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "Sørg for, at tekst forbliver synlig under indlæsning af webfont"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "Al tekst forbliver synlig under indlæsning af webfont"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "Kategori"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "Overvej at reducere den tid, der bruges på at parse, kompilere og udføre JavaScript. Levering af mindre JavaScript-datapakker kan hjælpe med dette."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "Formindsk primært trådarbejde"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "Formindsker primært trådarbejde"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "Resultatet ovenfor er et estimat af, hvor længe din app er om at svare på brugerinput (i millisekunder) i de første 5 travleste sekunder med vindue under en sideindlæsning. Hvis din forsinkelse er større end 50 ms, kan brugerne opfatte din app som langsom. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "Estimeret inputforsinkelse"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "Første udfyldning af indhold markerer det tidspunkt, hvor den første tekst eller det første billede udfyldes. [Få flere oplysninger](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "Første udfyldning af indhold"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "Første stillestående CPU markerer det tidspunkt, hvor sidens primære tråd er stabil nok til at behandle input. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "Første stillestående CPU"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "Første betydningsfulde udfyldning måler, hvornår det primære indhold på en side kan ses. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "Første betydningsfulde udfyldning"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "Interaktiv tilstand markerer det tidspunkt, hvor siden er helt interaktiv. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "Tid inden interaktiv tilstand"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "Hastighedsindekset viser, hvor hurtigt indholdet på en side udfyldes, så det kan ses. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "Hastighedsindeks"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "Omdirigeringer medfører yderligere forsinkelser, inden siden kan indlæses. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "Undgå mange sideomdirigeringer"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "TTFB (Time To First Byte) identificerer tidspunktet for, hvornår din server sender et svar. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "Roddokumentet tog {timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "Reducer serversvartider (TTFB, Time To First Byte)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "Serversvartiderne er korte (TTFB, Time To First Byte)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "Overvej at bruge User Timing API som værktøj til din app for at oprette tilpassede målinger i den virkelige verden af vigtige brugeroplevelser. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 brugstid}one{# brugstid}other{# brugstider}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "Brugstider markerer og måler"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "Overvej at tilføje ressourcehints til forbindelse på forhånd eller DNS-forudhentning for at oprette tidlige forbindelser til vigtige tredjepartswebsites. [Få flere oplysninger](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "Opret forbindelse på forhånd til påkrævede websites"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "Overvej at bruge <link rel=preload> til at prioritere hentning af ressourcer, som der i øjeblikket anmodes om senere i sideindlæsningen. [Få flere oplysninger](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "Forudindlæs vigtige anmodninger"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "Få flere oplysninger om din apps effektivitet."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "Diagnostik"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "Det vigtigste aspekt af effektivitet er, hvor hurtigt pixels gengives på skærmen. Vigtige metrics: Første udfyldning af indhold, Første betydningsfulde udfyldning"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "Forbedringer af første udfyldning"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "Disse optimeringer kan gøre din sideindlæsning hurtigere."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "Muligheder"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "Metrics"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "Gør den overordnede indlæsning bedre, så siden hurtigst muligt bliver responsiv og klar til brug. Vigtige metrics: Tid inden interaktiv tilstand, Hastighedsindeks"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "Overordnede forbedringer"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "Effektivitet"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "Cache-TTL"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "Størrelse (kB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "Tidsforbrug"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "Webadresse"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "Potentiel databesparelse (kB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "Potentiel tidsbesparelse (ms)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "Potentiel databesparelse på {wastedBytes, number, bytes} kB"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "Potentiel tidsbesparelse på {wastedMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "Se revisioner"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "Der opstod en fejl"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "Rapportfejl: Der er ingen revisionsoplysninger"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "Yderligere elementer, der skal tjekkes manuelt"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "Ikke relevant"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "Mulighed"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "Estimeret tidsbesparelse"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "Beståede revisioner"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "Resultatskala:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Der blev registreret problemer, som påvirkede denne kørsel af Lighthouse:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "Værdierne er estimater og kan variere."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "Advarsler! "
+  }
+}

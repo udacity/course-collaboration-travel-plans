@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Οι επεκτάσεις Chrome επηρεάζονται αρνητικά από την απόδοση φόρτωσης αυτής της σελίδας. Δοκιμάστε να εκτελέσετε έλεγχο της σελίδας σε κατάσταση ανώνυμης περιήγησης ή από κάποιο καθαρό προφίλ Chrome."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "Αξιολόγηση σεναρίου"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "Ανάλυση σεναρίου"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "Σύνολο"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "Εξετάστε το ενδεχόμενο μείωσης του χρόνου ανάλυσης, σύνθεσης και εκτέλεσης JS. Μπορεί να διαπιστώσετε ότι η προβολή μικρότερων φορτίων δεδομένων JS συμβάλλει προς αυτήν την κατεύθυνση. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "Μείωση χρόνου εκτέλεσης JavaScript"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "Χρόνος εκτέλεσης JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "Οι μεγάλες εικόνες GIF δεν είναι αποδοτικές για την προβολή περιεχομένου κινούμενων εικόνων. Εξετάστε το ενδεχόμενο χρήσης βίντεο MPEG4/WebM για κινούμενες εικόνες και PNG/WebP για στατικές εικόνες αντί για τη χρήση εικόνων GIF, με στόχο την εξοικονόμηση byte δικτύου. [Μάθετε περισσότερα](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "Χρήση μορφών βίντεο για περιεχόμενο κινούμενων εικόνων"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "Εξετάστε τη φόρτωση εικόνων εκτός οθόνης και κρυφών εικόνων με καθυστέρηση μετά την ολοκλήρωση της φόρτωσης όλων των σημαντικών πόρων, προκειμένου να ελαττωθεί ο χρόνος μετάβασης σε κατάσταση αλληλεπίδρασης. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "Καθυστέρηση φόρτωσης εικόνων εκτός οθόνης"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "Υπάρχουν πόροι οι οποίοι αποκλείουν την πρώτη μορφή της σελίδας σας. Εξετάστε το ενδεχόμενο προβολής σημαντικών ενσωματωμένων JS/CSS και καθυστέρησης όλων των μη σημαντικών JS/στυλ. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "Εξάλειψη πόρων που αποκλείουν την απόδοση"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "Τα μεγάλα φορτία δεδομένων δικτύου συνεπάγονται υψηλό χρηματικό κόστος για τους χρήστες και συσχετίζονται σε μεγάλο βαθμό με εκτενείς χρόνους φόρτωσης. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "Το συνολικό μέγεθος ήταν {totalBytes, number, bytes} KB"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "Αποφύγετε τα πολύ μεγάλα φορτία δεδομένων δικτύου"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "Αποφεύγει τα πολύ μεγάλα φορτία δεδομένων δικτύου"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "Με την ελαχιστοποίηση των αρχείων CSS, μπορεί να ελαττωθούν τα μεγέθη φορτίου δεδομένων δικτύου. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "Ελαχιστοποίηση CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "Με την ελαχιστοποίηση των αρχείων JavaScript, μπορεί να μειωθούν τα μεγέθη φορτίου δεδομένων και να ελαττωθεί ο χρόνος ανάλυσης σεναρίου. [Μάθετε περισσότερα](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "Ελαχιστοποίηση JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "Καταργήστε κανόνες που δεν χρησιμοποιούνται από τα φύλλα στυλ, για να μειώσετε τον αριθμό των μη απαραίτητων byte που καταναλώνονται από τη δραστηριότητα δικτύου. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "Καθυστέρηση μη χρησιμοποιούμενων CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "Καταργήστε τυχόν JavaScript που δεν χρησιμοποιείται, για να ελαττώσετε τα byte που καταναλώνονται από τη δραστηριότητα δικτύου."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "Κατάργηση JavaScript που δεν χρησιμοποιείται"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "Η μεγάλη διάρκεια ζωής της κρυφής μνήμης μπορεί να επιταχύνει τις επαναλαμβανόμενες επισκέψεις στη σελίδα σας. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{Βρέθηκε 1 πόρος}other{Βρέθηκαν # πόροι}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "Προβολή στατικών στοιχείων με επαρκή πολιτική κρυφής μνήμης"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "Χρησιμοποιεί αποδοτική πολιτική κρυφής μνήμης σε στατικά στοιχεία"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "Οι βελτιστοποιημένες εικόνες φορτώνονται πιο γρήγορα και καταναλώνουν λιγότερα δεδομένα κινητής τηλεφωνίας. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "Αποδοτική κωδικοποίηση εικόνων"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "Προβάλετε εικόνες κατάλληλου μεγέθους, για την εξοικονόμηση δεδομένων κινητής τηλεφωνίας και τη βελτίωση του χρόνου φόρτωσης. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "Κατάλληλη προσαρμογή μεγέθους εικόνων"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "Οι πόροι που βασίζονται σε κείμενο θα πρέπει να προβάλλονται με συμπίεση (gzip, deflate ή brotli), προκειμένου να ελαχιστοποιούνται τα byte δικτύου. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "Ενεργοποίηση συμπίεσης κειμένου"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "Οι μορφές εικόνας όπως JPEG 2000, JPEG XR και WebP συχνά παρέχουν καλύτερη συμπίεση από ό,τι οι μορφές PNG και JPEG. Αυτό σημαίνει γρηγορότερες λήψεις και μικρότερη κατανάλωση δεδομένων. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "Προβολή εικόνων σε μορφές επόμενης γενιάς"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "Οι Αλυσίδες κρίσιμων αιτημάτων που ακολουθούν δείχνουν τους πόρους που εκδίδονται με υψηλή προτεραιότητα. Εξετάστε το ενδεχόμενο μείωσης των αλυσίδων, μείωσης του μεγέθους λήψης πόρων ή καθυστέρησης της λήψης μη απαραίτητων πόρων, για τη βελτίωση της φόρτωσης σελίδας. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{Βρέθηκε 1 αλυσίδα}other{Βρέθηκαν # αλυσίδες}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "Ελαχιστοποίηση βάθους κρίσιμων αιτημάτων"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "Μέγιστο βάθος DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "Σύνολο κόμβων DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "Μέγιστος αριθμός θυγατρικών"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "Οι μηχανικοί προγραμμάτων περιήγησης συνιστούν να περιέχουν οι σελίδες λιγότερους από ~1.500 κόμβους DOM. Το ιδανικό είναι ένα βάθος δέντρου με < 32 στοιχεία και λιγότερα από 60 θυγατρικά/γονικά στοιχεία. Ένα μεγάλο DOM μπορεί να αυξήσει τη χρήση της μνήμης, να προκαλέσει [υπολογισμούς στυλ] μεγαλύτερης διάρκειας (https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations) και να δημιουργήσει [επαναληπτικές ροές διάταξης] υψηλού κόστους (https://developers.google.com/speed/articles/reflow). [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 κόμβος}other{# κόμβοι}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "Αποφύγετε τα υπερβολικά μεγάλα μεγέθη DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "Αποφεύγει τα υπερβολικά μεγάλα μεγέθη DOM"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "Χρησιμοποιήστε τη λειτουργία CSS προβολής γραμματοσειράς, για να διασφαλίσετε ότι το κείμενο είναι ορατό στους χρήστες κατά τη φόρτωση των γραμματοσειρών ιστοτόπου. [Μάθετε περισσότερα](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "Βεβαιωθείτε ότι το κείμενο παραμένει ορατό κατά τη διάρκεια της φόρτωσης γραμματοσειράς ιστοτόπου"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "Όλο το κείμενο παραμένει ορατό κατά τη διάρκεια φορτώσεων γραμματοσειράς ιστοτόπου"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "Κατηγορία"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "Εξετάστε το ενδεχόμενο ελάττωσης του χρόνου ανάλυσης, σύνθεσης και εκτέλεσης JS. Μπορεί να διαπιστώσετε ότι η προβολή μικρότερων φορτίων δεδομένων JS συμβάλλει προς αυτήν την κατεύθυνση."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "Ελαχιστοποιήστε την κύρια εργασία νήματος"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "Ελαχιστοποιεί την κύρια εργασία νήματος"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "Η παραπάνω βαθμολογία αποτελεί εκτίμηση του χρόνου που απαιτείται προκειμένου η εφαρμογή σας να ανταποκριθεί στα στοιχεία εισόδου χρήστη, σε χιλιοστά του δευτερολέπτου, κατά τη διάρκεια εκτέλεσης του παραθύρου φόρτωσης σελίδας 5 δευτ. με τη μεγαλύτερη κινητικότητα. Εάν ο λανθάνων χρόνος είναι μεγαλύτερος από 50 ms, οι χρήστες μπορεί να θεωρήσουν ότι η εφαρμογή σας είναι αργή. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "Εκτιμώμενος λανθάνων χρόνος στοιχείων εισόδου"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "Η Πρώτη μορφή με περιεχόμενο υποδεικνύει πότε μορφοποιείται το πρώτο κείμενο ή η πρώτη εικόνα. [Μάθετε περισσότερα](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "Πρώτη μορφή με περιεχόμενο"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "Η Πρώτη αδράνεια CPU υποδεικνύει την πρώτη φορά που το κύριο νήμα μιας σελίδας παρουσιάζει αρκετά χαμηλή κινητικότητα έτσι ώστε να διαχειριστεί στοιχεία εισόδου. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "Πρώτη αδράνεια CPU"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "Η Πρώτη χρήσιμη μορφή υπολογίζει πότε είναι ορατό το κύριο περιεχόμενο μιας σελίδας. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "Πρώτη χρήσιμη μορφή"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "Η Αλληλεπίδραση υποδεικνύει πότε η σελίδα είναι πλήρως διαδραστική. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "Χρόνος για Αλληλεπίδραση"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "Το Ευρετήριο ταχύτητας δείχνει πόσο γρήγορα γίνονται ορατά τα περιεχόμενα μιας σελίδας. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "Ευρετήριο ταχύτητας"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "Οι ανακατευθύνσεις δημιουργούν επιπλέον καθυστερήσεις προτού να είναι δυνατή η φόρτωση της σελίδας. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "Αποφυγή ανακατευθύνσεων πολλών σελίδων"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "Ο Χρόνος μέχρι το πρώτο byte προσδιορίζει πότε ο διακομιστής σας στέλνει μια απόκριση. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "Το αρχείο ρίζας χρειάστηκε {timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "Μείωση χρόνων απόκρισης διακομιστή (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "Οι χρόνοι απόκρισης διακομιστή είναι χαμηλοί (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "Εξετάστε το ενδεχόμενο ενίσχυσης της εφαρμογής σας με το User Timing API, για να δημιουργείτε προσαρμοσμένες, πραγματικές μετρήσεις για σημαντικές εμπειρίες χρήστη. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 χρόνος χρήστη}other{# χρόνοι χρήστη}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "Ενδείξεις και μετρήσεις Χρόνων χρήστη"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "Εξετάστε το ενδεχόμενο προσθήκης υποδείξεων πόρου προσύνδεσης ή προανάλυσης dns, για τη δημιουργία πρώιμων συνδέσεων σε σημαντικές προελεύσεις τρίτου μέρους. [Μάθετε περισσότερα](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "Προσύνδεση σε απαιτούμενες προελεύσεις"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "Εξετάστε το ενδεχόμενο χρήσης <link rel=φορτίου δεδομένων>, για να δώσετε προτεραιότητα στην ανάλυση πόρων των οποίων το αίτημα εμφανίζεται αργότερα στη σελίδα. [Μάθετε περισσότερα](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "Σημαντικά αιτήματα προφόρτωσης"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "Περισσότερες πληροφορίες σχετικά με την απόδοση της εφαρμογής σας"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "Διαγνωστικά στοιχεία"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "Η πιο σημαντική πτυχή της απόδοσης είναι η ταχύτητα με την οποία αποδίδονται τα pixel στην οθόνη. Σημαντικές μετρήσεις: Πρώτη μορφή με περιεχόμενο, Πρώτη χρήσιμη μορφή"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "Βελτιώσεις πρώτης μορφής"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "Αυτοί οι οργανισμοί μπορούν να επιταχύνουν τη φόρτωση της σελίδας σας."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "Ευκαιρίες"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "Μετρήσεις"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "Βελτιώστε τη συνολική εμπειρία φόρτωσης, για να μπορεί η σελίδα να ανταποκρίνεται και να είναι έτοιμη για χρήση το συντομότερο δυνατό. Σημαντικές μετρήσεις: Χρόνος για Αλληλεπίδραση, Ευρετήριο ταχύτητας"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "Συνολικές βελτιώσεις"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "Απόδοση"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "TTL κρυφής μνήμης"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "Μέγεθος (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "Χρόνος χρήσης"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "Δυνητικές εξοικονομήσεις (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "Δυνητικές εξοικονομήσεις (ms)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "Δυνητικές εξοικονομήσεις {wastedBytes, number, bytes} KB"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "Δυνητικές εξοικονομήσεις {wastedMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "Εμφάνιση ελέγχων"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "Σφάλμα!"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "Σφάλμα αναφοράς: Δεν υπάρχουν πληροφορίες ελέγχου"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "Επιπλέον στοιχεία για μη αυτόματο έλεγχο"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "Δεν ισχύει"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "Ευκαιρία"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "Εκτιμώμενες εξοικονομήσεις"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "Έλεγχοι που ολοκληρώθηκαν επιτυχώς"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "Κλίμακα βαθμολογίας:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Παρουσιάστηκαν ορισμένα ζητήματα τα οποία επηρεάζουν αυτήν την εκτέλεση του Lighthouse:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "Οι τιμές εκτιμώνται και μπορεί να ποικίλουν."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "Προειδοποιήσεις: "
+  }
+}

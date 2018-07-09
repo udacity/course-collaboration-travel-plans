@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Chrome 확장 프로그램이 이 페이지의 로드 성능에 부정적인 영향을 미쳤습니다. 시크릿 모드나 확장 프로그램이 없는 Chrome 프로필에서 페이지를 감사해 보세요."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "스크립트 평가"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "스크립트 파싱"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "합계"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "JS 파싱, 컴파일, 실행에 소요되는 시간을 줄이세요. 용량이 적은 JS 페이로드를 제공하는 것이 도움이 될 수 있습니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/bootup)"
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "자바스크립트 실행 시간 단축"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "자바스크립트 실행 시간"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "대용량 GIF는 애니메이션 콘텐츠를 전달하는 데 비효율적입니다. 애니메이션에는 MPEG4/WebM 동영상을, 정적인 이미지에는 PNG/WebP를 GIF 대신 사용하여 네트워크 바이트를 절약하세요. [자세히 알아보기](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "애니메이션 콘텐츠에 동영상 형식 사용하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "중요한 리소스의 로드가 모두 완료된 후에는 오프스크린 및 숨겨진 이미지를 지연 로드함으로써 상호작용 시간을 줄이는 것이 좋습니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "오프스크린 이미지 지연하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "리소스가 페이지의 첫 번째 페인트를 차단하고 있습니다. 중요한 JS/CSS를 인라인으로 전달하고 중요하지 않은 모든 JS/style을 지연하는 것이 좋습니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "렌더링 차단 리소스 제거하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "네트워크 페이로드가 커지면 사용자에게 실제 비용 부담이 되며 로드 시간이 길어질 수 있습니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "총 크기: {totalBytes, number, bytes}KB"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "네트워크 페이로드가 커지지 않도록 관리하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "대규모 네트워크 페이로드 방지하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "CSS 파일을 축소하면 네트워크 페이로드의 크기가 줄어들 수 있습니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/minify-css)"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "CSS 축소하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "자바스크립트 파일을 줄이면 페이로드 크기 및 스크립트 파싱 시간이 줄어들 수 있습니다. [자세히 알아보기](https://developers.google.com/speed/docs/insights/MinifyResources)"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "자바스크립트 줄이기"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "스타일시트에서 사용되지 않는 규칙을 삭제하여 네트워크 활동에 불필요하게 소비되는 바이트를 줄이세요. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/unused-css)"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "사용하지 않는 CSS 지연하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "사용하지 않는 자바스크립트를 삭제하고 네트워크 활동에 소비되는 바이트를 줄이세요."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "사용하지 않는 자바스크립트 삭제하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "캐시 수명이 길면 페이지를 반복해서 방문하는 속도가 빨라질 수 있습니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{리소스 1개 발견됨}other{리소스 #개 발견됨}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "효율적인 캐시 정책을 사용하여 정적인 애셋 제공하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "정적인 애셋에 효율적인 캐시 정책 사용하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "최적화된 이미지는 빨리 로드되며 모바일 데이터를 적게 소비합니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "효율적으로 이미지 인코딩하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "알맞은 크기의 이미지를 게재하여 모바일 데이터를 절약하고 로드 시간을 단축하세요. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "이미지 크기 적절하게 설정하기"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "총 네트워크 바이트를 최소화하려면 텍스트 기반 리소스를 압축(gzip, deflate, brotli)하여 제공해야 합니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/text-compression)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "텍스트 압축 사용"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "JPEG 2000, JPEG XR, WebP와 같은 이미지 형식을 사용하면 PNG 또는 JPEG보다 압축률이 높기 때문에 다운로드 속도가 빠르고 데이터 소비량도 줄어듭니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/webp)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "차세대 형식을 사용해 이미지 제공하기"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "다음의 중요 요청 체인은 발행 시 우선순위가 높은 리소스를 보여줍니다. 체인의 길이를 줄이고, 리소스의 다운로드 크기를 줄이거나 불필요한 리소스의 다운로드를 지연하여 페이지 로드 속도를 높이는 것이 좋습니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{1개 체인 발견됨}other{#개 체인 발견됨}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "중요 요청 깊이 최소화하기"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "최대 DOM 깊이"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "총 DOM 노드"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "최대 하위항목"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "브라우저 엔지니어들은 페이지에 포함된 DOM 노드의 수가 1,500개 미만인 것이 바람직하다고 말합니다. 최적의 값은 트리 깊이가 요소 32개 미만이고 하위/상위 요소 60개 미만일 때입니다. DOM이 크면 메모리 사용량이 늘어나고 [스타일 계산](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations) 시간이 길어질 수 있으며, 큰 비용이 드는 [레이아웃 리플로](https://developers.google.com/speed/articles/reflow)가 발생할 수 있습니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/dom-size)"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{노드 1개}other{노드 #개}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "과도한 DOM 크기 지양하기"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "과도한 DOM 크기 지양하기"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "웹폰트가 로드되는 동안 사용자에게 텍스트가 표시되도록 글꼴 표시 CSS 기능을 사용하세요. [자세히 알아보기](https://developers.google.com/web/updates/2016/02/font-display)"
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "웹폰트가 로드되는 동안 텍스트가 계속 표시되는지 확인하기"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "웹폰트가 로드되는 동안 모든 텍스트가 계속 표시됩니다"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "카테고리"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "JS 파싱, 컴파일, 실행에 소요되는 시간을 줄이세요. 용량이 적은 JS 페이로드를 제공하면 도움이 될 수 있습니다."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "기본 스레드 작업 최소화하기"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "기본 스레드 작업 최소화하기"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "위의 점수는 페이지 로드가 가장 많은 5초 동안 앱이 사용자 입력에 응답하는 데 걸리는 시간(ms)의 추정치입니다. 지연 시간이 50ms보다 길면 사용자가 앱이 느리다고 인식할 수 있습니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "예상 입력 대기시간"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "최초 만족 페인트는 첫 번째 텍스트 또는 이미지가 표시되는 시간을 나타냅니다. [자세히 알아보기](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "최초 만족 페인트"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "최초 CPU 유휴 상태는 페이지의 기본 스레드가 입력을 처리할 수 있을 만큼 조용한 상태가 된 첫 번째 시간을 표시합니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "최초 CPU 유휴 상태"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "최초 유의미 페인트는 페이지의 기본 콘텐츠가 표시되는 경우를 측정합니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "최초 유의미 페인트"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "상호작용은 페이지가 완전히 상호작용하는 시간을 표시합니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "상호작용 시간"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "속도 색인은 페이지 콘텐츠가 얼마나 빨리 표시되는지 보여줍니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/speed-index)"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "속도 색인"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "리디렉션을 사용하면 페이지가 로드되기 전 추가적인 지연이 발생합니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/redirects)"
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "여러 차례의 페이지 리디렉션 피하기"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "Time To First Byte는 서버가 응답을 보내는 시간을 식별합니다. [자세히 알아보기] (https://developers.google.com/web/tools/lighthouse/audits/ttfb)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "루트 문서에 {timeInMs, number, milliseconds}ms 소요됨"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "서버 응답 시간(TTFB) 단축"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "서버 응답 시간 낮음(TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "앱에 User Timing API를 사용하여 중요 사용자 환경에 관한 현실적인 맞춤형 측정값을 만드세요. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/user-timing)"
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{사용자 시간 1회}other{사용자 시간 #회}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "사용자 타이밍 표시 및 측정 값"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "사전 연결 또는 DNS 프리페치 리소스 힌트를 추가하여 중요한 타사 원본에 대한 조기 연결을 수립하는 것이 좋습니다. [자세히 알아보기](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "필수 원본 미리 연결하기"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "<link rel=preload>를 사용하여 페이지 로드에서 현재 나중에 요청되는 리소스를 가져오는 데 우선순위를 두는 것이 좋습니다. [자세히 알아보기](https://developers.google.com/web/tools/lighthouse/audits/preload)"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "중요한 요청을 미리 로드하기"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "애플리케이션 성능 관련 추가 정보"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "진단"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "성능에서 가장 중요한 측면은 픽셀이 화면에 렌더링되는 속도입니다. 주요 측정항목: 최초 만족 페인트, 최초 유의미 페인트"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "최초 페인트 개선"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "다음의 최적화 방법을 사용하면 페이지 로드 속도를 높일 수 있습니다."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "추천"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "측정항목"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "페이지가 빠르게 반응하고 가능한 한 빨리 사용할 수 있는 준비가 되도록 전반적인 로드 환경을 강화하세요. 주요 측정항목: 상호작용 시간, 속도 색인"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "전반적인 개선사항"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "성능"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "캐시 TTL"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "크기(KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "소요 시간"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "절감 가능치(KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "절감 가능한 페이지 로드 시간(ms)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "절감 가능치: {wastedBytes, number, bytes}KB"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "절감 가능 {wastedMs, number, milliseconds}ms"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds}ms"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "감사 보기"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "오류!"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "보고 오류: 감사 정보 없음"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "직접 확인해야 하는 추가 항목"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "해당 사항 없음"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "추천"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "예상 절감치"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "통과한 감사"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "점수 척도:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Lighthouse 실행에 영향을 미치는 문제가 발생했습니다."
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "값은 추정치이며 달라질 수 있습니다."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "경고: "
+  }
+}

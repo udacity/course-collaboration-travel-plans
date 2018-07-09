@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "typeRoots": [
+      "@types",
+      "../typings",
+      "./types",
+    ],
+  },
+  "include": [
+    "app/src/**/*.js",
+    "../typings/*.d.ts",
+    "./types/*.d.ts",
+  ],
+}

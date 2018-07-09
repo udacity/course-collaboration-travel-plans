@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Metrics: Lantern EIL should compute a simulated value 1`] = `
+Object {
+  "optimistic": 101,
+  "pessimistic": 158,
+  "timing": 104,
+}
+`;

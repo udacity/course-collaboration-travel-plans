@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Chrome ఎక్స్‌టెన్షన్‌లు ఈ పేజీ లోడ్ పనితీరును ప్రతికూలంగా ప్రభావితం చేసాయి. పేజీని అజ్ఞాత మోడ్‌లో లేదా ఎక్స్‌టెన్షన్‌లు లేని Chrome ప్రొఫైల్‌లో ఆడిట్ చేయడాన్ని ప్రయత్నించండి."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "స్క్రిప్ట్ మూల్యనిర్ధారణ"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "స్క్రిప్ట్ అన్వయింపు"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "మొత్తం"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "అన్వయించడం, సంగ్రహణ చేయడం మరియు JSను అమలు చేయడానికి వెచ్చించే సమయాన్ని తగ్గించడాన్ని పరిగణించండి. చిన్న JS పేలోడ్‌లను అందించడం ఈ విషయంలో మీకు సహాయకరంగా అనిపించవచ్చు. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "JavaScript అమలు సమయాన్ని తగ్గించండి"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "JavaScript అమలు సమయం"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "యానిమేట్ చేయబడిన కంటెంట్‌ను అందించడంలో పెద్ద GIFలు సమర్థవంతంగా పనిచేయవు. నెట్‌వర్క్ బైట్‌లను పొదుపు చేయడానికి GIFకి బదులుగా యానిమేషన్ కోసం MPEG4/WebM వీడియోలను, నిశ్చల చిత్రాల కోసం PNG/WebPను ఉపయోగించడాన్ని పరిగణించండి. [మరింత తెలుసుకోండి](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "యానిమేటెడ్ కంటెంట్ కోసం వీడియో ఫార్మాట్‌లను ఉపయోగించండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "పేజీలో పూర్తి పరస్పర చర్యకు పట్టే సమయం తక్కువగా ఉన్నప్పుడు అన్ని క్లిష్టమైన వనరులు లోడ్ అవ్వడం పూర్తి చేసి, ఆ తర్వాతే ఆఫ్‌స్క్రీన్ మరియు దాగి ఉన్న చిత్రాలను నెమ్మదిగా లోడ్ చేయడాన్ని పరిగణించండి. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "ఆఫ్‌స్క్రీన్ చిత్రాలను వాయిదా వేయండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "వనరులు మీ పేజీ మొదటి పెయింట్‌ను బ్లాక్ చేస్తున్నాయి. క్లిష్టమైన JS/CSSలను ఇన్‌లైన్‌లో పంపించడం మరియు క్లిష్టం-కాని అన్ని JS/శైలులను తీసివేయడాన్ని పరిగణించండి. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "రెండర్-బ్లాకింగ్ వనరులను నివారించండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "పెద్ద నెట్‌వర్క్ పేలోడ్‌లకు వినియోగదారులు నిజమైన డబ్బును చెల్లించాలి మరియు అవి అధికంగా సుదీర్ఘ లోడ్ సమయాలతో ముడిపడి ఉంటాయి. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "మొత్తం పరిమాణం {totalBytes, number, bytes} KBగా ఉండేది"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "అతి పెద్ద నెట్‌వర్క్ పేలోడ్‌లను నివారించండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "అతి పెద్ద నెట్‌వర్క్ పేలోడ్‌లను నివారిస్తుంది"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "CSS ఫైల్‌లను చిన్నవిగా చేయడం నెట్‌వర్క్ పేలోడ్ పరిమాణాలను తగ్గించవచ్చు. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "CSSని చిన్నదిగా చేయండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "JavaScript ఫైల్‌లను చిన్నవిగా చేయడం పేలోడ్ పరిమాణాలని మరియు స్క్రిప్ట్‌ను అన్వయించడానికి పట్టే సమయాన్ని తగ్గించగలదు. [మరింత తెలుసుకోండి](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "JavaScriptను చిన్నదిగా చేయండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "నెట్‌వర్క్ కార్యకలాపం ఉపయోగిస్తున్న అనవసర బైట్‌లను తగ్గించడానికి శైలిషీట్‌ల నుండి ఉపయోగించని నియమాలను తీసివేయండి. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "ఉపయోగించని CSSను వాయిదా వేయండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "నెట్‌వర్క్ కార్యకలాపం వినియోగించే బైట్‌లను తగ్గించడానికి ఉపయోగించని JavaScriptను తీసివేయండి."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "ఉపయోగించని JavaScriptను తీసివేయండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "దీర్ఘమైన కాష్ జీవితకాలం మీ పేజీకి పునరావృత సందర్శనలను వేగవంతం చేయవచ్చు. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 వనరు కనుగొనబడింది}other{ # వనరులు కనుగొనబడ్డాయి}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "నిశ్చల ఆస్తులను సమర్ధవంతమైన కాష్ విధానంతో అందించండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "నిశ్చలమైన ఆస్తులపై సమర్ధవంతమైన కాష్ విధానాన్ని ఉపయోగిస్తుంది"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "ఆప్టిమైజ్ చేయబడిన చిత్రాలు త్వరగా లోడ్ అవుతాయి మరియు తక్కువ సెల్యులార్ డేటాను ఉపయోగిస్తాయి. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "చిత్రాలను సమర్థవంతంగా ఎన్‌కోడ్ చేయండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "సెల్యులార్ డేటాను పొదుపు చేయడానికి మరియు లోడ్ సమయాన్ని మెరుగుపరచడానికి తగిన-పరిమాణానికి మార్చబడిన చిత్రాలను అందించండి. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "చిత్రాల పరిమాణాన్ని సరిగ్గా మార్చండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "మొత్తం నెట్‌వర్క్ బైట్‌లను తగ్గించడానికి వచనం-ఆధారిత వనరులు ఖచ్చితంగా కుదింపు (gzip, deflate లేదా brotli)తో అందించబడాలి. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "వచనం కుదింపును ప్రారంభించండి"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "JPEG 2000, JPEG XR, మరియు WebP వంటి చిత్రం ఫార్మాట్‌లు తరచుగా PNG లేదా JPEG కంటే మెరుగైన కుదింపును అందిస్తాయి, దీనర్ధం వేగవంతమైన డౌన్‌లోడ్‌లు మరియు తక్కువ డేటా వినియోగం. [మరింత తెలుసుకోండి] (https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "చిత్రాలను తర్వాతి-తరం ఫార్మాట్‌లలో అందించండి"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "కింది క్లిష్టమైన అభ్యర్ధన గొలుసులు ఏ వనరులు అధిక ప్రాధాన్యతో జారీ చేయబడ్డాయో చూపిస్తాయి. పేజీ లోడ్‌ను మెరుగుపరచడానికి గొలుసుల పొడవును తగ్గించడం, వనరుల డౌన్‌లోడ్ పరిమాణాన్ని తగ్గించడం, లేదా అనవసర వనరులను డౌన్‌లోడ్ చేయడాన్ని వాయిదా వేయడాన్ని పరిగణించండి. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 గొలుసు కనుగొనబడింది}other{# గొలుసులు కనుగొనబడ్డాయి}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "క్లిష్టమైన అభ్యర్ధనల గాఢత్వమును తగ్గించండి"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "DOM గరిష్ట గాఢత్వము"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "మొత్తం DOM నోడ్‌లు"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "పిల్లల గరిష్ట సంఖ్య"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "పేజీలలో ~1,500 కన్నా తక్కువ DOM నోడ్‌లు ఉండాలని బ్రౌజర్ ఇంజినీర్లు సిఫార్సు చేస్తారు. ఉత్తమమైన స్థాయి < 32 అంశాల ట్రీ గాఢత మరియు 60 పిల్లలు/తల్లి/తండ్రి అంశం కన్నా తక్కువ ఉండడం. పెద్ద DOM మెమరీ వినియోగాన్ని పెంచవచ్చు, సుదీర్ఘ [శైలి గణనలు] కు దారి తీయవచ్చు (https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations), మరియు ఖరీదైన [లేఅవుట్ రీఫ్లోలు]ను ఉత్పత్తి చేయవచ్చు (https://developers.google.com/speed/articles/reflow). [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 నోడ్}other{# నోడ్‌లు}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "అధిక DOM పరిమాణాన్ని నివారించండి"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "అధిక DOM పరిమాణాన్ని నివారిస్తుంది"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "వెబ్ ఫాంట్‌లు లోడ్ అవుతున్నప్పుడు వచనం వినియోగదారుకు కనిపించేలా ఉందని నిర్ధారించుకోవడానికి ఫాంట్-ప్రదర్శన CSS ఫీచర్‌ను శక్తివంతం చేయండి. [మరింత తెలుసుకోండి](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "వెబ్ ఫాంట్ లోడ్ సమయంలో వచనం కనిపించేటట్లు నిర్ధారించుకోండి"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "వెబ్ ఫాంట్ లోడ్‌ల సమయంలో వచనం మొత్తం కనిపిస్తూ ఉంటుంది"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "వర్గం"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "అన్వయించడం, సంగ్రహణ చేయడం మరియు JSను అమలు చేయడానికి వెచ్చించే సమయాన్ని తగ్గించడాన్ని పరిగణించండి. చిన్న JS పేలోడ్‌లను అందించడం ఈ విషయంలో మీకు సహాయకరంగా అనిపించవచ్చు."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "ప్రధాన థ్రెడ్ పనిని తగ్గించండి"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "ప్రధాన థ్రెడ్ పనిని తగ్గిస్తుంది"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "పేజీ లోడ్‌కు అత్యంత రద్దీ అయిన 5 సెకన్ల విండో సమయంలో, వినియోగదారు ఇన్‌పుట్‌కు ప్రతిస్పందిచడానికి, మిల్లీ సెకండ్లలో, మీ యాప్ తీసుకునే సమయం యొక్క అంచనాని పైన పేర్కొన్న స్కోర్ అందిస్తుంది. మీ ప్రతి స్పందన సమయం 50మి. సె కన్నా ఎక్కువ అయితే, మీ యాప్ వేగవంతంగా పని చేయట్లేదని వినియోగదారులు భావించవచ్చు. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "అంచనా వేయబడిన ఇన్‌పుట్ ప్రతిస్పందన సమయం"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "మొదటి కంటెంట్ సహిత పెయింట్ మొదటి వచనం లేదా చిత్రం పెయింట్ చేయబడిన సమయాన్ని గుర్తిస్తుంది. [మరింత తెలుసుకోండి](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "మొదటి కంటెంట్ సహిత పెయింట్"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "మొదటి CPU ఖాళీ సమయం మొదటి సారిగా పేజీ యొక్క ప్రధాన థ్రెడ్ ఇన్‌పుట్‌ను నిర్వహించడానికి సరిపోయినంత ఖాళీగా ఉన్న సమయాన్ని గుర్తిస్తుంది. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "CPU మొదటి ఖాళీ సమయం"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "మొదటి అర్ధవంతమైన పెయింట్ ఒక పేజీ ప్రాథమిక కంటెంట్ ఎప్పుడు కనిపించింది అనేదానికి ఒక కొలమానం. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "మొదటి అర్థవంతమైన పెయింట్"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "పేజీలో పూర్తి పరస్పర చర్యకు పట్టే సమయం, ఆ పేజీ పరస్పర చర్యకు పూర్తిగా సిద్దమయ్యేందుకు తీసుకున్న సమయాన్ని గుర్తిస్తుంది. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "పేజీలో పూర్తి పరస్పర చర్యకు పట్టే సమయం"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "వేగం సూచిక ఒక పేజీ కంటెంట్‌లు ఎంత వేగంగా ప్రత్యక్షంగా చూపించబడతాయో చూపిస్తుంది. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "వేగం సూచిక"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "మళ్లింపులు పేజీ లోడ్ అవ్వడానికి ముందు అదనపు ఆలస్యాలను కలగచేస్తాయి. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "అనేక పేజీ మళ్లింపులను నివారించండి"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "మొదటి బైట్ సమయం మీ సర్వర్ ప్రతిస్పందనను పంపించిన సమయాన్ని గుర్తిస్తుంది. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "రూట్ పత్రం {timeInMs, number, milliseconds} మి. సె తీసుకుంది"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "సర్వర్ ప్రతిస్పందన సమయాలను తగ్గించండి (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "సర్వర్ ప్రతిస్పందన సమయాలు తక్కువగా ఉన్నాయి (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "కీలక వినియోగదారు అనుభవాల అనుకూల, నిజ-ప్రపంచ కొలతలను సృష్టించడానికి మీ యాప్‌ను వినియోగదారు సమయ APIతో ప్రయోగించడాన్ని పరిగణించండి. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 వినియోగదారు సమయం}other{# వినియోగదారు సమయాలు}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "వినియోగదారు సమయం మార్కులు మరియు కొలమానాలు"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "ముఖ్యమైన మూడవ-పక్ష మూలాలకు ముందస్తు కనెక్ష్‌లను స్థాపించడానికి ముందుగా కనెక్ట్ చేయి లేదా dns ప్రి-ఫెచింగ్ వనరు సూచనలను జోడించడాన్ని పరిగణించండి. [మరింత తెలుసుకోండి](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "అవసరమైన మూలాలకు ముందుగా కనెక్ట్ చేయండి"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "ప్రస్తుతం పేజీ లోడ్‌లో తర్వాత అభ్యర్ధించబడిన వనరులను పొందడాన్ని ప్రాధాన్యపరచడానికి <link rel=preload>ను ఉపయోగించడాన్ని పరిగణించండి. [మరింత తెలుసుకోండి](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "కీలక అభ్యర్ధనలను ముందుగా లోడ్ చేయండి"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "మీ అప్లికేషన్ పనితీరు గురించి మరింత సమాచారం."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "సమస్య విశ్లేషణ"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "పిక్సెల్‌లు ఎంత వేగంగా స్క్రీన్ పై ప్రదర్శింపబడతాయి అనేది పనితీరులో అతి క్లష్టమైన అంశం. కీలక గణంకాలు: మొదటి కంటెంట్ సహిత పెయింట్, మొదటి అర్ధవంతమైన పెయింట్"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "మొదటి పెయింట్ మెరుగుదలలు"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "ఈ ఆప్టిమైజేషన్‌లు మీ పేజీ లోడ్‌ అవ్వడాన్ని వేగవంతం చేయవచ్చు."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "అవకాశాలు"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "గణాంకాలు"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "పేజీ ఎంత త్వరగా వీలైతే అంత త్వరగా ప్రతిస్పందించి, ఉపయోగించడానికి సిద్దంగా ఉండడానికి, మొత్తం లోడింగ్ అనుభవాన్ని మెరుగుపరచండి. కీలక గణాంకాలు: పేజీలో పూర్తి పరస్పర చర్యకు పట్టే సమయం, వేగం సూచిక"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "మొత్తం మొరుగుదలలు"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "పనితీరు"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "కాష్ TTL"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "పరిమాణం (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "వెచ్చించిన సమయం"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "ఆదా చేయగల పరిమాణం (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "ఆదా చేయగల వ్యవధి (మి. సె)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "ఆదా చేయగల పరిమాణం {wastedBytes, number, bytes} KB"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "ఆదా చేయగల వ్యవధి {wastedMs, number, milliseconds} మి. సెలు"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} మి. సె"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "ఆడిట్‌లను చూపించండి"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "ఎర్రర్ ఏర్పడింది!"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "నివేదిక ఎర్రర్: ఆడిట్ సమాచారం లేదు"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "మాన్యువల్‌గా తనిఖీ చేయవలసిన అదనపు అంశాలు"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "వర్తించదు"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "అవకాశం"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "అంచనా వేసిన పొదుపులు"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "ఉత్తీర్ణత సాధించిన ఆడిట్‌లు"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "స్కోర్ స్థాయి:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Lighthouse యొక్క ఈ అమలును ప్రభావితం చేసిన సమస్యలు ఉన్నాయి:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "విలువలు అంచనా వేయబడ్డాయి మరియు మారవచ్చు."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "హెచ్చరికలు: "
+  }
+}

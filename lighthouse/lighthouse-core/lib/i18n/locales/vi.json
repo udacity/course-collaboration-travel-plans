@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Các tiện ích của Chrome ảnh hưởng tiêu cực đến hiệu suất tải của trang này. Hãy thử kiểm tra trang ở chế độ ẩn danh hoặc từ một hồ sơ sạch trên Chrome."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "Đánh giá tập lệnh"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "Phân tích cú pháp tập lệnh"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "Tổng"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "Hãy xem xét giảm thời gian dùng để phân tích cú pháp, biên soạn và thực thi JS. Bạn có thể giải quyết vấn đề này bằng cách phân phối các tải trọng JS nhỏ hơn. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "Giảm thời gian thực thi JavaScript"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "Thời gian thực thi JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "Các ảnh GIF lớn không hiệu quả trong việc phân phối nội dung động. Hãy xem xét sử dụng video MPEG4/WebM cho ảnh động và PNG/WebP cho ảnh tĩnh thay vì ảnh GIF để tiết kiệm dữ liệu mạng (số byte mạng). [Tìm hiểu thêm](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "Sử dụng các định dạng video cho nội dung động"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "Xem xét trì hoãn tải các hình ảnh ẩn và ngoài màn hình sau khi tất cả tài nguyên quan trọng tải xong để giảm thời gian tương tác. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "Trì hoãn tải các hình ảnh ngoài màn hình"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "Các tài nguyên đang chặn hình ảnh đầu tiên trang của bạn. Hãy xem xét phân phối nội dòng JS/CSS quan trọng và trì hoãn mọi JS/kiểu không quan trọng. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "Loại bỏ các tài nguyên chặn hiển thị"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "Tải trọng mạng lớn gây tốn tiền cho người dùng và thường dẫn đến thời gian tải lâu. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "Tổng kích thước là {totalBytes, number, bytes} KB"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "Tránh các tài nguyên lớn trên mạng"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "Tránh tài nguyên lớn trên mạng"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "Việc giảm kích thước tệp CSS có thể giảm kích thước tài nguyên trên mạng. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "Rút gọn CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "Việc giảm kích thước tệp JavaScript có thể giảm kích thước tải trọng và thời gian phân tích cú pháp tập lệnh. [Tìm hiểu thêm](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "Rút gọn JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "Xóa các quy tắc không dùng khỏi tờ mẫu để giảm số byte không cần thiết tiêu tốn vào hoạt động mạng. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "Trì hoãn tải CSS không dùng"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "Xóa JavaScript không dùng để giảm số byte tiêu tốn vào hoạt động mạng."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "Xóa JavaScript không dùng"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "Tuổi thọ lâu dài của bộ nhớ đệm có thể tăng tốc số lượt truy cập lặp lại vào trang của bạn. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{Đã tìm thấy 1 tài nguyên}other{Đã tìm thấy # tài nguyên}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "Phân phối các nội dung tĩnh bằng chính sách bộ nhớ đệm hiệu quả"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "Sử dụng chính sách bộ nhớ đệm hiệu quả cho các nội dung tĩnh"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "Hình ảnh được tối ưu hóa sẽ tải nhanh hơn và tiêu tốn ít dữ liệu di động hơn. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "Mã hóa hình ảnh hiệu quả"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "Phân phối hình ảnh có kích thước phù hợp để tiết kiệm dữ liệu di động và cải thiện thời gian tải. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "Thay đổi kích thước hình ảnh cho phù hợp"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "Các tài nguyên dựa trên văn bản phải được phân phối ở định dạng nén (gzip, deflate hoặc brotli) để giảm thiểu tổng số byte mạng. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "Bật tính năng nén văn bản"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "Các định dạng hình ảnh như JPEG 2000, JPEG XR và WebP thường nén tốt hơn so với các định dạng PNG hoặc JPEG. Điều này có nghĩa là tốc độ tải xuống nhanh hơn và tiêu tốn ít dữ liệu hơn. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "Phân phối hình ảnh ở định dạng mới và hiệu quả hơn"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "Các chuỗi yêu cầu quan trọng dưới đây cho bạn biết những tài nguyên được phát hành có mức độ ưu tiên cao. Hãy xem xét giảm độ dài chuỗi, giảm kích thước tài nguyên tải xuống hoặc trì hoãn tải xuống các tài nguyên không cần thiết để cải thiện tốc độ tải trang. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{Đã tìm thấy 1 chuỗi}other{Đã tìm thấy # chuỗi}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "Giảm thiểu độ sâu của các yêu cầu quan trọng"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "Độ sâu DOM tối đa"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "Tổng số nút DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "Số thành phần con tối đa"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "Các công cụ của trình duyệt đề xuất các trang nên chứa ít hơn 1.500 nút DOM. Điểm ngọt là độ sâu của cây có ít hơn 32 thành phần và 60 thành phần con/cấp độ gốc. Một DOM lớn có thể tăng mức sử dụng bộ nhớ, khiến [các phép tính về kiểu](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations) dài hơn đồng thời tạo ra [các chỉnh sửa bố cục](https://developers.google.com/speed/articles/reflow) tốn kém. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 nút}other{# nút}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "Tránh kích thước DOM quá lớn"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "Tránh kích thước DOM quá lớn"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "Sử dụng tính năng CSS hiển thị phông chữ để đảm bảo văn bản hiển thị với người dùng khi phông chữ web đang tải. [Tìm hiểu thêm](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "Đảm bảo văn bản vẫn hiển thị trong khi tải phông chữ web"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "Tất cả văn bản vẫn hiển thị trong khi tải phông chữ web"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "Danh mục"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "Hãy xem xét giảm thời gian dùng để phân tích cú pháp, biên soạn và thực thi JS. Bạn có thể giải quyết vấn đề này bằng cách phân phối các tải trọng JS nhỏ hơn."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "Giảm thiểu công việc theo chuỗi chính"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "Giảm thiểu công việc theo chuỗi chính"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "Điểm số ở trên là điểm số ước tính về khoảng thời gian tính bằng mili giây mà ứng dụng của bạn cần để phản hồi thông tin người dùng nhập vào trong cửa sổ tải trang 5 giây bận rộn nhất. Nếu thời gian chờ lớn hơn 50 mili giây, người dùng có thể coi ứng dụng của bạn là chạy chậm. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "Thời gian chờ nhập thông tin theo ước tính"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "Chỉ số Hình ảnh có nội dung đầu tiên đánh dấu thời điểm văn bản hoặc hình ảnh đầu tiên được hiển thị. [Tìm hiểu thêm](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "Hình ảnh có nội dung đầu tiên"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "Chỉ số CPU nhàn rỗi đầu tiên đánh dấu thời điểm đầu tiên chuỗi chính của trang đủ yên tĩnh để xử lý thông tin nhập vào. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "CPU nhàn rỗi đầu tiên"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "Chỉ số Hình ảnh có ý nghĩa đầu tiên đo lường thời điểm nội dung chính của trang hiển thị. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "Hình ảnh có ý nghĩa đầu tiên"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "Chỉ số Thời điểm tương tác đánh dấu thời điểm trang tương tác hoàn toàn. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "Thời điểm tương tác"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "Chỉ mục tốc độ cho biết nội dung của một trang hiển thị nhanh chóng đến mức nào. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "Chỉ mục tốc độ"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "Các lần chuyển hướng sẽ làm tốc độ tải trang chậm hơn. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "Tránh chuyển hướng trang nhiều lần"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "Chỉ số Thời gian cho byte đầu tiên xác định thời gian máy chủ của bạn gửi một phản hồi. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "Tài liệu gốc mất {timeInMs, number, milliseconds} mili giây"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "Giảm thời gian phản hồi của máy chủ (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "Thời gian phản hồi của máy chủ chậm (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "Xem xét trang bị cho ứng dụng của bạn API Thời gian người dùng để tạo ra các số đo tùy chỉnh thực tế về các trải nghiệm người dùng chính. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 dấu thời gian người dùng}other{# dấu thời gian người dùng}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "Các thời điểm cụ thể và khoảng thời gian được ghi lại bằng API Thời gian người dùng"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "Xem xét thêm các gợi ý về tài nguyên kết nối trước hoặc tìm nạp DNS trước để thiết lập các kết nối sớm tới các miền quan trọng của bên thứ ba. [Tìm hiểu thêm](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "Kết nối trước với các tên miền bắt buộc"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "Hãy xem xét sử dụng <link rel=preload> để ưu tiên tìm nạp tài nguyên đang được yêu cầu vào một thời điểm khác trong quá trình tải trang. [Tìm hiểu thêm](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "Tải trước các yêu cầu chính"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "Thông tin khác về hiệu suất ứng dụng của bạn."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "Chẩn đoán"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "Khía cạnh quan trọng nhất của hiệu suất là tốc độ hiển thị pixel nhanh chóng trên màn hình. Các chỉ số chính: Hình ảnh có nội dung đầu tiên, Hình ảnh có ý nghĩa đầu tiên"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "Các thao tác để cải thiện thời gian hiển thị hình ảnh đầu tiên"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "Những đề xuất tối ưu hóa này có thể tăng tốc độ tải trang của bạn."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "Cơ hội"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "Các chỉ số"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "Cải thiện trải nghiệm tải tổng thể để trang phản hồi và sẵn sàng cho bạn sử dụng sớm nhất có thể. Các số liệu chính: Thời điểm tương tác, Chỉ mục tốc độ"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "Các thao tác để cải thiện hiệu suất tổng thể"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "Hiệu suất"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "Thời gian tồn tại (TTL) của bộ nhớ đệm"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "Kích thước (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "Thời gian sử dụng"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "Số byte có thể tiết kiệm được (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "Thời lượng có thể tiết kiệm được (mili giây)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "Số byte có thể tiết kiệm được là {wastedBytes, number, bytes} KB"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "Thời lượng có thể tiết kiệm được là {wastedMs, number, milliseconds} mili giây"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} mili giây"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "Hiển thị kết quả kiểm tra"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "Lỗi!"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "Lỗi báo cáo: không có thông tin kiểm tra"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "Các mục bổ sung cần kiểm tra theo cách thủ công"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "Không áp dụng"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "Cơ hội"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "Thời lượng tiết kiệm được theo ước tính"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "Số lần kiểm tra đạt yêu cầu"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "Thang điểm:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Đã xảy ra sự cố ảnh hưởng đến lần chạy Lighthouse này:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "Các giá trị chỉ là ước tính và có thể thay đổi."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "Cảnh báo: "
+  }
+}

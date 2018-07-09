@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "ส่วนขยาย Chrome ส่งผลเสียต่อประสิทธิภาพในการโหลดของหน้านี้ ลองตรวจสอบหน้าในโหมดไม่ระบุตัวตนหรือจากโปรไฟล์ Chrome ที่ไม่มีส่วนขยาย"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "การประเมินสคริปต์"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "การแยกวิเคราะห์สคริปต์"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "รวม"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "พิจารณาลดเวลาที่ใช้ในการแยกวิเคราะห์ แปลโปรแกรม และดำเนินการกับ JS การส่งเปย์โหลด JS ปริมาณน้อยอาจช่วยในเรื่องนี้ได้ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/bootup)"
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "ลดเวลาในการดำเนินการกับ JavaScript"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "เวลาในการดำเนินการกับ JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "GIF ขนาดใหญ่ไม่มีประสิทธิภาพในการแสดงเนื้อหาภาพเคลื่อนไหว พิจารณาใช้วิดีโอ MPEG4/WebM สำหรับภาพเคลื่อนไหวและใช้ PNG/WebP สำหรับภาพนิ่งแทน GIF เพื่อประหยัดไบต์ของเครือข่าย [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "ใช้รูปแบบวิดีโอสำหรับเนื้อหาภาพเคลื่อนไหว"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "พิจารณาโหลดรูปภาพนอกหน้าจอและรูปภาพที่ซ่อนไว้เท่าที่จำเป็นหลังจากที่ทรัพยากรที่สำคัญทั้งหมดโหลดเสร็จแล้วเพื่อลดเวลาในการโต้ตอบ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "เลื่อนเวลาโหลดรูปภาพนอกจอภาพ"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "ทรัพยากรบล็อกการแสดงผลครั้งแรกของหน้าเว็บอยู่ พิจารณาแสดง JS/CSS ที่สำคัญในหน้าและเลื่อนเวลาแสดง JS/สไตล์ที่ไม่สำคัญทั้งหมดออกไป [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "กำจัดทรัพยากรที่บล็อกการแสดงผล"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "เปย์โหลดปริมาณมากของเครือข่ายทำให้ผู้ใช้เสียค่าใช้จ่ายสูงและสัมพันธ์กับเวลาการโหลดนานเป็นอย่างมาก [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "ขนาดรวมเดิมคือ {totalBytes, number, bytes} KB"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "หลีกเลี่ยงเปย์โหลดเครือข่ายปริมาณมาก"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "หลีกเลี่ยงเปย์โหลดเครือข่ายปริมาณมาก"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "การลดขนาดไฟล์ CSS ช่วยลดขนาดเปย์โหลดของเครือข่ายได้ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/minify-css)"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "ลดขนาด CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "การลดขนาดไฟล์ JavaScript ช่วยลดขนาดเปย์โหลดและเวลาในการแยกวิเคราะห์สคริปต์ได้ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/speed/docs/insights/MinifyResources)"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "ลดขนาด JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "นำกฎที่ไม่ได้ใช้ออกจากสไตล์ชีตเพื่อลดจำนวนไบต์ที่ไม่จำเป็นที่กิจกรรมเครือข่ายใช้ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/unused-css)"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "เลื่อนเวลาโหลด CSS ที่ไม่ได้ใช้"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "นำ JavaScript ที่ไม่ได้ใช้ออกเพื่อลดจำนวนไบต์ที่กิจกรรมเครือข่ายใช้"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "นำ JavaScript ที่ไม่ได้ใช้ออก"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "อายุการใช้งานแคชที่ยาวนานช่วยเพิ่มการเข้าชมหน้าเว็บซ้ำได้ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{พบทรัพยากร 1 รายการ}other{พบทรัพยากร # รายการ}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "แสดงเนื้อหาคงที่ที่มีนโยบายแคชที่มีประสิทธิภาพ"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "ใช้นโยบายแคชที่มีประสิทธิภาพกับเนื้อหาคงที่"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "รูปภาพที่ได้รับการเพิ่มประสิทธิภาพจะโหลดได้เร็วขึ้นและใช้อินเทอร์เน็ตมือถือน้อยลง [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "เข้ารหัสรูปภาพอย่างมีประสิทธิภาพ"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "แสดงรูปภาพที่มีขนาดเหมาะสมเพื่อประหยัดอินเทอร์เน็ตมือถือและปรับปรุงเวลาในการโหลด [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "ปรับขนาดรูปภาพให้เหมาะสม"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "ทรัพยากรแบบข้อความควรแสดงผลโดยมีการบีบอัด (Gzip, Deflate หรือ Brotli) เพื่อลดจำนวนไบต์เครือข่ายทั้งหมด [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/text-compression)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "เปิดใช้การบีบอัดข้อความ"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "รูปแบบรูปภาพอย่างเช่น JPEG 2000, JPEG XR และ WebP มักบีบอัดได้ดีกว่า PNG หรือ JPEG ซึ่งหมายความว่าจะดาวน์โหลดได้เร็วขึ้นและใช้อินเทอร์เน็ตน้อยลง [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/webp)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "แสดงรูปภาพในรูปแบบสมัยใหม่"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "ห่วงโซ่คำขอที่สำคัญด้านล่างแสดงให้เห็นทรัพยากรที่ออกโดยมีลำดับความสำคัญสูง พิจารณาลดความยาวของห่วงโซ่ ลดขนาดการดาวน์โหลดของทรัพยากร หรือเลื่อนเวลาการดาวน์โหลดทรัพยากรที่ไม่จำเป็นเพื่อปรับปรุงการโหลดหน้าเว็บ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{พบห่วงโซ่ 1 รายการ}other{พบห่วงโซ่ # รายการ}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "ลดความลึกของคำขอที่สำคัญ"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "ความลึก DOM สูงสุด"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "โหนด DOM ทั้งหมด"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "รายการย่อยสูงสุด"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "วิศวกรเบราว์เซอร์แนะนำให้ใช้หน้าเว็บที่มีโหนด DOM น้อยกว่าประมาณ 1,500 รายการ ความลึกที่เหมาะที่สุดคือแบบต้นไม้ซึ่งมีองค์ประกอบน้อยกว่า 32 รายการและมีองค์ประกอบย่อย/หลักน้อยกว่า 60 รายการ DOM ขนาดใหญ่อาจใช้หน่วยความจำเพิ่มขึ้น ทำให้[การคำนวณสไตล์](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations)ยาวนานขึ้น และสร้าง[การจัดเรียงการออกแบบใหม่](https://developers.google.com/speed/articles/reflow)ที่ต้องใช้ค่าใช้จ่ายสูง [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/dom-size)"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 โหนด}other{# โหนด}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "หลีกเลี่ยง DOM ที่มีขนาดใหญ่เกินไป"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "หลีกเลี่ยง DOM ที่มีขนาดใหญ่เกินไป"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "ใช้ประโยชน์จากฟีเจอร์ CSS สำหรับแสดงแบบอักษรเพื่อให้ผู้ใช้มองเห็นข้อความได้ในขณะที่กำลังโหลดเว็บฟอนต์ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/updates/2016/02/font-display)"
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "ตรวจสอบว่าข้อความจะยังมองเห็นได้ในระหว่างการโหลดเว็บฟอนต์"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "ข้อความทั้งหมดจะยังมองเห็นได้ในระหว่างการโหลดเว็บฟอนต์"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "หมวดหมู่"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "พิจารณาลดเวลาที่ใช้ในการแยกวิเคราะห์ แปลโปรแกรม และดำเนินการกับ JS การส่งเปย์โหลด JS ปริมาณน้อยอาจช่วยในเรื่องนี้ได้"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "ลดการทำงานของเธรดหลัก"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "ลดการทำงานของเธรดหลัก"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "คะแนนข้างต้นเป็นระยะเวลาโดยประมาณที่แอปใช้เพื่อตอบสนองอินพุตของผู้ใช้ระหว่างการโหลดหน้าเว็บในกรอบเวลา 5 วินาทีที่ทำงานหนักที่สุด มีหน่วยเป็นมิลลิวินาที หากเวลาในการตอบสนองนานกว่า 50 มิลลิวินาที ผู้ใช้อาจรู้สึกว่าแอปช้า [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "เวลาในการตอบสนองต่ออินพุตโดยประมาณ"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "การแสดงผลที่มีเนื้อหาเต็มครั้งแรกระบุเวลาที่มีการแสดงผลข้อความหรือรูปภาพครั้งแรก [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "การแสดงผลที่มีเนื้อหาเต็มครั้งแรก"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "CPU ไม่ได้ใช้งานครั้งแรกระบุครั้งแรกที่เธรดหลักของหน้าเว็บว่างพอที่จะจัดการกับอินพุต [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "CPU ไม่ได้ใช้งานครั้งแรก"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "การแสดงผลที่มีความหมายครั้งแรกวัดเมื่อเนื้อหาหลักของหน้าเว็บปรากฏ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "การแสดงผลที่มีความหมายครั้งแรก"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "การโต้ตอบระบุเวลาที่หน้าเว็บโต้ตอบได้อย่างสมบูรณ์ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "เวลาในการโต้ตอบ"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "ดัชนีความเร็วแสดงให้เห็นความเร็วที่เนื้อหาของหน้าปรากฏจนดูสมบูรณ์ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/speed-index)"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "ดัชนีความเร็ว"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "การเปลี่ยนเส้นทางทำให้เกิดความล่าช้ามากขึ้นก่อนที่หน้าเว็บจะโหลดได้ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/redirects)"
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "หลีกเลี่ยงการเปลี่ยนเส้นทางหลายหน้า"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "เวลาที่ใช้ไบต์แรกระบุเวลาที่เซิร์ฟเวอร์ส่งการตอบกลับ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/ttfb)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "เอกสารรากใช้เวลา {timeInMs, number, milliseconds} มิลลิวินาที"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "ลดเวลาในการตอบกลับของเซิร์ฟเวอร์ (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "เวลาตอบสนองของเซิร์ฟเวอร์ต่ำ (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "พิจารณาติดตั้ง User Timing API ในแอปเพื่อสร้างการวัดประสบการณ์สำคัญของผู้ใช้ซึ่งคุณกำหนดเองและในชีวิตจริงได้ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/user-timing)"
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{ระยะเวลาของผู้ใช้ 1 รายการ}other{ระยะเวลาของผู้ใช้ # รายการ}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "ระยะเวลาที่เจาะจงของผู้ใช้และระยะเวลาทั่วไป"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "พิจารณาเพิ่มการเชื่อมต่อล่วงหน้าหรือดึงข้อมูล DNS ล่วงหน้าสำหรับการเปลี่ยนแปลงทรัพยากรเพื่อสร้างการเชื่อมต่อกับต้นทางที่สำคัญของบุคคลที่สามตั้งแต่เนิ่นๆ [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "เชื่อมต่อกับต้นทางที่จำเป็นล่วงหน้า"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "พิจารณาใช้ <link rel=preload> เพื่อจัดลำดับความสำคัญในการเรียกทรัพยากรที่มีการขอให้โหลดหน้าเว็บภายหลัง [ดูข้อมูลเพิ่มเติม](https://developers.google.com/web/tools/lighthouse/audits/preload)"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "โหลดคำขอสำคัญล่วงหน้า"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "ข้อมูลเพิ่มเติมเกี่ยวกับประสิทธิภาพของแอปพลิเคชัน"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "การวินิจฉัย"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "ประสิทธิภาพที่สำคัญที่สุดคือความเร็วที่พิกเซลแสดงผลในหน้าจอ เมตริกที่สำคัญ ได้แก่ การแสดงผลที่มีเนื้อหาเต็มครั้งแรก การแสดงผลที่มีความหมายครั้งแรก"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "การปรับปรุงการแสดงผลครั้งแรก"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "การเพิ่มประสิทธิภาพเหล่านี้เพิ่มความเร็วในการโหลดหน้าเว็บได้"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "โอกาส"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "เมตริก"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "ปรับปรุงประสบการณ์ในการโหลดโดยรวมเพื่อให้หน้าเว็บตอบสนองและพร้อมใช้งานโดยเร็วที่สุด เมตริกที่สำคัญ ได้แก่ เวลาในการโต้ตอบ ดัชนีความเร็ว"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "การปรับปรุงโดยรวม"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "ประสิทธิภาพ"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "แคช TTL"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "ขนาด (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "เวลาที่ใช้"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "ไบต์ที่อาจประหยัดได้ (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "เวลาที่อาจประหยัดได้ (มิลลิวินาที)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "อาจประหยัดได้ {wastedBytes, number, bytes} KB"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "อาจประหยัดเวลาได้ {wastedMs, number, milliseconds} มิลลิวินาที"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} มิลลิวินาที"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "แสดงการตรวจสอบ"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "ข้อผิดพลาด!"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "ข้อผิดพลาดในรายงาน: ไม่มีข้อมูลการตรวจสอบ"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "รายการเพิ่มเติมที่ควรตรวจสอบด้วยตนเอง"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "ไม่เกี่ยวข้อง"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "โอกาส"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "เวลาที่ประหยัดได้โดยประมาณ"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "การตรวจสอบที่ผ่านแล้ว"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "ระดับคะแนน"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "เกิดปัญหาที่มีผลต่อการทำงานนี้ของ Lighthouse"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "ค่ามาจากการประมาณและอาจแตกต่างกันไป"
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "คำเตือน "
+  }
+}

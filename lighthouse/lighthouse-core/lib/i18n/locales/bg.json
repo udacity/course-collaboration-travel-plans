@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Зареждането на тази страница се забавя от разширения за Chrome. Опитайте да я проверите в режим „инкогнито“ или от потребителски профил в Chrome без инсталирани разширения."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "Проверка на скрипта"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "Синтактичен анализ на скрипта"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "Общо"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "Препоръчваме да намалите времето, прекарвано в синтактичен анализ, компилиране и изпълнение на JS. Използването на JS ресурси с по-малък размер може да помогне за това. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "Намалете времето за изпълнение на JavaScript"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "Време за изпълнение на JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "Големите GIF файлове не са ефективни за показване на анимирано съдържание. Вместо това препоръчваме да използвате видеоклипове във формат MPEG4/WebM за анимации и PNG/WebP за статични изображения, за да намалите преноса на данни. [Научете повече](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "Използвайте видеоформати за анимираното съдържание"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "За да намалите времето до интерактивност, препоръчваме скритите изображения и тези извън видимата част на екрана да се зареждат след всички критични ресурси. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "Отложете зареждането на изображенията извън видимата част на екрана"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "Ресурси блокират първото изобразяване на страницата ви. Препоръчваме да вградите критичните JS/CSS елементи и да отложите зареждането на всички некритични JS/стилове. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "Елиминирайте ресурсите, които блокират изобразяването"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "Мрежовите ресурси с голям размер струват пари на потребителите и са тясно свързани с бавното зареждане. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "Общият размер бе {totalBytes, number, bytes} КБ"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "Не използвайте мрежови ресурси с голям размер"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "Не се използват мрежови ресурси с голям размер"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "Минимизирането на файловете със CSS може да намали размера на мрежовите ресурси. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "Минимизирайте CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "Минимизирането на файловете с JavaScript може да намали размера на ресурсите и времето за синтактичен анализ на скрипта. [Научете повече](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "Минимизирайте JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "Премахнете неизползваните правила от стиловите листове, за да намалите ненужния пренос на данни при мрежовата активност. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "Отложете зареждането на неизползваните CSS стилове"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "Премахнете неизползвания JavaScript, за да намалите преноса на данни при мрежовата активност."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "Премахнете неизползвания JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "Продължителното съхраняване на кеша може да ускори повторните посещения на страницата ви. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{Намерен е 1 ресурс}other{Намерени са # ресурса}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "Използвайте ефективни правила за кеша, за да улесните показването на статичните активи"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "Използват се ефективни правила за кеширане на статичните активи"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "Оптимизираните изображения се зареждат по-бързо и използват по-малко мобилни данни. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "Кодирайте изображенията ефективно"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "Показвайте правилно оразмерени изображения, за да пестите мобилни данни и да ускорите зареждането. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "Оразмерете изображенията правилно"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "При показването на текстови ресурси трябва да се използва компресиране (gzip, deflate или brotli), за да се намали общият пренос на данни. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "Активирайте компресирането на текста"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "Графичните формати, като JPEG 2000, JPEG XR и WebP, често осигуряват по-ефективно компресиране от PNG или JPEG. Това означава по-бързо изтегляне и използване на по-малко данни. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "Използвайте съвременни формати за показване на изображения"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "Веригите от критични заявки по-долу ви показват кои ресурси са с висок приоритет. За да ускорите зареждането на страницата, препоръчваме да скъсите веригите, да намалите размера за изтегляне на ресурсите или да отложите изтеглянето на ненужните от тях. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{Намерена е 1 верига}other{Намерени са # вериги}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "Намалете дълбочината на критичните заявки"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "Максимална дълбочина на DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "Общ брой възли на DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "Максимален брой дъщерни елементи"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "Браузърните инженери препоръчват страниците да съдържат под ~ 1500 възела на DOM. Най-добре е йерархичната структура да е с дълбочина под 32 елемента и всеки родителски елемент да има по-малко от 60 дъщерни. Големият размер на DOM може да доведе до използване на повече памет, удължаване на [стиловите изчисления](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations) и забавяне поради [преоформяне](https://developers.google.com/speed/articles/reflow). [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 възел}other{# възела}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "Не използвайте DOM с твърде голям размер"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "Не се използва DOM с твърде голям размер"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "Използвайте функцията font-display на CSS, така че текстът да е видим за потребителите при зареждането на уеб шрифтовете. [Научете повече](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "Уверете се, че текстът остава видим при зареждането на уеб шрифтовете"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "Целият текст остава видим при зареждането на уеб шрифтовете"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "Категория"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "Препоръчваме да намалите времето, прекарвано в синтактичен анализ, компилиране и изпълнение на JS. Използването на JS ресурси с по-малък размер може да помогне за това."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "Сведете до минимум работата по основната нишка"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "Работата по основната нишка е сведена до минимум"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "Резултатът по-горе показва приблизително колко време (в милисекунди) е необходимо на приложението ви, за да реагира на входящо потребителско действие по време на най-натоварения 5-секунден период от зареждането на страницата. Ако забавянето е над 50 мсек, приложението ви може да се стори бавно на потребителите. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "Прогнозно забавяне при входящо действие"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "Показателят „Първо изобразяване на съдържание“ указва след колко време се изобразява първият текстов или графичен елемент. [Научете повече](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "Първо изобразяване на съдържание"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "Показателят „Първи момент на неактивност на процесора“ указва първия момент, в който основната нишка на страницата е достатъчно свободна, за да обработва входящи действия. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "Първи момент на неактивност на процесора"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "Показателят „Първо значимо изобразяване“ измерва времето, за което основното съдържание на страницата става видимо. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "Първо значимо изобразяване"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "Показателят „Време до интерактивност“ указва колко време отнема постигането на пълна интерактивност за страницата. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "Време до интерактивност"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "Индексът на скоростта показва колко бързо се постига визуална завършеност на страницата. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "Индекс на скоростта"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "Пренасочванията водят до допълнително забавяне на зареждането на страницата. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "Не използвайте пренасочвания през няколко страници"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "Показателят „Време до първия байт“ указва след колко време сървърът изпраща отговор. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "Основният документ отне {timeInMs, number, milliseconds} мсек"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "Намалете времето за отговор от сървъра (време до първия байт)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "Сървърът отговаря бързо (време до първия байт)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "Препоръчваме да използвате API за разбивка на потребителските времена за приложението си, за да се възползвате от персонализирани, действителни измервания на ключови аспекти от практическата работа на потребителите. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 потребителско време}other{# потребителски времена}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "Точки и измервания в разбивката на потребителските времена"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "Препоръчваме да добавите подсказки за предварително свързване или предварително извличане на DNS за ресурсите с цел ранно установяване на връзка с важни източници на трети страни. [Научете повече](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "Осигурете предварително свързване с необходимите източници"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "Препоръчваме да използвате <link rel=preload>, за да укажете най-напред да се извличат ресурсите, които понастоящем се заявяват на по-късен етап от зареждането на страницата. [Научете повече](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "Задайте ключовите заявки да се зареждат предварително"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "Повече информация за ефективността на приложението ви."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "Диагностика"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "Най-критичният аспект на ефективността е времето, за което пикселите се изобразяват на екрана. Ключови показатели: първо изобразяване на съдържание, първо значимо изобразяване"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "Подобрения, свързани с първото изобразяване"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "Тези оптимизации могат да ускорят зареждането на страницата."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "Възможности"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "Показатели"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "Подобрете зареждането като цяло, така че страницата да реагира бързо и да е готова за използване възможно най-скоро. Ключови показатели: време до интерактивност, индекс на скоростта"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "Цялостни подобрения"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "Ефективност"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "Време на валидност на кеша"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "Размер (КБ)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "Прекарано време"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL адрес"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "Потенциална икономия (КБ)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "Потенциална икономия (мсек)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "Потенциално спестяване на {wastedBytes, number, bytes} КБ"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "Потенциално спестяване на {wastedMs, number, milliseconds} мсек"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} мсек"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "Показване на проверките"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "Грешка!"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "Грешка в отчета: няма информация за проверката"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "Допълнителни елементи, които да проверите ръчно"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "Не е приложимо"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "Възможност"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "Прогнозна икономия"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "Успешно преминати проверки"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "Скала на резултата:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Възникнаха проблеми при изготвянето на този отчет от Lighthouse:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "Стойностите са прогнозни и може да варират."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "Предупреждения: "
+  }
+}

@@ -1,0 +1,50 @@
+/**
+ * @license Copyright 2016 Google Inc. All Rights Reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+ */
+'use strict';
+
+/* eslint-disable no-console */
+
+const log = require('lighthouse-logger');
+
+/** @type {Array<{type: 'log'|'warn'|'error', args: any[], prefix: string}>} */
+let _logs = [];
+
+class ConsoleQuieter {
+  /** @param {{prefix: string}} opts */
+  static mute(opts) {
+    _logs = _logs || [];
+
+    /** @param {any[]} args */
+    console.log = function(...args) {
+      _logs.push({type: 'log', args, prefix: opts.prefix});
+    };
+    /** @param {any[]} args */
+    console.warn = function(...args) {
+      _logs.push({type: 'warn', args, prefix: opts.prefix});
+    };
+    /** @param {any[]} args */
+    console.error = function(...args) {
+      _logs.push({type: 'error', args, prefix: opts.prefix});
+    };
+  }
+
+  static unmuteAndFlush() {
+    console.log = ConsoleQuieter._consolelog;
+    console.warn = ConsoleQuieter._consolewarn;
+    console.error = ConsoleQuieter._consoleerror;
+
+    _logs.forEach(entry => {
+      log.verbose(`${entry.prefix}-${entry.type}`, ...entry.args);
+    });
+    _logs = [];
+  }
+}
+
+ConsoleQuieter._consolelog = console.log.bind(console);
+ConsoleQuieter._consolewarn = console.warn.bind(console);
+ConsoleQuieter._consoleerror = console.error.bind(console);
+
+module.exports = ConsoleQuieter;

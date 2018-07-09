@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Lobster Three';
+  font-style: normal;
+  font-weight: 700;
+  src: url("http://localhost:10503/perf/lobster-two-v10-latin-700.woff2?cors=true") format('woff2');
+}
+.corsfont {
+  font-family: "Lobster Three", sans-serif;
+  color: red;
+}

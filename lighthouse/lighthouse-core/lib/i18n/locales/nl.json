@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Chrome-extensies hadden een negatieve invloed op de laadprestaties van deze pagina. Controleer de pagina in de incognitomodus of via een schoon Chrome-profiel."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "Scriptevaluatie"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "Script parseren"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "Totaal"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "Overweeg minder tijd te besteden aan het parseren, compileren en uitvoeren van JS. Het leveren van kleinere JS-payloads kan hierbij helpen. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "Verkort de JavaScript-uitvoeringstijd"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "JavaScript-uitvoeringstijd"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "Grote gif's zijn niet efficiënt om content met animaties te leveren. Overweeg in plaats van gif's MPEG4-/WebM-video's voor animaties en PNG/WebP voor statische afbeeldingen en bespaar zo netwerkbytes. [Meer informatie](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "Gebruik video-indelingen voor content met animaties"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "Overweeg afbeeldingen die niet in beeld zijn en verborgen afbeeldingen via 'lazy loading' te laden nadat alle kritieke bronnen zijn geladen om zo de tijd tot interactief te verlagen. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "Laad afbeeldingen die niet in beeld zijn nog niet"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "Bronnen blokkeren de eerste tekenbewerking voor je pagina. Overweeg kritieke JS/css inline te leveren en alle niet-kritieke JS/stijlen uit te stellen. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "Verwijder bronnen die de weergave blokkeren"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "Grote netwerkpayloads kosten gebruikers veel geld en hebben vaak lange laadtijden. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "Totale grootte was {totalBytes, number, bytes} KB"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "Vermijd enorme netwerkpayloads"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "Vermijdt enorme netwerkpayloads"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "Als je css-bestanden verkleint, kun je de omvang van netwerkpayloads verkleinen. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "Verklein de css"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "Als je JavaScript-bestanden verkleint, kunnen de omvang van de payload en de parseringstijd van het script worden verkleind. [Meer informatie](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "Verklein JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "Verwijder niet-gebruikte regels uit stylesheets om het aantal onnodige bytes te verminderen die worden verbruikt door netwerkactiviteit. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "Stel niet-gebruikte css uit"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "Verwijder ongebruikt JavaScript om het aantal bytes te verminderen dat wordt verbruikt door netwerkactiviteit."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "Verwijder ongebruikt JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "Een lange levensduur voor het cachegeheugen kan herhaalde bezoeken aan je pagina versnellen. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 bron gevonden}other{# bronnen gevonden}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "Lever statische items met een efficiënt cachebeleid"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "Gebruikt een efficiënt cachebeleid voor statische items"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "Geoptimaliseerde afbeeldingen worden sneller geladen en verbruiken minder mobiele data. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "Codeer afbeeldingen op een efficiënte manier"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "Lever afbeeldingen met het juiste formaat om mobiele data te besparen en de laadtijd te verbeteren. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "Geef afbeeldingen het juiste formaat"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "Tekstgebaseerde bronnen moeten worden geleverd met compressie (gzip, deflate of brotli) om het totale aantal netwerkbytes te minimaliseren. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "Schakel tekstcompressie in"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "Afbeeldingsindelingen zoals JPEG 2000, JPEG XR en WebP bieden vaak betere compressie dan PNG of JPEG. Dit resulteert in snellere downloads en minder dataverbruik. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "Lever afbeeldingen in moderne indelingen"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "De onderstaande kritieke verzoekketens laten zien welke bronnen met een hoge prioriteit worden uitgegeven. Overweeg de lengte van ketens te verkleinen, de downloadgrootte van bronnen te beperken of het downloaden van onnodige bronnen uit te stellen om de laadtijd van de pagina te verbeteren. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 keten gevonden}other{# ketens gevonden}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "Minimaliseer de diepte van kritieke verzoeken"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "Maximum DOM-diepte"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "Totaal aantal DOM-knooppunten"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "Maximum aantal onderliggende elementen"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "Browser-engineers bevelen aan dat pagina's minder dan ~1500 DOM-knooppunten bevatten. De perfecte balans is een structuurdiepte van minder dan 32 elementen en minder dan 60 onderliggende/bovenliggende elementen. Een grote DOM kan ervoor zorgen dat het geheugengebruik toeneemt. Dit leidt tot langere [stijlberekeningen](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations) en produceert dure [dynamische lay-outaanpassingen](https://developers.google.com/speed/articles/reflow). [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 knooppunt}other{# knooppunten}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "Vermijd een overmatig grote DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "Vermijdt een overmatige grote DOM"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "Maak gebruik van de css-functie 'font-display' om ervoor te zorgen dat tekst zichtbaar is voor gebruikers terwijl weblettertypen worden geladen. [Meer informatie](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "Zorg ervoor dat tekst zichtbaar blijft tijdens het laden van weblettertypen"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "Alle tekst blijft zichtbaar tijdens het laden van weblettertypen"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "Categorie"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "Overweeg minder tijd te besteden aan het parseren, compileren en uitvoeren van JS. Het leveren van kleinere JS-payloads kan hierbij helpen."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "Minimaliseer primaire thread-bewerkingen"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "Minimaliseert primaire thread-bewerkingen"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "De bovenstaande score is een schatting van hoelang het duurt voordat je app reageert op gebruikersinvoer (in milliseconden) gedurende de drukste periode van 5 seconden tijdens het laden van de pagina. Als de wachttijd langer dan 50 ms is, kunnen gebruikers je app als traag beschouwen. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "Geschatte invoerwachttijd"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "'Eerste tekenbewerking met content' geeft het tijdstip aan waarop de eerste tekst of afbeelding is weergegeven. [Meer informatie](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "Eerste tekenbewerking met content"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "'Eerste keer dat CPU inactief was' geeft de eerste keer aan dat de primaire thread van de pagina rustig genoeg was om invoer te verwerken. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "Eerste keer dat CPU inactief was"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "'Eerste zinvolle tekenbewerking' meet wanneer de primaire content van een pagina zichtbaar is. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "Eerste zinvolle tekenbewerking"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "Interactief geeft het tijdstip aan waarop de pagina volledig interactief is. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "Tijd tot interactief"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "Snelheidsindex laat zien hoe snel de content van een pagina zichtbaar is. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "Snelheidsindex"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "Omleidingen zorgen voor extra vertraging voordat de pagina kan worden geladen. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "Vermijd meerdere pagina-omleidingen"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "'Tijd tot eerste byte' identificeert het tijdstip waarop je server een reactie stuurt. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "Hoofddocument duurde {timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "Beperk serverreactietijden (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "Serverreactietijden zijn laag (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "Overweeg je app te voorzien van de API voor gebruikerstiming voor aangepaste, echte metingen van belangrijke gebruikerservaringen. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 gebruikerstiming}other{# gebruikerstimings}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "Markeringen en metingen voor gebruikerstiming"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "Overweeg hints voor het vooraf verbinden of dns-prefetchen van bronnen toe te voegen om vroege verbindingen met belangrijke externe herkomsten tot stand te brengen. [Meer informatie](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "Maak vooraf verbinding met vereiste herkomsten"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "Overweeg <link rel=preload> te gebruiken om prioriteit te geven aan het ophalen van bronnen die momenteel later tijdens het laden van de pagina worden opgehaald. [Meer informatie](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "Laad belangrijke verzoeken vooraf"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "Meer informatie over de prestaties van je app."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "Diagnostische gegevens"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "Het meest essentiële aspect van de prestaties is hoe snel pixels worden weergegeven op het scherm. Belangrijkste statistieken: Eerste tekenbewerking met content, Eerste zinvolle tekenbewerking"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "Verbeteringen voor eerste tekenbewerking"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "Deze optimalisaties kunnen het laden van je pagina versnellen."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "Aanbevelingen"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "Statistieken"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "Verbeter de algemene laadfunctionaliteit, zodat de pagina zo snel mogelijk reageert en gebruiksklaar is. Belangrijkste statistieken: Tijd tot interactief, Snelheidsindex"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "Algemene verbeteringen"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "Prestaties"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "Cache-TTL"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "Grootte (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "Bestede tijd"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "Potentiële besparing (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "Potentiële besparing (ms)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "Potentiële besparing van {wastedBytes, number, bytes} KB"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "Potentiële besparing van {wastedMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "Controles weergeven"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "Fout"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "Rapportfout: geen controlegegevens"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "Aanvullende items om handmatig te controleren"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "N.v.t."
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "Aanbeveling"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "Geschatte besparing"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "Geslaagde controles"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "Scoreschaal:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Er zijn problemen opgetreden bij deze uitvoering van Lighthouse:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "Waarden worden geschat en kunnen variëren."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "Waarschuwingen: "
+  }
+}

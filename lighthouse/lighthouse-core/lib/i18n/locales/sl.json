@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Razširitve za Chrome so negativno vplivale na nalaganje te strani. Poskusite pregledati to stran v načinu brez beleženja zgodovine ali v profilu za Chrome brez razširitev."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "Ocenjevanje skripta"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "Razčlenitev skripta"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "Skupno"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "Razmislite o skrajšanju časa, ki ga porabite za razčlenjevanje, prevajanje in izvajanje JavaScripta. Ugotovili boste, da vam lahko pri tem pomaga dostavljanje manjših paketov koristne vsebine JavaScript. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "Skrajšajte čas izvajanja JavaScripta"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "Čas izvajanja JavaScripta"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "Veliki GIF-i so neučinkoviti za dostavljanje animirane vsebine. Razmislite o uporabi videoposnetkov MPEG4/WebM za animacije in slik PNG/WebP za statične slike namesto GIF-ov, s čimer prihranite omrežne bajte. [Več o tem](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "Uporabite oblike zapisa videoposnetkov za animirano vsebino"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "Razmislite o odloženem nalaganju slik zunaj zaslona in skritih slik po dokončanem nalaganju kritičnih sredstev zaradi skrajšanja časa do interaktivnosti strani. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "Odložite nalaganje slik, ki so zunaj zaslona"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "Sredstva blokirajo prvo barvanje strani. Razmislite o sprotnem dostavljanju kritičnega JavaScripta/CSS-ja in odlaganju JavaScripta/slogov, ki ni oziroma niso kritični. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "Izločite sredstva, ki blokirajo upodabljanje"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "Veliki omrežni paketi koristne vsebine uporabnikom povzročajo dejanske stroške in so tesno povezani z dolgimi časi nalaganja. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "Skupna velikost je bila {totalBytes, number, bytes} KB"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "Izogibajte se velikanskim omrežnim paketom koristne vsebine"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "Izogiba se velikanskim omrežnim paketom koristne vsebine"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "Z zmanjšanjem datotek CSS-ja lahko zmanjšate velikosti paketov koristne vsebine. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "Zmanjšajte CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "Z zmanjšanjem datotek JavaScript lahko zmanjšate velikosti paketov koristne vsebine in skrajšate čas razčlenjevanja skriptov. [Več o tem](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "Pomanjšajte JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "Odstranite neuporabljena pravila iz datotek s slogi, da zmanjšate število nepotrebno uporabljenih bajtov v omrežni dejavnosti. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "Odložite neuporabljeni CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "Odstranite neuporabljeni JavaScript, če želite zmanjšati število bajtov, uporabljenih v omrežni dejavnosti."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "Odstranite neuporabljeni JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "Dolgotrajno predpomnjenje lahko pospeši vnovične obiske strani. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{Najdeno je bilo 1 sredstvo}one{Najdeno je bilo # sredstvo}two{Najdeni sta bili # sredstvi}few{Najdena so bila # sredstva}other{Najdenih je bilo # sredstev}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "Dostavljajte statična sredstva z učinkovitim pravilnikom o predpomnjenju"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "Uporaba pravilnika o učinkovitem predpomnjenju za statična sredstva"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "Optimizirane slike se nalagajo hitreje in terjajo manj prenesenih podatkov v mobilnih omrežjih. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "Učinkovito kodirajte slike"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "Prikazujte slike primerne velikosti, s čimer poskrbite za prihranek prenesenih podatkov v mobilnih omrežjih in izboljšate čas nalaganja. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "Uporabite slike ustrezne velikosti"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "Pri dostavi besedilnih sredstev uporabite stiskanje (gzip, deflate ali brotli) zaradi zmanjšanja skupnega števila omrežnih bajtov. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "Omogočite stiskanje besedila"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "Oblike zapisa slik, kot so JPEG 2000, JPEG XR in WebP, pogosto omogočajo učinkovitejše stiskanje kot oblika zapisa PNG ali JPEG, kar pomeni hitrejše prenose in manjšo porabo podatkov. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "Dostavljajte slike v sodobnih oblikah zapisa"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "Verige kritičnih zahtev spodaj vam prikazujejo, katera sredstva so izdana z visoko prednostjo. Razmislite o skrajšanju verig, zmanjšanju velikosti sredstev ali odlaganju prenosa nepotrebnih sredstev zaradi izboljšanja nalaganja strani. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{Najdena je bila 1 veriga}one{Najdena je bila # veriga}two{Najdeni sta bili # verigi}few{Najdene so bile # verige}other{Najdenih je bilo # verig}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "Zmanjšajte globino kritičnih zahtev"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "Največja globina DOM-a"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "Skupno število vozlišč DOM-a"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "Največ podrejenih"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "Inženirji za brskalnike priporočajo, da strani vsebujejo manj kot približno 1500 vozlišč DOM-a. Idealna vrednost je globina drevesa z manj kot 32 elementi in manj kot 60 podrejenimi/nadrejenimi elementi. Velik DOM lahko povzroči povečano uporabo pomnilnika, daljše [slogovne izračune](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations) in drage [prilagoditve postavitve](https://developers.google.com/speed/articles/reflow). [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 vozlišče}one{# vozlišče}two{# vozlišči}few{# vozlišča}other{# vozlišč}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "Izogibajte se prekomerni velikosti DOM-a"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "Izogiba se prekomerni velikosti DOM-a"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "Izkoristite funkcijo CSS-ja za prikaz pisave, s čimer poskrbite, da je med nalaganjem spletne pisave besedilo vidno uporabnikom. [Več o tem](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "Poskrbite, da bo med nalaganjem spletne pisave besedilo ostalo vidno"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "Vse besedilo ostaja vidno med nalaganjem spletne pisave"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "Kategorija"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "Razmislite o skrajšanju časa, ki ga porabite za razčlenjevanje, prevajanje in izvajanje JavaScripta. Ugotovili boste, da vam lahko pri tem pomaga dostavljanje manjših paketov koristne vsebine JavaScript."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "Minimizirajte delo glavne niti"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "Minimizira delo glavne niti"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "Zgornji rezultat je ocena, koliko milisekund potrebuje vaša aplikacija za odziv na uporabnikovo dejavnost med najaktivnejšimi 5 sekundami pri nalaganju strani. Če je zakasnitev večja od 50 ms, se lahko uporabnikom zdi, da se aplikacija zatika. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "Ocenjena zakasnitev vnosa"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "Prvo vsebinsko barvanje označuje čas, ko je pobarvano prvo besedilo oziroma je pobarvana prva slika. [Več o tem](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "Prvo vsebinsko barvanje"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "Prva nedejavnost CPE-ja označuje čas, po katerem je glavna nit strani dovolj neobremenjena, da lahko obravnava vnos. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "Prva nedejavnost CPE-ja"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "Prvo smiselno barvanje meri, kdaj je vidna glavna vsebina strani. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "Prvo smiselno barvanje"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "Interaktivnost označuje čas, po katerem je stran v celoti interaktivna. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "Čas do interaktivnosti"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "Indeks hitrosti prikazuje, kako hitro je vsebina strani vidno izpolnjena. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "Indeks hitrosti"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "Preusmeritve vnašajo dodatne zakasnitve nalaganja strani. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "Izogibajte se preusmeritvam na več strani"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "»Čas do prvega bajta« navaja čas, v katerem vaš strežnik pošlje odziv. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "Korenski dokument je terjal {timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "Skrajšajte odzivne čase strežnika (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "Odzivni časi strežnika so nizki (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "Razmislite o uporabi API-ja za spremljanje trajanja izvedb uporabniških dogodkov (User Timing API), če želite ustvariti meritve po meri, ki bodo merile dejanske ključne uporabniške izkušnje. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 trajanje izvedbe uporabniških dogodkov}one{# trajanje izvedbe uporabniških dogodkov}two{# trajanji izvedbe uporabniških dogodkov}few{# trajanja izvedbe uporabniških dogodkov}other{# trajanj izvedbe uporabniških dogodkov}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "Oznake in merjenja trajanj izvedbe uporabniških dogodkov"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "Razmislite o dodajanju namigov za sredstva za vnaprejšnje povezovanje ali vnaprejšnji prenos DNS-ja zaradi vzpostavljanja zgodnjih povezav s pomembnimi izvori tretjih oseb. [Več o tem](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "Vnaprej se povežite z zahtevanimi izvori"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "Razmislite o uporabi oznake <link rel=preload> za dodeljevanje višje stopnje prednosti pri pridobivanju sredstev, ki so trenutno zahtevana pri nadaljnjem nalaganju strani. [Več o tem](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "Vnaprej nalagajte ključne zahteve"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "Več informacij o delovanju aplikacije."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "Diagnostika"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "Bistveni vidik delovanja je, kako hitro se upodabljajo slikovne pike na zaslonu. Ključni meritvi: Prvo vsebinsko barvanje, Prvo smiselno barvanje"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "Izboljšave prvega barvanja"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "Te optimizacije lahko pospešijo nalaganje strani."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "Priložnosti"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "Meritve"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "Izboljšajte splošno izkušnjo nalaganja, da bo stran odzivna in čim prej pripravljena na uporabo. Ključni meritvi: Čas do interaktivnosti, Indeks hitrosti"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "Splošne izboljšave"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "Delovanje"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "TTL predpomnjenja"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "Velikost (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "Porabljeni čas"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "Morebitni prihranek (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "Morebitni prihranki (ms)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "{wastedBytes, number, bytes} KB morebitnega prihranka"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "{wastedMs, number, milliseconds} ms morebitnega prihranka"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "Pokaži preglede"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "Napaka"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "Napaka sporočila: ni podatkov o pregledu"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "Dodatni elementi za ročno preverjanje"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "Se ne uporablja"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "Priložnost"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "Ocenjeni prihranek"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "Uspešni pregledi"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "Rezultatska lestvica:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Na to izvedbo storitve Lighthouse so vplivale težave:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "Vrednosti so ocenjene in lahko odstopajo."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "Opozorila: "
+  }
+}

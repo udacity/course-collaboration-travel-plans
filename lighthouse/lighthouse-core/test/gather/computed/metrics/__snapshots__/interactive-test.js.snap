@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Metrics: TTI should compute a simulated value 1`] = `
+Object {
+  "optimistic": 3351,
+  "pessimistic": 3502,
+  "timing": 3427,
+}
+`;

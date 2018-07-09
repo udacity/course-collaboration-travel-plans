@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Nagkaroon ng negatibong epekto ang mga extension ng Chrome sa performance ng pag-load ng page na ito. Subukang i-audit ang page sa incognito mode o mula sa isang malinis na profile sa Chrome."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "Pagsusuri ng Script"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "Pag-parse ng Script"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "Kabuuan"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "Pag-isipang bawasan ang oras na ginugugol sa pag-parse, pag-compile, at pagpapagana ng JS. Maaaring mapansin mong nakakatulong dito ang paghahatid ng mas maliliit na payload ng JS. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "Pabilisin ang pagpapagana ng JavaScript"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "Bilis ng pagpapagana ng JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "Hindi mahusay ang malalaking GIF sa paghahatid ng animated na content. Pag-isipang gumamit ng mga MPEG4/WebM na video para sa mga animation at PNG/WebP para sa mga static na larawan sa halip na GIF para makatipid sa mga byte ng network. [Matuto pa](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "Gumamit ng mga format ng video para sa animated na content"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "Pag-isipang i-lazy load ang mga larawang wala sa screen at nakatago kapag tapos nang mag-load ang lahat ng mahalagang resource para mapabilis ang time to interactive. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "Ipagpaliban ang mga larawang wala sa screen"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "Bina-block ng mga resource ang first paint ng iyong page. Pag-isipang ihatid ang mahalagang JS/CSS inline at ipagpaliban ang lahat ng hindi mahalagang JS/istilo. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "Alisin ang mga resource na nagba-block ng pag-render"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "Malaki ang nagagastos ng mga user sa malalaking payload ng network, at malaki ang kaugnayan ng mga ito sa matagal na pag-load. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "Ang kabuuang laki ay {totalBytes, number, bytes} KB"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "Iwasan ang malalaking payload ng network"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "Umiiwas sa malalaking payload ng network"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "Kapag pinaliit ang mga CSS file, maaaring lumiit ang payload ng network. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "Paliitin ang CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "Kapag pinaliit ang mga JavaScript file, maaaring lumiit ang payload at bumilis ang pag-parse ng script. [Matuto pa](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "Paliitin ang JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "Alisin ang mga hindi nagamit na panuntunan mula sa mga stylesheet para mabawasan ang mga hindi kinakailangang byte na nakokonsumo ng aktibidad sa network. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "Ipagpaliban ang hindi nagamit na CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "Alisin ang hindi nagamit na JavaScript para mabawasan ang mga byte na nakokonsumo ng aktibidad sa network."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "Alisin ang hindi nagamit na JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "Maaaring mapabilis ng mahabang lifetime ng cache ang mga umuulit na pagbisita sa iyong page. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{Nakakita ng 1 resource}one{Nakakita ng # resource}other{Nakakita ng # na resource}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "Maghatid ng mga static na asset nang may mahusay na patakaran sa cache"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "Gumagamit ng mahusay na patakaran sa cache sa mga static na asset"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "Mas mabilis mag-load ang mga na-optimize na page at mas kaunti ang nakokonsumong cellular data ng mga ito. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "Mahusay na mag-encode ng mga larawan"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "Maghatid ng mga larawang naaangkop ang laki para makatipid sa cellular data at mapabilis ang pag-load. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "Iangkop ang laki ng mga larawan"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "Dapat ihatid ang mga text-based na resource nang may compression (gzip, deflate, o brotli) para mabawasan ang kabuuang byte ng network. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "I-enable ang compression ng text"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "Kadalasan, mas mahusay ang compression ng mga format ng imahe gaya ng JPEG 2000, JPEG XR, at WebP kaysa sa compression ng PNG o JPEG, kaya mas mabilis ang pag-download at mas kaunti ang nakokonsumong data ng mga ito. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "Maghatid ng mga larawan sa mga makabagong format"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "Ipinapakita sa iyo ng Critical Request Chains sa ibaba kung anong mga resource ang ibinibigay nang may mataas na priyoridad. Pag-isipang paikliin ang mga chain, paliitin ang mga dina-download sa mga resource, o ipagpaliban ang pag-download ng mga hindi kinakailangang resource para mapabilis ang pag-load ng page [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{Nakakita ng 1 chain}one{Nakakita ng # chain}other{Nakakita ng # na chain}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "I-minimize ang Lalim ng Mahahalagang Kahilingan"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "Maximum na Lalim ng DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "Kabuuang Bilang ng Mga Node ng DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "Maximum na Bilang ng Mga Child"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "Inirerekomenda ng mga engineer ng browser na hindi umabot sa ~1,500 ang mga node ng DOM sa mga page. Ang pinakamainam ay isang lalim ng tree na < 32 elemento at wala pang 60 child/parent na elemento. Ang malaking DOM ay maaaring magresulta sa mas malakas na paggamit ng memory, at magpahaba ng [mga pagkalkula ng istilo](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations), at gumawa ng mga magastos na [reflow ng layout](https://developers.google.com/speed/articles/reflow). [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 node}one{# node}other{# na node}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "Umiwas sa masyadong malaking DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "Umiiwas sa masyadong malaking DOM"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "Gamitin ang feature na font-display ng CSS para matiyak na nakikita ng user ang text sa pag-load ng mga webfont. [Matuto pa](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "Tiyaking patuloy na nakikita ang text sa pag-load ng webfont"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "Patuloy na nakikita ang lahat ng text sa pag-load ng webfont"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "Kategorya"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "Pag-isipang bawasan ang oras na ginugugol sa pag-parse, pag-compile, at pagpapagana ng JS. Maaaring mapansin mong nakakatulong dito ang paghahatid ng mas maliliit na payload ng JS."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "I-minimize ang gawain sa pangunahing thread"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "Mini-minimize ang gawain sa pangunahing thread"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "Ang marka sa itaas ay isang pagtataya ng bilis ng pagtugon ng iyong app sa input ng user, na nasa milliseconds, sa pinakaabalang 5 segundong window ng pag-load ng page. Kung mas mataas sa 50 ms ang iyong latency, maaaring ituring ng mga user na mabagal ang app mo. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "Tinatayang Latency ng Input"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "Minamarkahan ng first contentful paint ang oras ng pag-paint sa unang text o larawan. [Matuto pa](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "First Contentful Paint"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "Minamarkahan ng First CPU Idle ang unang beses kung kailan hindi abala ang pangunahing thread ng page at maaari itong mangasiwa ng input. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "First CPU Idle"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "Sinusukat ng First Meaningful Paint ang bilis ng pagpapakita sa pangunahing content ng isang page. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "First Meaningful Paint"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "Minamarkahan ng Interactive ang oras kung kailan ganap na naging interactive ang page. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "Time to Interactive"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "Ipinapakita ng Speed Index ang bilis ng pag-populate ng mga content ng isang page. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "Speed Index"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "Nagpapasimula ang mga pag-redirect ng mga karagdagang pagkaantala bago ma-load ang page. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "Iwasan ang mga pag-redirect sa maraming page"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "Tinutukoy ng Time To First Byte ang oras kung kailan nagpapadala ng tugon ang iyong server. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "Inabot nang {timeInMs, number, milliseconds} ms ang root na dokumento"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "Pabilisin ang pagtugon ng server (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "Masyadong matagal ang pagtugon ng server (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "Pag-isipang gumamit ng User Timing API sa iyong app para makagawa ng custom at makatotohanang pagsukat ng mahahalagang karanasan ng user. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 timing ng user}one{# timing ng user}other{# na timing ng user}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "Mga marka at sukat ng User Timing"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "Pag-isipang magdagdag ng resource hint na preconnect o dns-prefetch para makapagtakda ng mga paunang koneksyon sa mahahalagang third-party na origin. [Matuto pa](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "Mag-preconnect sa mga kinakailangang origin"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "Pag-isipang gumamit ng <link rel=preload> para mabigyang-priyoridad ang pagkuha ng mga resource na kasalukuyang hinihiling, sa pag-load ng page, para sa ibang pagkakataon. [Matuto pa](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "I-preload ang mahahalagang kahilingan"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "Higit pang impormasyon tungkol sa performance ng iyong application."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "Mga Diagnostic"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "Ang pinakamahalagang aspeto ng performance ay ang bilis ng pag-render ng mga pixel sa screen. Mahahalagang sukatan: First Contentful Paint, First Meaningful Paint"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "Mga Pagpapahusay sa First Paint"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "Maaaring mapabilis ng mga pag-optimize na ito ang pag-load ng iyong page."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "Mga Pagkakataon"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "Mga Sukatan"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "Pagandahin ang pangkalahatang karanasan sa pag-load para bumilis ang pagtugon ng page at magamit ito kaagad. Mahahalagang sukatan: Time to Interactive, Speed Index"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "Mga Pangkalahatang Pagpapahusay"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "Performance"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "TTL ng Cache"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "Laki (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "Oras na Ginugol"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "Maaaring Matipid (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "Maaaring Matipid (ms)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "Maaaring makatipid ng {wastedBytes, number, bytes} KB"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "Maaaring makatipid ng {wastedMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "Ipakita ang mga pag-audit"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "Nagka-error!"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "Error sa ulat: walang impormasyon sa pag-audit"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "Mga karagdagang item na manual na susuriin"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "Hindi naaangkop"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "Pagkakataon"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "Tinatayang Matitipid"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "Mga pumasang pag-audit"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "Sukatan ng marka:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "May mga isyung nakakaapekto sa pagpapatakbong ito ng Lighthouse:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "Tinataya lang at maaaring mag-iba ang mga value."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "Mga Babala: "
+  }
+}

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Byte efficiency base audit should allow overriding of computeWasteWithTTIGraph 1`] = `
+Object {
+  "default": 1330,
+  "justTTI": 950,
+}
+`;
+
+exports[`Byte efficiency base audit should create load simulator with the specified settings 1`] = `1330`;
+
+exports[`Byte efficiency base audit should create load simulator with the specified settings 2`] = `22950`;

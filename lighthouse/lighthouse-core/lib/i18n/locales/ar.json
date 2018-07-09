@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "أثرت \"إضافات Chrome\" بشكل سلبي في أداء التحميل لهذه الصفحة. ويمكنك تجربة تدقيق الصفحة في وضع التصفح المُتخفّي أو من ملف شخصي فارغ على Chrome."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "تقييم النص البرمجي"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "تحليل النص البرمجي"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "الإجمالي"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "يمكنك تقليل الوقت المستغرق في تحليل جافا سكريبت وإنشائه وتنفيذه. قد يتبين لك أن تسليم أحمال جافا سكريبت بحجم أصغر يساعد في ذلك. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "تقليل وقت تنفيذ جافا سكريبت"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "وقت تنفيذ جافا سكريبت"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "لا تكفي ملفات GIF الكبيرة لتسليم محتوى صور متحركة. لذا يمكنك استخدام فيديوهات MPEG4 / WebM للصور المتحركة وملفات PNG / WebP للصور الثابتة بدلاً من ملفات GIF لحفظ وحدات البايت للشبكة. [مزيد من المعلومات](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "استخدام تنسيقات الفيديو لمحتوى الصور المتحركة"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "خُذ بعين الاعتبار التحميل البطئ خارج الشاشة والصور المخفية بعد الانتهاء من تحميل جميع الموارد المهمة في وقت أقل تفاعلية. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "تأجيل الصور خارج الشاشة"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "تحظر الموارد العرض الأول لصفحتك. ويمكنك تسليم تضمين JS / CSS المهم وتأجيل كل الأنماط/جافا سكريبت غير المهمة. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "استبعاد موارد حظر العرض"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "تُكلِّف أحمال الشبكة الكبيرة المستخدمين الكثير من الأموال وترتبط مباشرةً بأوقات التحميل الطويلة. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "كان إجمالي الحجم {totalBytes, number, bytes} كيلوبايت"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "تجنُّب الأحمال الضخمة للشبكة"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "تجنُّب الأحمال الضخمة للشبكة"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "يمكن أن يؤدي تصغير ملفات CSS إلى تقليل أحجام حمولة الشبكة. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "تصغير CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "يمكن أن يؤدي تصغير ملفات جافا سكريبت إلى تقليل أحجام الأحمال ووقت تحليل النص البرمجي. [مزيد من المعلومات](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "تصغير جافا سكريبت"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "يمكنك إزالة القواعد غير المُستخدَمة من ورق الأنماط لتقليل وحدات البايت غير الضرورية التي يستهلكها نشاط الشبكة. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "تأجيل CSS غير المُستخدَم"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "يمكنك إزالة جافا سكريبت غير المُستخدَم لتقليل وحدات البايت التي يستهلكها نشاط الشبكة."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "إزالة جافا سكريبت غير المستخدم"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "يمكن لفترة التخزين المؤقت الطويلة تسريع عملية تكرار الزيارات إلى صفحتك. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{تم العثور على مورد واحد}zero{تم العثور على # مورد}two{تم العثور على مورديْنِ (#)}few{تم العثور على # موارد}many{تم العثور على # موردًا}other{تم العثور على # مورد}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "عرض الأصول الثابتة من خلال سياسة ذاكرة التخزين المؤقت الفعالة"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "استخدام سياسة ذاكرة التخزين المؤقت الفعالة على الأصول الثابتة"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "يتم تحميل الصور المحسَّنة بشكلٍ أسرع وتستهلك بيانات أقل لشبكة الجوّال. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "تشفير الصور بكفاءة"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "يمكنك عرض صور بحجم مناسب لحفظ بيانات شبكة الجوّال وتحسين وقت التحميل. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "الصور ذات الحجم المناسب"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "يجب عرض الموارد المستندة إلى النص باستخدام الضغط (gzip أو الانكماش أو brotli) لتقليل إجمالي وحدات البايت للشبكة. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "تفعيل ضغط النص"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "غالبًا ما توفِّر تنسيقات الصور، مثل JPEG 2000 وJPEG XR وWebP، ضغطًا أفضل من تنسيق PNG أو JPEG، وهذا بدوره يعني تنزيلاً أسرع واستهلاكًا أقل للبيانات. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "عرض الصور بتنسيقات الجيل القادم"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "توضح لك \"سلاسل الطلبات المهمة\" أدناه الموارد التي تُصدَّر بأولوية عالية. ويمكنك تقليل طول السلاسل أو تقليل حجم تنزيل الموارد أو تأجيل تنزيل الموارد غير الضرورية لتحسين تحميل الصفحة. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{تم العثور على سلسلة واحدة}zero{تم العثور على # سلسلة}two{تم العثور على سلسلتيْنِ (#)}few{تم العثور على # سلاسل}many{تم العثور على # سلسلةً}other{تم العثور على # سلسلة}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "تقليل عمق الطلبات المهمة"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "الحد الأقصى لعمق DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "إجمالى عُقَدْ DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "الحد الأقصى لعدد الأطفال"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "يوصي مهندسو المتصفّح بالصفحات التي تحتوي على أقل من ~1500 عُقدة DOM. وتمثل sweet spot شبكة عمقها < 32 عنصرًا ولا تزيد عن 60 عنصرًا فرعيًا/رئيسيًا. ويمكن أن تزيد عُقدة DOM الكبيرة من استخدام الذاكرة، وتسبب [عمليات حسابية نمطية] أطول (https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations)، وتنتج [عمليات إعادة عرض للتنسيق] مُكلفة (https://developers.google.com/speed/articles/reflow). [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{عقدة واحدة}zero{# عقدة}two{عقدتان (#)}few{# عُقَد}many{# عقدةً}other{# عقدة}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "تجنُب حجم DOM الزائد"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "تجنُب حجم DOM الزائد"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "يمكنك الاستفادة من ميزة CSS لعرض الخطوط لضمان أن يكون النص مرئيًا للمستخدم أثناء تحميل خطوط موقع ويب. [مزيد من المعلومات](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "التأكد من بقاء النص مرئيًا أثناء تحميل خط موقع ويب"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "تظل جميع النصوص مرئية أثناء تحميل خط موقع ويب"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "الفئة"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "يمكنك تقليل الوقت المستغرق في تحليل جافا سكريبت وإنشائه وتنفيذه. قد يتبين لك أن تسليم أحمال جافا سكريبت بحجم أصغر يساعد في ذلك."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "تقليل سلسلة العمل الرئيسية"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "تقليل سلسلة العمل الرئيسية"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "إن النتيجة الواردة أعلاه تمثل تقديرًا لطول المدة التي يستغرقها تطبيقك في الاستجابة لإدخال المستخدم، بالمللي ثانية، أثناء فترة تحميل الصفحة الأكثر انشغالاً خلال 5 ثوانٍ. إذا كان وقت الاستجابة أكثر من 50 مللي ثانية، يمكن للمستخدمين اعتبار تطبيقك بأنه \"بطيء في التفاعل\". [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "وقت الاستجابة المُقدّر للإدخال"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "يحدد First Contentful Paint الوقت الذي يتم فيه عرض أول صورة أو نص. [مزيد من المعلومات](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "First Contentful Paint"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "تشير \"وحدة المعالجة المركزية الأولى الخاملة\" إلى المرة الأولى التي تكون فيها السلسلة الرئيسية للصفحة كافية للتعامل مع الإدخال. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "وحدة المعالجة المركزية الأولى الخاملة"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "يقيس First Meaningful Paint الوقت الذي يكون فيه المحتوى الأساسي لصفحة مرئيًا. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "First Meaningful Paint"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "يميّز \"الوضع التفاعلي\" الوقت الذي تكون فيه الصفحة تفاعلية بالكامل. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "وقت التفاعل"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "يوضح مؤشر السرعة مدى سرعة تعبئة محتوى الصفحة بشكلٍ واضح. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "مؤشر السرعة"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "تؤدي عمليات إعادة التوجيه إلى حدوث تأخيرات إضافية قبل أن يتم تحميل الصفحة. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "تجنُب عمليات إعادة توجيه الصفحات المتعددة"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "يحدد \"وقت وصول أول بايت\" الوقت الذي يُرسل فيه الخادم استجابة. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "استغرق مستند الجذر {timeInMs, number, milliseconds} مللي ثانية."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "تقليل أوقات استجابة الخادم (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "أوقات استجابة الخادم منخفضة (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "يمكنك توجيه تطبيقك باستخدام واجهة برمجة التطبيقات لأوقات المستخدم لإنشاء قياسات مخصصة وواقعية للتجارب الأساسية للمستخدمين. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{وقت واحد للمستخدم}zero{# وقت للمستخدم}two{وقتا (#) المستخدم}few{# أوقات للمستخدم}many{# وقتًا للمستخدم}other{# وقت للمستخدم}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "علامات أوقات المستخدم وقياساتها"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "يمكنك إضافة الاتصال المسبق أو تعديلات موارد الجلب المسبق لنظام أسماء النطاقات لإنشاء اتصالات مبكرة بأصول مهمة تابعة لجهة خارجية. [مزيد من المعلومات](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "الاتصال المسبق للأصول المطلوبة"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "يمكنك استخدام <link rel = preload> لتحديد أولويات جلب الموارد المطلوبة حاليًا في وقتٍ لاحق في تحميل الصفحة. [مزيد من المعلومات](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "التحميل المسبق للطلبات الأساسية"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "مزيد من المعلومات حول أداء تطبيقك."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "بيانات التشخيص"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "يمثل الجانب الأكثر أهمية للأداء مدى السرعة التي يتم بها عرض وحدات البكسل على الشاشة. المقاييس الرئيسية: First Contentful Paint وFirst Meaningful Paint"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "تحسينات العرض الأول"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "يمكن لهذه التحسينات تسريع عملية تحميل الصفحة."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "فرص تحسين الأداء"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "المقاييس"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "يمكنك تحسين تجربة التحميل العامة لتصبح هذه الصفحة سريعة الاستجابة وجاهزة للاستخدام في أقرب وقت ممكن. المقاييس الأساسية: وقت التفاعل ومؤشر السرعة."
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "التحسينات العامة"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "الأداء"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "ذاكرة التخزين المؤقت TTL"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "الحجم (كيلوبايت)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "الوقت المستغرَق"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "عنوان URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "التوفيرات المحتملة (كيلوبايت)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "التوفيرات المحتملة (مللي ثانية)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "التوفيرات المحتملة من {wastedBytes, number, bytes} كيلوبايت"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "التوفيرات المحتملة لـ {wastedMs, number, milliseconds} مللي ثانية"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} مللي ثانية"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "عرض عمليات التدقيق"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "خطأ!"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "الإبلاغ عن خطأ: لا تتوفَّر معلومات تدقيق"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "عناصر إضافية للتحقُّق يدويًا"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "غير سارٍ"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "فرصة تحسين الأداء"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "التوفيرات المُقدرة"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "اجتياز عمليات التدقيق بنجاح"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "مقياس النتيجة:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "حدثت مشاكل تؤثر في تشغيل Lighthouse:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "القيم تقديرية وقابلة للتغير"
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "التحذيرات: "
+  }
+}

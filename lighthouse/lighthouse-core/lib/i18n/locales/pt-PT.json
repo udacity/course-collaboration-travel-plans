@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "As extensões do Chrome afetam negativamente o desempenho de carregamento desta página. Experimente efetuar uma auditoria à página no modo de navegação anónima ou com um perfil do Chrome vazio."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "Avaliação do script"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "Análise do script"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "Total"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "Considere reduzir o tempo despendido a analisar, compilar e executar JS. Poderá descobrir que é útil fornecer payloads de JS mais pequenos. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "Reduza o tempo de execução de JavaScript"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "Tempo de execução de JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "Os GIFs grandes são ineficientes para publicar conteúdo animado. Para poupar bytes de rede, considere utilizar vídeos MPEG4/WebM para animações e ficheiros PNG/WebP para imagens estáticas em vez de GIFs. [Saiba mais](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)."
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "Utilize formatos de vídeo para conteúdo animado"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "Considere utilizar imagens de carregamento lento não visíveis e ocultas após a conclusão do carregamento de todos os recursos críticos, para reduzir o tempo até à interação. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "Adie as imagens não visíveis"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "O primeiro preenchimento da sua página está a ser bloqueado por recursos. Considere publicar JS/CSS críticos inline e adiar todos os JS/estilos não críticos. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "Elimine recursos que bloqueiam o processamento"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "Os grandes payloads de rede têm custos reais para os utilizadores e estão fortemente correlacionados com tempos de carregamento demorados. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "O tamanho total foi de {totalBytes, number, bytes} KB"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "Evite enormes payloads de rede"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "Evita enormes payloads de rede"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "Reduzir os ficheiros CSS pode reduzir os tamanhos dos payloads de rede. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "Reduza o CSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "Reduzir os ficheiros JavaScript pode reduzir os tamanhos dos payloads e o tempo de análise de scripts. [Saiba mais](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "Reduza o JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "Remova regras não utilizadas das folhas de estilos para reduzir a quantidade de bytes desnecessários consumidos pela atividade da rede. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "Adie o CSS não utilizado"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "Remova o JavaScript não utilizado para reduzir os bytes consumidos pela atividade da rede."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "Remova o JavaScript não utilizado"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "Uma duração total longa da cache pode acelerar as visitas repetidas à sua página. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 recurso encontrado}other{# recursos encontrados}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "Publique recursos estáticos com uma política de cache eficiente"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "Utiliza uma política de cache eficiente em recursos estáticos"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "As imagens otimizadas são carregadas mais rapidamente e consomem menos dados móveis. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "Codifique as imagens de forma eficiente"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "Publique imagens com um tamanho adequado para poupar dados móveis e melhorar o tempo de carregamento. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "Dimensione adequadamente as imagens"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "Os recursos baseados em texto devem ser publicados com compressão (gzip, Deflate ou Brotli) para reduzir o total de bytes de rede. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "Ative a compressão de texto"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "Muitas vezes, os formatos de imagem como JPEG 2000, JPEG XR e WebP proporcionam uma melhor compressão do que os formatos PNG ou JPEG, o que se traduz em transferências mais rápidas e num menor consumo de dados. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "Publique imagens em formatos de última geração"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "As Cadeias de pedidos críticos abaixo apresentam os recursos fornecidos com uma prioridade alta. Considere reduzir o tamanho das cadeias, reduzir o tamanho de transferência dos recursos ou adiar a transferência de recursos desnecessários para melhorar o carregamento de página. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 cadeia encontrada}other{# cadeias encontradas}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "Reduza a profundidade de pedidos críticos"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "Profundidade máxima do DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "Total de nós do DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "Máximo de nós secundários"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "Os engenheiros de navegadores recomendam que as páginas contenham menos de ~1500 nós de DOM. O ideal é uma árvore com uma profundidade < 32 elementos e menos de 60 elementos superiores/secundários. Um DOM grande pode aumentar a utilização da memória, gerar [cálculos de estilo](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations) mais demorados e produzir [ajustes de esquema](https://developers.google.com/speed/articles/reflow) dispendiosos. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 nó}other{# nós}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "Evite um tamanho excessivo do DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "Evita um tamanho excessivo do DOM"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "Tire partido da funcionalidade CSS de apresentação de tipos de letra para garantir que o texto é visível para o utilizador enquanto os tipos de letra para Websites são carregados. [Saiba mais](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "Garanta que o texto permanece visível durante o carregamento de tipos de letra para Websites"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "Todo o texto permanece visível durante os carregamentos de tipos de letra para Websites"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "Categoria"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "Considere reduzir o tempo despendido a analisar, compilar e executar JS. Poderá descobrir que é útil fornecer payloads de JS mais pequenos."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "Reduza as operações do thread principal"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "Reduz as operações do thread principal"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "A pontuação acima é uma estimativa do tempo que a sua aplicação demora a responder a ações do utilizador, em milissegundos, durante a janela dos 5 segundos mais ativos de carregamento de página. Se a latência for superior a 50 ms, os utilizadores poderão considerar que a sua aplicação é lenta. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "Latência estimada das ações"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "A métrica Primeiro preenchimento com conteúdo indica quando é que ocorre o preenchimento com o primeiro texto ou imagem. [Saiba mais](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "Primeiro preenchimento com conteúdo"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "A métrica Primeira CPU inativa indica quando é que o thread principal da página está suficientemente inativo pela primeira vez para processar ações. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "Primeira CPU inativa"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "A métrica Primeiro preenchimento significativo mede quando é que o conteúdo principal de uma página fica visível. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "Primeiro preenchimento significativo"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "A métrica Tempo até à interação indica quando é que a página fica completamente interativa. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "Tempo até à interação"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "A métrica Índice de velocidade apresenta a rapidez de preenchimento visível dos conteúdos de uma página. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "Índice de velocidade"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "A auditoria Redirecionamentos introduz atrasos adicionais antes do carregamento da página. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "Evite vários redirecionamentos de página"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "A auditoria Tempo até ao primeiro byte indica o tempo de envio de uma resposta pelo seu servidor. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "O documento de raiz demorou {timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "Reduza os tempos de resposta do servidor (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "Os tempos de resposta do servidor são curtos (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "Considere complementar a sua aplicação com a API Tempos do utilizador para criar medições personalizadas e reais das principais experiências do utilizador. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 tempo do utilizador}other{# tempos do utilizador}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "Marcas e medições de Tempos do utilizador"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "Considere adicionar instruções para recursos de pré-ligação ou de obtenção prévia de DNS para estabelecer ligações antecipadamente a origens de terceiros importantes. [Saiba mais](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "Efetue a pré-ligação às origens necessárias"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "Considere utilizar <link rel=preload> para dar prioridade à obtenção de recursos que são atualmente solicitados mais tarde no carregamento de página. [Saiba mais](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "Pré-carregue pedidos-chave"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "Mais informações sobre o desempenho da sua aplicação."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "Diagnósticos"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "O aspeto mais importante do desempenho é a rapidez de renderização dos píxeis no ecrã. Métricas principais: Primeiro preenchimento com conteúdo, Primeiro preenchimento significativo."
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "Melhorias no primeiro preenchimento"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "Estas otimizações podem acelerar o carregamento da sua página."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "Oportunidades"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "Métricas"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "Melhore a experiência de carregamento geral para que a página responda e fique pronta a utilizar logo que possível. Métricas principais: Tempo até à interação, Índice de velocidade."
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "Melhorias gerais"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "Desempenho"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "TTL da cache"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "Tamanho (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "Tempo gasto"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "Poupança potencial (KB)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "Poupança potencial (ms)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "Poupança potencial de {wastedBytes, number, bytes} KB"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "Poupança potencial de {wastedMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} ms"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "Mostrar auditorias"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "Erro!"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "Erro de relatório: sem informações de auditoria"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "Itens adicionais a verificar manualmente"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "Não aplicável"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "Oportunidade"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "Poupança estimada"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "Auditorias aprovadas"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "Escala da pontuação:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Ocorreram problemas que afetaram esta execução do Lighthouse:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "Os valores são estimados e podem variar."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "Avisos: "
+  }
+}

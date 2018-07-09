@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Chrome एक्सटेंशन ने इस पेज के लोड परफ़ॉर्मेंस पर नकारात्मक रूप से असर डाला है. गुप्त मोड में या किसी साफ़ Chrome प्रोफ़ाइल से कोई दूसरा पेज ऑडिट करके देखें."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "स्क्रिप्ट मूल्यांकन"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "स्क्रिप्ट पार्स"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "कुल"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "JS को पार्स करने, कंपाइल करने और एक्ज़ीक्यूट करने में लगने वाला समय कम करने पर विचार करें. आप पाएंगे कि इसके ज़रिए छोटे-छोटे JS पेलोड डिलीवर करने में मदद मिलती है. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "JavaScript क्रियान्वयन समय कम करें"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "JavaScript क्रियान्वयन समय"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "बड़े जीआईएफ़ ऐनिमेटेड सामग्री डिलीवर करने में नाकाफ़ी होते हैं. नेटवर्क बाइट बचाने के इरादे से जीआईएफ़ का इस्तेमाल करने के बजाय, ऐनिमेशन के लिए MPEG4/WebM वीडियो और स्थिर इमेज के लिए PNG/WebP का इस्तेमाल करने पर विचार करें. [ज़्यादा जानें](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "ऐनिमेट की गई सामग्री के लिए वीडियो फ़ॉर्मेट का इस्तेमाल करें"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "इंटरेक्टिव में लगने वाला समय कम करने के लिए, सभी अहम संसाधन लोड हो जाने के बाद ऑफ़स्क्रीन और छिपी हुई इमेज को धीरे-धीरे लोड करने पर विचार करें. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "ऑफ़स्क्रीन इमेज टालें"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "संसाधन आपके पेज के पहले पेंट को ब्लॉक कर रहे हैं. अहम JS/CSS इनलाइन वितरित करने और सभी गैर-अहम JS/शैलियों को टालने पर विचार करें. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "रेंडर ब्लॉक करने वाले संसाधनों को खत्म करें"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "बड़े नेटवर्क वाले पेलोड के लिए उपयोगकर्ताओं को ज़्यादा रकम खर्च करनी पड़ती है और उन पर लोड होने में ज़्यादा समय भी लगता है. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "कुल आकार {totalBytes, number, bytes} केबी था"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "बहुत ज़्यादा नेटवर्क पेलोड से बचें"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "भारी नेटवर्क पेलोड से बचाता है"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "CSS फ़ाइलों का आकार कम करने से नेटवर्क पेलोड आकार कम किए जा सकते हैं. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "CSS कम करें"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "JavaScript फ़ाइलों को छोटा करने से पेलोड का आकार और स्क्रिप्ट पार्स करने का समय कम हो सकता है. [ज़्यादा जानें](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "JavaScript का आकार कम करें"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "नेटवर्क गतिविधि में खर्च होने वाले गैर-ज़रूरी बाइट कम करने के लिए स्टाइल-शीट से इस्तेमाल नहीं किए गए नियमों को हटाएं. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "इस्तेमाल नहीं किए गए CSS को टालें"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "नेटवर्क गतिविधि में खर्च होने वाले बाइट में कमी करने के लिए इस्तेमाल नहीं किया गया JavaScript हटाएं."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "इस्तेमाल नहीं किया गया JavaScript हटाएं"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "लंबे कैश लाइफ़टाइम से आपके पेज पर दोहराए जाने वाले विज़िट की गति बढ़ सकती है. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 संसाधन मिला}one{# संसाधन मिले}other{# संसाधन मिले}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "कुशल कैश नीति के साथ स्थिर एसेट ऑफ़र करें"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "स्थिर एसेट पर कुशल कैश नीति का इस्तेमाल करता है"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "ऑप्टिमाइज़ की गई इमेज तेज़ी से लोड होती हैं और इसमें कम सेल्युलर डेटा खर्च होता है. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "इमेज को कुशलता से एन्कोड करें"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "ऐसी इमेज ऑफ़र करें जिनका आकार सही हो ताकि सेल्युलर डेटा बचाया जा सके और लोड समय को बेहतर बनाया जा सके. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "सही तरीके के आकार वाली इमेज"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "कुल नेटवर्क बाइट को कम से कम करने के लिए, लेख आधारित संसाधन कंप्रेशन (gzip, deflate या brotli) के साथ ऑफ़र किए जाने चाहिए. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "लेख कंप्रेशन चालू करें"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "JPEG 2000, JPEG XR और WebP जैसे इमेज फ़ॉर्मेट में अक्सर PNG या JPEG के मुकाबले बेहतर कंप्रेशन मिलता है, जिसका मतलब है कि डाउनलोड तेज़ी से होते हैं और इनमें कम डेटा खर्च होता है. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "इमेज अगली जेनरेशन के फ़ॉर्मेट में ऑफ़र करें"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "नीचे दी गई अहम अनुरोध शृंखलाएं आपको वे संसाधन दिखाती हैं जो उच्च प्राथमिकता के साथ जारी किए जाते हैं. शृंखलाओं की अवधि कम करने पर विचार करें, जिससे संसाधनों का डाउनलोड आकार कम हो जाएगा या पेज लोड को बेहतर बनाने के लिए गैर-ज़रूरी संसाधनों का डाउनलोड टल जाएगा. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 शृंखला मिली}one{# शृंखलाएं मिलीं}other{# शृंखलाएं मिलीं}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "अहम अनुरोधों की गहराई कम से कम करें"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "सबसे ज़्यादा DOM गहराई"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "कुल DOM नोड"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "ज़्यादा से ज़्यादा चिल्ड्रन"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "ब्राउज़र इंजीनियर सुझाव देते हैं कि पेज में ~1,500 से कम DOM नोड होने चाहिए. सबसे सही आंकड़ा है < 32 एलीमेंट वाली ट्री गहराई और 60 से कम चिल्ड्रन/पेरेंट एलीमेंट. ज़्यादा बड़े DOM से मेमोरी का इस्तेमाल बढ़ सकता है, जिससे ज़्यादा लंबे [स्टाइल कैल्युलेशन](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations) हो सकते हैं और इनसे महंगे [लेआउट रीफ़्लो](https://developers.google.com/speed/articles/reflow) बन सकते हैं. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 नोड}one{# नोड}other{# नोड}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "बहुत ज़्यादा बड़े DOM आकार से बचें"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "बहुत ज़्यादा बड़े DOM आकार से बचता है"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "यह पक्का करने के लिए फ़ॉन्ट-डिसप्ले CSS फ़ीचर का फ़ायदा उठाएं कि वेबफ़ॉन्ट लोड होने के दौरान उपयोगकर्ता को लेख दिखाई देता रहे. [ज़्यादा जानें](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "पक्का करें कि वेबफ़ॉन्ट लोड होने के दौरान लेख दिखाई देता रहे"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "वेबफ़ॉन्ट लोड होने के दौरान सभी लेख दिखाई देते रहते हैं"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "श्रेणी"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "JS को पार्स करने, कंपाइल करने और एक्ज़ीक्यूट करने में लगने वाला समय कम करने पर विचार करें. आप देखेंगे कि इसके ज़रिए छोटे-छोटे JS पेलोड डिलीवर करने में मदद मिलती है."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "मुख्य थ्रेड काम को कम से कम करें"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "मुख्य थ्रेड काम को कम से कम करता है"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "ऊपर दिया गया स्कोर एक अनुमान है कि पेज लोड होने की सबसे व्यस्त 5 सेकंड की विंडो में आपके ऐप्लिकेशन को उपयोगकर्ता इनपुट का जवाब देने में, मिलीसेकंड में कितना समय लगेगा. अगर आपकी प्रतीक्षा अवधि 60 मिलीसेकंड से ज़्यादा है, तो उपयोगकर्ता आपके ऐप्लिकेशन को धीमा मान सकते हैं. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "अनुमानित इनपुट प्रतीक्षा समय"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "पहला सार्थक सामग्री वाला पेंट वह समय चिह्नित करता है जब पहले लेख या इमेज को पेंट किया गया हो. [ज़्यादा जानें](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "उपयोगी सामग्री वाला पहला पेंट"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "इस्तेमाल में नहीं पहला सीपीयू (CPU), वह पहला समय चिह्नित करता है जब पेज का मुख्य थ्रेड इनपुट को संभालने के लिए काफ़ी होता है. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "पहला सीपीयू (CPU) इस्तेमाल में नहीं"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "पहला सार्थक पेंट उस समय का मापन करता है जब किसी पेज की शुरुआती सामग्री दिखाई देती है. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "पहला सार्थक पेंट"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "इंटरेक्टिव वह समय चिह्नित करता है जब पेज पूरी तरह इंटरेक्टिव हो जाता है. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "इंटरएक्टिव में लगने वाला समय"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "गति इंडेक्स दिखाता है कि किसी पेज की सामग्री विज़ुअल रूप से कितनी तेज़ी से पॉपुलेट होती हैं. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "गति इंडेक्स"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "'रीडायरेक्ट' पेज लोड किए जाने से पहले और ज़्यादा प्रतीक्षा जोड़ता है. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "एक से ज़्यादा पेज रीडायरेक्ट करने से बचें"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "पहली बाइट का समय, उस समय की पहचान करता है जब आपका सर्वर कोई जवाब भेजता है. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "रूट दस्तावेज़ को {timeInMs, number, milliseconds} मिलीसेकंड लगे"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "सर्वर प्रतिक्रिया समय घटाएं (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "सर्वर के जवाब देने के समय धीमे हैं (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "प्रमुख उपयोगकर्ताओं के पसंद के मुताबिक, असली दुनिया के माप तैयार करने के लिए अपने ऐप्लिकेशन को उपयोगकर्ता समय API (एपीआई) के ज़रिए तैयार करने पर विचार करें. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 उपयोगकर्ता समय}one{# उपयोगकर्ता समय}other{# उपयोगकर्ता समय}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "उपयोगकर्ता समय अंक और मापन"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "तीसरे पक्ष के अहम मूल से जल्दी कनेक्शन बनाने के लिए प्री-कनेक्ट या dns-प्रीफ़ेच संसाधन संकेत जोड़ने पर विचार करें. [ज़्यादा जानें](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "ज़रूरी मूल से प्री-कनेक्ट करें"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "ऐसे संसाधन फ़ेच करने को प्राथमिकता देने के लिए <link rel=preload> का इस्तेमाल करने पर विचार करें जिनका फ़िलहाल पेज लोड में बाद में अनुरोध किया गया है. [ज़्यादा जानें](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "प्रमुख अनुरोधों को पहले से लोड करें"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "आपके ऐप्लिकेशन के परफ़ॉर्मेंस के बारे में ज़्यादा जानकारी."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "निदान"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "परफ़ॉर्मेंस का सबसे अहम पहलू यह है कि स्क्रीन पर पिक्सेल कितनी तेज़ी से रेंडर होते हैं. प्रमुख मेट्रिक: उपयोगी सामग्री वाला पहला पेंट, पहला उपयोगी पेंट"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "पहले पेंट के सुधार"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "इन ऑप्टिमाइज़ेशन से आपका पेज लोड होने की गति बढ़ सकती है."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "अवसर"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "मेट्रिक"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "पूरे लोडिंग अनुभव को बेहतर बनाएं ताकि पेज जवाब दे और जल्दी से जल्दी इस्तेमाल के लिए तैयार हो जाए. प्रमुख मेट्रिक: इंटरेक्टिव में लगने वाला समय, गति इंडेक्स"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "समस्त सुधार"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "परफ़ॉर्मेंस"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "कैश TTL"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "आकार (केबी)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "बिताया गया समय"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "यूआरएल"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "हो सकने वाली बचत (केबी)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "हो सकने वाली बचत (‍मिली सेकंड)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "{wastedBytes, number, bytes} केबी की हो सकने वाली बचत"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "{wastedMs, number, milliseconds} मिलीसेकंड की हो सकने वाली बचत"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} मिलीसेकंड"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "ऑडिट दिखाएं"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "गड़बड़ी!"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "गड़बड़ी की रिपोर्ट करें: कोई ऑडिट जानकारी नहीं"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "मैन्युअल रूप से देखे जाने वाले और ज़्यादा आइटम"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "लागू नहीं"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "अवसर"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "अनुमानित बचत"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "पास हुए ऑडिट"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "स्कोर स्केल:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "कुछ समस्याएं आने के कारण Lighthouse के इस रन पर असर पड़ा है:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "मान अनुमानित हैं और इनमें अंतर हो सकता है."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "चेतावनियां: "
+  }
+}

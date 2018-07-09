@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Розширення Chrome негативно впливають на ефективність завантаження цієї сторінки. Спробуйте перевірити сторінку в режимі анонімного перегляду або в чистому профілі Chrome."
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "Оцінка сценарію"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "Синтаксичний аналіз сценарію"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "Усього"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "Радимо зменшити час синтаксичного аналізу, компілювання й запуску сценаріїв JavaScript. Завантажувати менші обсяги даних JavaScript може бути корисно. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/bootup)."
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "Зменште час виконання JavaScript"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "Час виконання JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "Великі файли GIF неефективні для передавання анімованого вмісту. Щоб заощадити байти мережі, радимо замість формату GIF використовувати MPEG4 або WebM для анімацій і PNG чи WebP для статичних зображень. [Докладніше](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "Використовуйте формати відео для анімованого вмісту"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "Щоб пришвидшити взаємодію, використовуйте закадрові й приховані зображення, коли завантажаться всі важливі ресурси. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "Відкладіть закадрові зображення"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "Ресурси блокують перше відображення сторінки. Вбудовуйте важливі файли JavaScript або CSS і відкладайте всі некритичні файли JavaScript чи стилі. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "Вилучіть ресурси, які блокують відображення"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "Великі обсяги мережевих даних дорогі для користувачів і довго завантажуються. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)."
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "Загальний розмір – {totalBytes, number, bytes} KБ"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "Уникайте великих обсягів даних у мережі"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "Уникається великий обсяг даних мережі"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "Стиснення файлів CSS може зменшити обсяг даних у мережі. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/minify-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "Зменште СSS"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "Стиснення файлів JavaScript може зменшити обсяг даних і час синтаксичного аналізу сценарію. [Докладніше](https://developers.google.com/speed/docs/insights/MinifyResources)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "Зменште файл JavaScript"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "Видаліть із таблиць стилів правила, які ви не використовуєте, щоб зменшити кількість зайвих байтів під час активності в мережі. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/unused-css)."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "Відкладіть вміст CSS, який не використовується"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "Видаліть файли JavaScript, які ви не використовуєте, щоб зменшити кількість байтів під час активності в мережі."
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "Вилучіть файли JavaScript, які ви не використовуєте"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "Збереження кешу за довгий час може пришвидшити завантаження сторінки під час повторних відвідувань. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{Знайдено 1 ресурс}one{Знайдено # ресурс}few{Знайдено # ресурси}many{Знайдено # ресурсів}other{Знайдено # ресурсу}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "Показуйте статичні об’єкти за допомогою ефективних правил кешування"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "Використовуються ефективні правила кешування статичних об’єктів"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "Оптимізовані зображення завантажуються швидше й використовують менше мобільного трафіку. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "Ефективно кодуйте зображення"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "Показуйте зображення правильного розміру, щоб заощадити мобільний трафік і покращити час завантаження. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "Правильно виберіть розмір зображень"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "Текстові ресурси потрібно відображати зі стисненням (Gzip, Deflate чи Brotli), щоб мінімізувати загальну кількість байтів у мережі. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/text-compression)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "Увімкніть стиснення тексту"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "Формати зображень JPEG 2000, JPEG XR і WebP часто краще стискаються, ніж PNG чи JPEG. Тому вони швидше завантажуються й використовують менше даних. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/webp)."
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "Показуйте зображення в нових форматах"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "Ланцюжки важливих запитів нижче показують, які ресурси мають високий пріоритет. Щоб пришвидшити завантаження сторінки, зменште довжину ланцюжків і розмір завантажень або відкладіть завантаження непотрібних ресурсів. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)."
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{Знайдено 1 ланцюжок}one{Знайдено # ланцюжок}few{Знайдено # ланцюжки}many{Знайдено # ланцюжків}other{Знайдено # ланцюжка}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "Мінімізуйте глибину важливих запитів"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "Максимальна глибина DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "Загальна кількість вузлів DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "Максимальна кількість дітей"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "Розробники веб-переглядачів радять, щоб сторінки містили до ~1500 вузлів DOM. Зона найкращого сприйняття – глибина дерева < 32 елементів і до 60 дитячих чи батьківських елементів. Великий файл DOM може збільшувати використання пам’яті, спричиняти довше [обчислення стилів](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations) і створювати дороге [перекомпонування макетів](https://developers.google.com/speed/articles/reflow). [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/dom-size)."
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 вузол}one{# вузол}few{# вузли}many{# вузлів}other{# вузла}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "Уникайте надмірного розміру DOM"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "Уникається надмірний розмір DOM"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "Використовуйте функцію відображення шрифтів CSS, щоб текст було видно під час завантаження шрифтів. [Докладніше](https://developers.google.com/web/updates/2016/02/font-display)."
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "Переконайтеся, що текст залишається видимим під час завантаження веб-шрифту"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "Увесь текст залишається видимим під час завантаження веб-шрифтів"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "Категорія"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "Зменште час виконання синтаксичного аналізу, компілювання й запуску сценаріїв JavaScript. Завантажувати менші обсяги даних JavaScript може бути корисно."
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "Мінімізуйте роботу основного ланцюжка"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "Мінімізується робота основного ланцюжка"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "Результат вище показує, скільки часу в мілісекундах додаток відповідає на ввід користувача під час п’ятисекундного періоду завантаження сторінки. Якщо затримка перевищує 50 мс, користувачі можуть вважати ваш додаток повільним. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)."
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "Приблизна затримка введення"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "Перше відображення вмісту показує, коли з’являється текст чи зображення. [Докладніше](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)."
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "Перше відображення всього вмісту"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "Перший простій ЦП вказує, коли основний ланцюжок сторінки вперше може обробити введення. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)."
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "Перший простій ЦП"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "Перше значне відображення вказує, коли видно основний вміст сторінки. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)."
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "Перше значне відображення"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "Показник взаємодії позначає час повної активності сторінки. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)."
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "Час до повної взаємодії"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "Індекс швидкості показує, через скільки часу відображається вміст сторінки. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/speed-index)."
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "Індекс швидкості"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "Переспрямування додають затримки під час завантаження сторінки. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/redirects)."
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "Уникайте переспрямувань кількох сторінок"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "Час до першого байта визначає швидкість реакції сервера. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/ttfb)."
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "Кореневий документ відповів через {timeInMs, number, milliseconds} мс"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "Зменште час відповіді сервера (TTFB)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "Сервер довго відповідає (TTFB)"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "Використовуйте в додатку User Timing API, щоб отримувати власні показники взаємодії з користувачами. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/user-timing)."
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 позначка часу користувача}one{# позначка часу користувача}few{# позначки часу користувача}many{# позначок часу користувача}other{# позначки часу користувача}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "Показники й мітки часу користувача"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "Додайте в ресурси корективи для попереднього з’єднання чи виклику DNS, щоб заздалегідь установлювати з’єднання з важливими джерелами третіх сторін. [Докладніше](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)."
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "Попередньо під’єднуйтеся до потрібних джерел"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "Використовуйте <link rel=preload>, щоб указати пріоритетність завантаження ресурсів, які наразі запитуються пізніше під час завантаження сторінки. [Докладніше](https://developers.google.com/web/tools/lighthouse/audits/preload)."
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "Попередньо завантажуйте основні запити"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "Докладніше про ефективність додатка."
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "Діагностика"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "Найважливішим аспектом ефективності є швидкість відображення пікселів на екрані. Основні показники: перше відображення вмісту, перше значне відображення"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "Покращення першого відображення"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "Ці оптимізації можуть пришвидшити завантаження сторінки."
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "Можливості"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "Показники"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "Покращте загальну ефективність завантаження, щоб сторінка швидко реагувала й завантажувалася. Основні показники: час до повної взаємодії, індекс швидкості"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "Загальні покращення"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "Ефективність"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "TTL кешу"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "Розмір (КБ)"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "Витрачений час"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL-адреса"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "Потенційне заощадження (КБ)"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "Потенційне заощадження (мс)"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "Потенційне заощадження – {wastedBytes, number, bytes} КБ"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "Потенційне заощадження – {wastedMs, number, milliseconds} мс"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} мс"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "Показати перевірки"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "Помилка."
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "Повідомлення про помилку: немає інформації про перевірку"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "Додаткові елементи, які потрібно перевірити вручну"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "Не застосовуються"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "Можливість"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "Приблизне заощадження"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "Виконані перевірки"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "Шкала результатів:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Під час запуску Lighthouse виникли перелічені нижче проблеми."
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "Значення приблизні й можуть відрізнятися."
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "Застереження. "
+  }
+}

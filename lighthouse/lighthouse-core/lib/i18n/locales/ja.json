@@ -1,0 +1,332 @@
+{
+  "lighthouse-core/audits/bootup-time.js | chromeExtensionsWarning": {
+    "message": "Chrome 拡張機能がこのページの読み込みに悪影響を及ぼしています。シークレット モードまたはクリーンな Chrome プロファイルでページを監査してみてください。"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptEval": {
+    "message": "スクリプトの評価"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnScriptParse": {
+    "message": "スクリプトの解析"
+  },
+  "lighthouse-core/audits/bootup-time.js | columnTotal": {
+    "message": "合計"
+  },
+  "lighthouse-core/audits/bootup-time.js | description": {
+    "message": "JS の解析、コンパイル、実行にかかる時間の短縮をご検討ください。配信する JS ペイロードのサイズを抑えると効果が見込めます。[詳細](https://developers.google.com/web/tools/lighthouse/audits/bootup)"
+  },
+  "lighthouse-core/audits/bootup-time.js | failureTitle": {
+    "message": "JavaScript の実行にかかる時間の低減"
+  },
+  "lighthouse-core/audits/bootup-time.js | title": {
+    "message": "JavaScript の実行にかかる時間"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": {
+    "message": "サイズの大きい GIF は、アニメーション コンテンツの配信方法として効率的ではありません。ネットワークの通信量を抑えるため、GIF を使用する代わりに、アニメーションには MPEG4/WebM 動画、静止画像には PNG/WebP を使用することをご検討ください。[詳細](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)"
+  },
+  "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": {
+    "message": "アニメーション コンテンツでの動画フォーマットの使用"
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": {
+    "message": "オフスクリーンの非表示の画像は、クリティカルなリソースをすべて読み込んだ後に遅れて読み込むようにして、インタラクティブになるまでの時間を短縮することをご検討ください。[Learn more](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images)."
+  },
+  "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": {
+    "message": "オフスクリーン画像の遅延読み込み"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": {
+    "message": "ページの初回ペイントをリソースが阻害しています。クリティカルな JS や CSS はインラインで配信し、それ以外の JS やスタイルはすべて遅らせることをご検討ください。[詳細](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)"
+  },
+  "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": {
+    "message": "レンダリングを妨げるリソースの除外"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": {
+    "message": "ネットワーク ペイロードのサイズが大きいと、ユーザーの金銭的負担が大きくなり、多くの場合、読み込み時間が長くなります。[詳細](https://developers.google.com/web/tools/lighthouse/audits/network-payloads)"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": {
+    "message": "合計サイズは {totalBytes, number, bytes} KB でした"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | failureTitle": {
+    "message": "過大なネットワーク ペイロードの回避"
+  },
+  "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": {
+    "message": "過大なネットワーク ペイロードの回避"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": {
+    "message": "CSS ファイルを最小化すると、ネットワーク ペイロードのサイズを抑えることができます。[詳細](https://developers.google.com/web/tools/lighthouse/audits/minify-css)"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": {
+    "message": "CSS の最小化"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": {
+    "message": "JavaScript ファイルを最小化すると、ペイロード サイズとスクリプトの解析時間を抑えることができます。[詳細](https://developers.google.com/speed/docs/insights/MinifyResources)"
+  },
+  "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": {
+    "message": "JavaScript の最小化"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": {
+    "message": "使用していないルールをスタイルシートから削除して、データ通信量を減らしてください。[詳細](https://developers.google.com/web/tools/lighthouse/audits/unused-css)"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": {
+    "message": "使用していない CSS の遅延読み込み"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": {
+    "message": "使用していない JavaScript を削除して、データ通信量を減らしてください。"
+  },
+  "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": {
+    "message": "使用していない JavaScript の削除"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": {
+    "message": "キャッシュの有効期間を長くすると、再訪問したユーザーへのページの読み込み速度を向上できます。[詳細](https://developers.google.com/web/tools/lighthouse/audits/cache-policy)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 件のリソースが見つかりました}other{# 件のリソースが見つかりました}}"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": {
+    "message": "静的なアセットと効率的なキャッシュ ポリシーの配信"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": {
+    "message": "静的なアセットでの効率的なキャッシュ ポリシーの使用"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": {
+    "message": "画像を最適化すると、読み込み時間を速くして、モバイルデータ量を抑えることができます。[詳細](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": {
+    "message": "効率的な画像フォーマット"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": {
+    "message": "適切なサイズの画像を配信して、モバイルデータ量と読み込み時間を抑えてください。[詳細](https://developers.google.com/web/tools/lighthouse/audits/oversized-images)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": {
+    "message": "適切なサイズの画像"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": {
+    "message": "テキストベースのリソースは圧縮（gzip、deflate、または brotli）して配信し、ネットワークの全体的な通信量を最小限に抑えてください。[詳細](https://developers.google.com/web/tools/lighthouse/audits/text-compression)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": {
+    "message": "テキスト圧縮の有効化"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": {
+    "message": "JPEG 2000、JPEG XR、WebP などの画像フォーマットは、PNG や JPEG より圧縮性能が高く、ダウンロード時間やデータ使用量を抑えることができます。[詳細](https://developers.google.com/web/tools/lighthouse/audits/webp)"
+  },
+  "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": {
+    "message": "次世代フォーマットでの画像の配信"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | description": {
+    "message": "下のクリティカル リクエスト チェーンでは、高い優先度で発行されたリソースを確認できます。チェーンの長さを縮小する、リソースのダウンロード サイズを抑える、不要なリソースのダウンロードを遅らせるなどしてページの読み込み速度を改善することをご検討ください。[詳細](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 件のチェーンが見つかりました}other{# 件のチェーンが見つかりました}}"
+  },
+  "lighthouse-core/audits/critical-request-chains.js | title": {
+    "message": "クリティカルなリクエストの深さの最小化"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMDepth": {
+    "message": "DOM の最大深さ"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMNodes": {
+    "message": "合計 DOM ノード数"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | columnDOMWidth": {
+    "message": "最大の子要素数"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | description": {
+    "message": "ブラウザ エンジニアは、ページに含まれる DOM のノード数が 1,500 個を超えないようにすることを推奨しています。ツリーの深さは 32 要素まで、子や親の要素数は 60 個までにするのが最適です。DOM サイズが大きいと、メモリの使用量が増え、[スタイルの計算](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations)に時間がかかり、[レイアウトのリフロー](https://developers.google.com/speed/articles/reflow)というコストが発生します。[詳細](https://developers.google.com/web/tools/lighthouse/audits/dom-size)"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 個のノード}other{# 個のノード}}"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": {
+    "message": "過大な DOM サイズの回避"
+  },
+  "lighthouse-core/audits/dobetterweb/dom-size.js | title": {
+    "message": "過大な DOM サイズの回避"
+  },
+  "lighthouse-core/audits/font-display.js | description": {
+    "message": "フォント表示の CSS 機能を使用して、ウェブフォントの読み込み中にユーザーがテキストを見られるようにしてください。[詳細](https://developers.google.com/web/updates/2016/02/font-display)"
+  },
+  "lighthouse-core/audits/font-display.js | failureTitle": {
+    "message": "ウェブフォント読み込み中のテキストの表示"
+  },
+  "lighthouse-core/audits/font-display.js | title": {
+    "message": "ウェブフォント読み込み中の全テキストの表示"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": {
+    "message": "カテゴリ"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | description": {
+    "message": "JS の解析、コンパイル、実行にかかる時間の短縮をご検討ください。配信する JS ペイロードのサイズを抑えると効果が見込めます。"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": {
+    "message": "メインスレッド処理の最小化"
+  },
+  "lighthouse-core/audits/mainthread-work-breakdown.js | title": {
+    "message": "メインスレッド処理の最小化"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | description": {
+    "message": "上のスコアは、ページ読み込みの最もビジーな 5 秒間における、ユーザーの入力に対するアプリの応答時間（ミリ秒）です。待ち時間が 50 ミリ秒より長い場合、アプリの反応が悪いと思われる可能性があります。[詳細](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency)"
+  },
+  "lighthouse-core/audits/metrics/estimated-input-latency.js | title": {
+    "message": "入力の推定待ち時間"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | description": {
+    "message": "コンテンツの初回ペイントは、テキストまたは画像が初めてペイントされるまでにかかった時間です。[詳細](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_paint_and_first_contentful_paint)"
+  },
+  "lighthouse-core/audits/metrics/first-contentful-paint.js | title": {
+    "message": "コンテンツの初回ペイント"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | description": {
+    "message": "CPU の初回アイドルは、ページのメインスレッド処理が静止し、初めて入力の処理が可能になるまでにかかった時間です。[詳細](https://developers.google.com/web/tools/lighthouse/audits/first-interactive)"
+  },
+  "lighthouse-core/audits/metrics/first-cpu-idle.js | title": {
+    "message": "CPU の初回アイドル"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": {
+    "message": "意味のあるコンテンツの初回ペイントは、ページの主要なコンテンツが可視化されるまでにかかった時間です。[詳細](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint)"
+  },
+  "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": {
+    "message": "意味のあるコンテンツの初回ペイント"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | description": {
+    "message": "ページが完全にインタラクティブになるまでの時間です。[詳細](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)"
+  },
+  "lighthouse-core/audits/metrics/interactive.js | title": {
+    "message": "インタラクティブになるまでの時間"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | description": {
+    "message": "速度インデックスは、ページのコンテンツが取り込まれて表示される速さを表します。[詳細](https://developers.google.com/web/tools/lighthouse/audits/speed-index)"
+  },
+  "lighthouse-core/audits/metrics/speed-index.js | title": {
+    "message": "速度インデックス"
+  },
+  "lighthouse-core/audits/redirects.js | description": {
+    "message": "リダイレクトを行うと、ページの読み込みにさらに時間がかかる可能性があります。[詳細](https://developers.google.com/web/tools/lighthouse/audits/redirects)"
+  },
+  "lighthouse-core/audits/redirects.js | title": {
+    "message": "複数のページ リダイレクトの回避"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | description": {
+    "message": "最初の 1 バイトまでの時間は、サーバーが応答を返すまでにかかった時間を表しています。[詳細](https://developers.google.com/web/tools/lighthouse/audits/ttfb)"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | displayValue": {
+    "message": "ルート ドキュメントの読み込みに {timeInMs, number, milliseconds} ミリ秒かかりました"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | failureTitle": {
+    "message": "サーバー応答時間の短縮（TTFB）"
+  },
+  "lighthouse-core/audits/time-to-first-byte.js | title": {
+    "message": "サーバーの応答時間が遅い（TTFB）"
+  },
+  "lighthouse-core/audits/user-timings.js | description": {
+    "message": "User Timing API を使用してアプリをインストルメント化し、主要なユーザー エクスペリエンスのカスタムの実測値を取得できるようにしてください。[詳細](https://developers.google.com/web/tools/lighthouse/audits/user-timing)"
+  },
+  "lighthouse-core/audits/user-timings.js | displayValue": {
+    "message": "{itemCount,plural, =1{1 件のカスタム速度}other{# 件のカスタム速度}}"
+  },
+  "lighthouse-core/audits/user-timings.js | title": {
+    "message": "カスタム速度の記録と計測"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | description": {
+    "message": "事前接続または DNS プリフェッチのリソースヒントを追加して、重要な第三者ドメインへの接続を早期に確立できるようにすることをご検討ください。[詳細](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect)"
+  },
+  "lighthouse-core/audits/uses-rel-preconnect.js | title": {
+    "message": "必須のドメインへの事前接続"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | description": {
+    "message": "<link rel=preload> を使用して、現在ページ読み込みの後のほうでリクエストしているリソースを優先的に取得することをご検討ください。[詳細](https://developers.google.com/web/tools/lighthouse/audits/preload)"
+  },
+  "lighthouse-core/audits/uses-rel-preload.js | title": {
+    "message": "キー リクエストのプリロード"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": {
+    "message": "アプリケーションのパフォーマンスに関する詳細。"
+  },
+  "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": {
+    "message": "診断"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupDescription": {
+    "message": "パフォーマンスの最も重要な点は、ピクセルをどのくらい速く画面にレンダリングできるかです。主要な指標: コンテンツの初回ペイント、意味のあるコンテンツの初回ペイント"
+  },
+  "lighthouse-core/config/default-config.js | firstPaintImprovementsGroupTitle": {
+    "message": "初回ペイントの改善点"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": {
+    "message": "これらの項目を改善すると、ページの読み込み時間を短縮できます。"
+  },
+  "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": {
+    "message": "改善できる項目"
+  },
+  "lighthouse-core/config/default-config.js | metricGroupTitle": {
+    "message": "指標"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupDescription": {
+    "message": "読み込みの全体的なパフォーマンスを改善して、ページの反応性や操作性を高めましょう。主要な指標: インタラクティブになるまでの時間、速度インデックス"
+  },
+  "lighthouse-core/config/default-config.js | overallImprovementsGroupTitle": {
+    "message": "全体的な改善点"
+  },
+  "lighthouse-core/config/default-config.js | performanceCategoryTitle": {
+    "message": "パフォーマンス"
+  },
+  "lighthouse-core/lib/i18n.js | columnCacheTTL": {
+    "message": "キャッシュの TTL"
+  },
+  "lighthouse-core/lib/i18n.js | columnSize": {
+    "message": "サイズ（KB）"
+  },
+  "lighthouse-core/lib/i18n.js | columnTimeSpent": {
+    "message": "かかった時間"
+  },
+  "lighthouse-core/lib/i18n.js | columnURL": {
+    "message": "URL"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedBytes": {
+    "message": "減らせるデータ量（KB）"
+  },
+  "lighthouse-core/lib/i18n.js | columnWastedMs": {
+    "message": "短縮できる時間（ミリ秒）"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueByteSavings": {
+    "message": "{wastedBytes, number, bytes} KB 減らせます"
+  },
+  "lighthouse-core/lib/i18n.js | displayValueMsSavings": {
+    "message": "{wastedMs, number, milliseconds} ミリ秒短縮できます"
+  },
+  "lighthouse-core/lib/i18n.js | ms": {
+    "message": "{timeInMs, number, milliseconds} ミリ秒"
+  },
+  "lighthouse-core/report/html/renderer/util.js | auditGroupExpandTooltip": {
+    "message": "監査を表示"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorLabel": {
+    "message": "エラー"
+  },
+  "lighthouse-core/report/html/renderer/util.js | errorMissingAuditInfo": {
+    "message": "レポートエラー: 監査情報はありません"
+  },
+  "lighthouse-core/report/html/renderer/util.js | manualAuditsGroupTitle": {
+    "message": "個別の検証が必要な他の項目"
+  },
+  "lighthouse-core/report/html/renderer/util.js | notApplicableAuditsGroupTitle": {
+    "message": "該当なし"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunityResourceColumnLabel": {
+    "message": "改善できる項目"
+  },
+  "lighthouse-core/report/html/renderer/util.js | opportunitySavingsColumnLabel": {
+    "message": "短縮できる時間（推定）"
+  },
+  "lighthouse-core/report/html/renderer/util.js | passedAuditsGroupTitle": {
+    "message": "合格した監査"
+  },
+  "lighthouse-core/report/html/renderer/util.js | scorescaleLabel": {
+    "message": "スコア評価:"
+  },
+  "lighthouse-core/report/html/renderer/util.js | toplevelWarningsMessage": {
+    "message": "Lighthouse の実行に影響する問題が発生しました。"
+  },
+  "lighthouse-core/report/html/renderer/util.js | varianceDisclaimer": {
+    "message": "推定値のため変動する可能性があります。"
+  },
+  "lighthouse-core/report/html/renderer/util.js | warningHeader": {
+    "message": "警告: "
+  }
+}

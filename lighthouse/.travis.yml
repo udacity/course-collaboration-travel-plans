@@ -1,0 +1,57 @@
+sudo: required
+language: node_js
+branches:
+  only:
+  - master
+matrix:
+  include:
+    - node_js: "8"
+    - node_js: "9"
+      if: head_branch IS blank AND branch = master
+dist: trusty
+cache:
+  yarn: true
+  directories:
+    - node_modules
+    - lantern-data
+    - lighthouse-extension/node_modules
+    - lighthouse-viewer/node_modules
+    - /home/travis/.rvm/gems/
+install:
+  # if our e2e tests fail in the future it might be that we are not compatible
+  # with the latest puppeteer api so we probably need to run on chromimum
+  # @see https://github.com/GoogleChrome/lighthouse/pull/4640/files#r171425004
+  - export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
+  - yarn
+  # travis can't handle the parallel install (without caches)
+  - yarn run install-all:task:windows
+before_script:
+  - export DISPLAY=:99.0
+  # see comment above about puppeteer
+  - export CHROME_PATH="$(which google-chrome-stable)"
+  - sh -e /etc/init.d/xvfb start
+  - yarn build-all
+script:
+  - yarn bundlesize
+  - yarn diff:sample-json
+  - yarn lint
+  - yarn unit:silentcoverage
+  - yarn type-check
+  - yarn smoke:silentcoverage
+  - yarn test-extension
+  - yarn test-viewer
+  - yarn test-lantern
+  - yarn i18n:checks
+  # _JAVA_OPTIONS is breaking parsing of compiler output. See #3338.
+  - unset _JAVA_OPTIONS
+  # FIXME(paulirish): re-enable after a roll of LH->CDT
+  # - yarn compile-devtools
+before_cache:
+  # the `yarn compile-devtools` task adds these to node_modules, which slows down caching
+  - rm -rf ./node_modules/temp-devtoolsfrontend/
+  - rm -rf ./node_modules/temp-devtoolsprotocol/
+after_success:
+  - yarn coveralls
+  - yarn codecov
+addons:
+  chrome: stable
