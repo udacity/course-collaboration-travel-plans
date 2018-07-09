@@ -42,6 +42,7 @@ body {
 
 .destination:hover h2 {
     transform: rotate(0deg);
+    color : black;
 }
 
 h2 {
@@ -56,5 +57,5 @@ h2 {
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: rgb(210, 137, 0);
 }
