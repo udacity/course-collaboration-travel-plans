@@ -55,6 +55,18 @@ h2 {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#netherlands {
     background-color: #800000;
+}
+
+#germany {
+    background-color: #008026;
+}
+
+#paris {
+    background-color: #ac538e;
+}
+
+#scotland {
+    background-color: hsl(192, 20%, 95%);
 }
