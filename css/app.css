@@ -8,6 +8,7 @@ html {
 *::after {
     box-sizing: inherit;
 }
+p{color: blueviolet;}
 
 body {
     display: flex;
