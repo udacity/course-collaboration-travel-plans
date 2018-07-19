@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     height: 100%;
+    background-color: pink;
 }
 
 *,
