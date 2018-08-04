@@ -38,10 +38,20 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: transform 0.5s;
 }
 
 .destination:hover h2 {
     transform: rotate(0deg);
+}
+
+.destination:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: transform 0.5s;
 }
 
 h2 {
