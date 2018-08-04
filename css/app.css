@@ -51,10 +51,29 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
+h2b {
+    margin: 0;
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #01579b;
+}
+
 #belize {
     background-color: #4dd0e1;
 }
 
 #barcelona {
     background-color: #800000;
+}
+
+#neist {
+    background-color: #e69500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large
+}
+
+#monument {
+    background-color: #3532ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large
 }
