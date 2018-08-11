@@ -51,10 +51,22 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#arizona {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#rome {
     background-color: #800000;
+}
+
+#paris {
+    background-color: #231fe1;
+}
+
+#st-Petersburg {
+    background-color: #b54332;
+}
+
+#shanghai {
+    background-color: #4d70e9;
 }
