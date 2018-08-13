@@ -3,3 +3,5 @@
 .htmlhintrc
 .stylelintrc
 .editorconfig
+
+.idea/*
