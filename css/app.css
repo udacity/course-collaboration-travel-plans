@@ -29,7 +29,7 @@ body {
 
 .destination {
     background: #03a9f4;
-    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.7); 
     color: white;
     margin: 0.5em;
     min-height: 200px;
@@ -38,10 +38,16 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 5px;
+}
+
+.destination:hover{
+    box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.7); 
 }
 
 .destination:hover h2 {
-    transform: rotate(0deg);
+    transform: rotate(45deg);
+    font-size: 28px;
 }
 
 h2 {
@@ -67,6 +73,6 @@ h2 {
     background-color: #01579b;
 }
 
-#amesterdam {
-    background-color: #404040;
+#amsterdam {
+    background-color: #ab45a0 ;
 }
