@@ -38,6 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+	transition: background-color 0.5s;
 }
 
 .destination:hover h2 {
@@ -57,4 +58,12 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#belize:hover {
+	background-color: #800000;
+}
+
+#barcelona:hover {
+	background-color: #4dd0e1;
 }
