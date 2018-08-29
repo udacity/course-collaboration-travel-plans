@@ -56,8 +56,18 @@ h2 {
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #548826;
 }
 #madrid {
     background-color: #657154;
+}
+#warning {
+    background-color: red;
+    animation-name: warning;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes warning{
+    0% {color : white;}
+    50%{color : yellow;}
 }
