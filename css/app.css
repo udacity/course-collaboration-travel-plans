@@ -52,9 +52,11 @@ h2 {
 }
 
 #belize {
-    background-color: #4dd0e1;
+
+    background-color: #800000;
 }
 
 #barcelona {
-    background-color: #800000;
+    background-image: linear-gradient(to right bottom, rgba(105, 150, 182, 0.8), rgba(8, 57, 91, 0.8)), url(../img/4097.jpeg);
+    background-size: cover;
 }
