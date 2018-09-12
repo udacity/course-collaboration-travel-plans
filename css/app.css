@@ -51,14 +51,6 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
-    background-color: #4dd0e1;
-}
-
-#barcelona {
-    background-color: #800000;
-}
-
 #cairo {
     background-color: #4d00e1;
 }
@@ -77,4 +69,12 @@ h2 {
 
 #hurghada {
     background-color: #981288;
+}
+
+#belize {
+    background-color: #4dd0e1;
+}
+
+#barcelona {
+    background-color: #800000;
 }
