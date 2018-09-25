@@ -1,0 +1,27 @@
+[1mdiff --git a/css/app.css b/css/app.css[m
+[1mindex f979aba..58da430 100644[m
+[1m--- a/css/app.css[m
+[1m+++ b/css/app.css[m
+[36m@@ -62,3 +62,7 @@[m [mh2 {[m
+ #Dubai {[m
+     background-color: #249357;[m
+ }[m
+[32m+[m
+[32m+[m[32m#Salalah {[m
+[32m+[m[32m    background-color: #249357;[m
+[32m+[m[32m}[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex c8c1ff5..695e7f2 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -21,6 +21,10 @@[m
+             <div class="destination" id="Dubai">[m
+                 <h2>Dubai</h2>[m
+             </div>[m
+[32m+[m
+[32m+[m[32m            <div class="destination" id="Salalah">[m
+[32m+[m[32m                <h2>Salalah</h2>[m
+[32m+[m[32m            </div>[m
+         </div>[m
+     </div>[m
+ [m
