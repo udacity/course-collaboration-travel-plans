@@ -58,3 +58,14 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+.richards-destination {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+#bankok{
+    background-color: pink;
+}
+#berlin{
+    background-color: blue;
+}
