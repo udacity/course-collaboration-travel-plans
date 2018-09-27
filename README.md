@@ -1,3 +1,3 @@
 # Travel Destinations
 
-A simple app to keep track of destinations I'd like to visit with my family.
+A complex app to keep track of destinations I'd like to visit with my family.
