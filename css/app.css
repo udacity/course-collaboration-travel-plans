@@ -13,6 +13,7 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background-color: grey;
 }
 
 .container {
@@ -58,3 +59,10 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#venice {
+    background-color: lime;
+}
+
+#amsterdam {
+    background-color: orange;
