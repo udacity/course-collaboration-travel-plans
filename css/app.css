@@ -17,7 +17,7 @@ body {
 
 .container {
     margin: auto;
-    padding: 1em;
+    padding: 10px;
     width: 80%;
 }
 
@@ -57,4 +57,10 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+#paris {
+    background-color: #F00;
+}
+#perline {
+    background-color: #00F;
 }
