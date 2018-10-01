@@ -51,10 +51,14 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
-    background-color: #4dd0e1;
+#valencia {
+    background-color: blue;
 }
 
-#barcelona {
-    background-color: #800000;
+#paris {
+    background-color: purple;
+}
+
+#rome {
+    background-color: red;
 }
