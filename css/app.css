@@ -1,5 +1,5 @@
 /* Just adding a text note at the head of document */
-
+/* Bananas */
 html {
     box-sizing: border-box;
     height: 100%;
@@ -15,6 +15,7 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background-color: lightcyan;
 }
 
 .container {
