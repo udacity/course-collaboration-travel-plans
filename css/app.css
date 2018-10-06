@@ -53,8 +53,11 @@ h2 {
 
 #belize {
     background-color: #4dd0e1;
+	background-image: url('../img/belize.gif');
+ 
 }
 
 #barcelona {
     background-color: #800000;
+	background-image: url('../img/barcelona.png');
 }
