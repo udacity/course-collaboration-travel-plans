@@ -25,6 +25,11 @@ body {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    border-style: groove;
+    border-top-color: #800000;
+    border-left-color:tomato;
+    border-right-color:gold;
+    border-bottom-color: sienna;
 }
 
 .destination {
@@ -53,8 +58,16 @@ h2 {
 
 #belize {
     background-color: #4dd0e1;
+    border-radius: 20%;
 }
 
 #barcelona {
     background-color: #800000;
+    border-radius: 20%;
+}
+
+
+#Mudhairib {
+    background-color:rgb(100,30,215);
+    border-radius: 20%;
 }
