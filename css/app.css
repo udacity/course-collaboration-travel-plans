@@ -29,7 +29,7 @@ body {
 
 .destination {
     background: #03a9f4;
-    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 9px 0 rgba(0, 1, 0, 0.4);
     color: white;
     margin: 0.5em;
     min-height: 200px;
@@ -46,13 +46,13 @@ body {
 
 h2 {
     margin: 0;
-    transform: rotate(-45deg);
+    transform: rotate(-25deg);
     transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
 }
 
 #belize {
-    background-color: #4dd0e1;
+    background-color: #778899;
 }
 
 #barcelona {
