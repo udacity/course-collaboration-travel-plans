@@ -18,7 +18,7 @@ body {
 .container {
     margin: auto;
     padding: 1em;
-    width: 80%;
+    width: 90%;
 }
 
 .destination-container {
@@ -47,12 +47,12 @@ body {
 h2 {
     margin: 0;
     transform: rotate(-45deg);
-    transition: transform 0.5s;
-    text-shadow: 0 0 5px #01579b;
+    transition: transform 0.1s;
+    text-shadow: 0 0 5px #0b8ff5;
 }
 
 #belize {
-    background-color: #4dd0e1;
+    background-color: #0b98aa;
 }
 
 #barcelona {
