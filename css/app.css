@@ -50,7 +50,11 @@ body {
     background-color: #800000;
 }
 
+}
 
+#xinjiang {
+    background-color: #d32f2f;
+}
 .destination:hover h2 {
     transform: rotate(0deg);
 }
