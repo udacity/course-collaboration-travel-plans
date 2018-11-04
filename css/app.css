@@ -38,6 +38,11 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+#florida {
+    background-color: #03a9f4;
+}
 
 }
 
