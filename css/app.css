@@ -38,7 +38,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
+
+#paris {
+    background-color: #800000;
+}
+
 
 .destination:hover h2 {
     transform: rotate(0deg);
