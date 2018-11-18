@@ -51,10 +51,18 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
-    background-color: #4dd0e1;
+#japan {
+    background-color: #ff9033;
 }
 
 #barcelona {
     background-color: #800000;
+}
+
+#new_zealand {
+    background-color: #ff3361;
+}
+
+#south_africa {
+    background-color: #8d33ff;
 }
