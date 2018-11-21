@@ -60,9 +60,14 @@ h2 {
 }
 
 #florida {
-    
+    background-color: #008000
+
 }
 #paris {
     background-color: #f3ffb3;
     color: black
+}
+
+#scotland {
+    background-color: green;
 }
