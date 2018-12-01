@@ -50,6 +50,9 @@ h2 {
     transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
 }
+#udupi {
+    background-color: #4dd0e0;
+}
 
 #belize {
     background-color: #4dd0e1;
@@ -57,4 +60,8 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#bangalore {
+    background-color: #100000;
 }
