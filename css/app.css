@@ -8,6 +8,7 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
+    font-weight: 222;
 }
 
 body {
