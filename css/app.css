@@ -24,7 +24,7 @@ body {
 .destination-container {
     display: flex;
     flex-flow: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .destination {
