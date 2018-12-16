@@ -58,6 +58,7 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+<<<<<<< HEAD
 
 #florida {
     background-color: #03a9f4;
@@ -74,3 +75,10 @@ h2 {
 #sanfrancisco {
     background-color: #383e3c;
 }
+||||||| parent of 06853f5... Add destination Florida
+=======
+
+#florida {
+    background-color: #03a9f4;
+}
+>>>>>>> 06853f5... Add destination Florida
