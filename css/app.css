@@ -47,14 +47,14 @@ body {
 h2 {
     margin: 0;
     transform: rotate(-45deg);
-    transition: transform 0.5s;
-    text-shadow: 0 0 5px #01579b;
+    transition: transform 0.7s;
+    text-shadow: 0 0 5px #2077bc;
 }
 
 #belize {
-    background-color: #4dd0e1;
+    background-color: #a7e8f0;
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #e81313;
 }
