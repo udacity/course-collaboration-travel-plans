@@ -58,10 +58,23 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+<<<<<<< HEAD
 #florida {
     background-color: #800000;
 }
 
 #paris {
     background-color: #800000;
+=======
+
+#florida {
+    background-color: #03a9f4;
+}
+
+#paris {
+    background-color: #d32f2f;
+}
+#scotland {
+    background-color: #388e3c;
+>>>>>>> 95a243426a90d517a236c62ad97d3751ad11d192
 }
