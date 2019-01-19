@@ -23,8 +23,7 @@ body {
 
 .destination-container {
     display: flex;
-    flex-flow: wrap;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .destination {
@@ -33,6 +32,7 @@ body {
     color: white;
     margin: 0.5em;
     min-height: 200px;
+    min-width: 350px;
     flex: 0 1 200px;
     display: flex;
     justify-content: center;
