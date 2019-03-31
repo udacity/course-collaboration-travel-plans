@@ -40,7 +40,7 @@ body {
     text-align: center;
 }
 
-.destination.hover h2 {
+.destination:hover h2 {
     color: purple;
     transform: rotate(90deg);
     transition: transform 2s;
