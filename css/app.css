@@ -41,7 +41,9 @@ body {
 }
 
 .destination.hover h2 {
-    transform: rotate(0deg);
+    color: purple;
+    transform: rotate(90deg);
+    transition: transform 2s;
 }
 
 h2 {
