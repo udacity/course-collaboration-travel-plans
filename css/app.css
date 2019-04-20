@@ -44,6 +44,13 @@ body {
     transform: rotate(0deg);
 }
 
+.title {
+    display: flex;
+    flex-flow: wrap;
+	justify-content: center;
+    text-align: center;
+}
+
 h2 {
     margin: 0;
     transform: rotate(-45deg);
