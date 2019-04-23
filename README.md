@@ -1,3 +1,3 @@
 # Travel Destinations
 
-A simple app to keep track of destinations I'd like to visit.
+A very simple app to keep track of destinations I'd like to visit (European and Worldwide).
