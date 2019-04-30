@@ -1,4 +1,4 @@
-html {
+hhtml {
     box-sizing: border-box;
     height: 100%;
 }
@@ -57,4 +57,13 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+#florida {
+    background-color: #fdccf0;
+}
+#paris {
+    background-color: #12fcd5;
+}
+#scotlandaris {
+    background-color: #dfccff;
 }
