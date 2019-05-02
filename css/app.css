@@ -58,3 +58,16 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+.sidebar {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.sidebar ul li {
+    float: left;
+    font-weight: bold;
+    list-style: none;
+    padding: 5px 20px;
+}
