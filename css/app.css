@@ -59,6 +59,7 @@ h2 {
     background-color: #800000;
 }
 
+/* Sidebar */
 .sidebar {
     display: flex;
     flex-flow: wrap;
@@ -70,4 +71,16 @@ h2 {
     font-weight: bold;
     list-style: none;
     padding: 5px 20px;
+}
+
+.sidebar ul li a {
+    background: #FF6699;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    background: rgb(119, 4, 42);
+    color: #fff;
 }
