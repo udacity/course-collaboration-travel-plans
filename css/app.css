@@ -23,8 +23,10 @@ body {
 
 .destination-container {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row wrap;
     justify-content: center;
+    max-width: 450px;
+    margin: auto;
 }
 
 .destination {
@@ -57,4 +59,9 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+#casablanca{
+    background-color: crimson;
+    flex: 0 1 400px;
+    max-height: 200px;
 }
