@@ -11,8 +11,17 @@ html {
 
 body {
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     height: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
 }
 
 .container {
@@ -57,4 +66,23 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+.footer-container {
+    width: 100%;
+    background-color: salmon;
+    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
+}
+
+#footer-element-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer-element {
+    height: 100%;
+}
+
+#udacity-logo {
+    height: 100%;
 }
