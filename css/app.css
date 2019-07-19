@@ -70,19 +70,28 @@ h2 {
 
 .footer-container {
     width: 100%;
-    background-color: salmon;
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
 }
 
 #footer-element-container {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .footer-element {
     height: 100%;
+    display: block;
+    padding: 1em;
+    height: 100%;
+    margin: auto 0;
+}
+
+#udacity-link {
+    display: inherit;
 }
 
 #udacity-logo {
-    height: 100%;
+    height: 50px;
 }
