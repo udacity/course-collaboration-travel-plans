@@ -51,10 +51,22 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#madrid {
     background-color: #4dd0e1;
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #ff8c00;
+}
+#bilbao {
+    background-color: #ff9999;
+}
+#sevilla {
+    background-color: #7fffd4;
+}
+#malaga {
+    background-color: #fff44f;
+}
+#valencia {
+    background-color: #ff4500;
 }
