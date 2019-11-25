@@ -26,7 +26,9 @@ body {
     flex-flow: wrap;
     justify-content: center;
 }
-
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
 .destination {
     background: #03a9f4;
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
@@ -40,10 +42,6 @@ body {
     text-align: center;
 }
 
-.destination:hover h2 {
-    transform: rotate(0deg);
-}
-
 h2 {
     margin: 0;
     transform: rotate(-45deg);
@@ -51,10 +49,17 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
-    background-color: #4dd0e1;
+#florida {
+    background-color: #03a9f4;
 }
 
-#barcelona {
-    background-color: #800000;
+#paris {
+    background-color: #d32f2f;
+}
+
+#amsterdam{
+	background-color: #dFFB2f;
+}
+#tunisia{
+	background-color: #d1AC3e;
 }
