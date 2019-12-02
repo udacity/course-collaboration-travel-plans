@@ -47,14 +47,26 @@ body {
 h2 {
     margin: 0;
     transform: rotate(-45deg);
-    transition: transform 0.5s;
+    transition: transform 0.5s;    
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
-    background-color: #4dd0e1;
+#florida {
+    background-color: #03a9f4;
 }
 
-#barcelona {
-    background-color: #800000;
+#paris {
+    background-color: #d32f2f;
+}
+
+#london {
+    background-color: #8483fe;
+}
+
+#berlin {
+    background-color: #f9a949;
+}
+
+#lagos {
+    background-color: #dd00ff;
 }
