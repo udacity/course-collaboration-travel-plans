@@ -14,7 +14,9 @@ body {
     margin: 0;
     height: 100%;
 }
-
+footer {
+  display: flow-root;
+}
 .container {
     margin: auto;
     padding: 1em;
@@ -67,4 +69,7 @@ h2 {
 }
 #india {
     background-color: #325f4d;
+}
+#wheretoo {
+    background-color: #292929;
 }
