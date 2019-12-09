@@ -16,4 +16,4 @@ another small change to test clone and push to forke project to my account on gi
 		 git remote add origin_forke https://github.com/eidmahmoud/course-collaboration-travel-plans.git
     push this to forke project on github
 		-go to github and create tobic branch with name "include-richards-destinations"
-		-git pull origin_forke include-richards-destinations
+		-git push origin_forke include-richards-destinations
