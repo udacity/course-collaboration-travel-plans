@@ -13,6 +13,7 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    
 }
 
 .container {
@@ -54,6 +55,6 @@ h2 {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#Myanmar {
     background-color: #800000;
 }
