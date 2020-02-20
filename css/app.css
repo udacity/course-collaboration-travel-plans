@@ -51,7 +51,7 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#china {
+#hk {
     background-color: #4dd0e1;
 }
 
@@ -61,4 +61,8 @@ h2 {
 
 #prague {
     background-color:orangered;
+}
+
+#cairo {
+    background-color: green;
 }
