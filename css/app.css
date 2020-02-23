@@ -47,14 +47,22 @@ body {
 h2 {
     margin: 0;
     transform: rotate(-45deg);
-    transition: transform 0.5s;
+    transition: transform 0.8s;
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
-    background-color: #4dd0e1;
+#Bern {
+    background-color: #00FF00;
 }
 
-#barcelona {
-    background-color: #800000;
+#Geneve {
+    background-color: #00FFFF;
+}
+
+#Lausanne {
+    background-color: #FF00FF;
+}
+
+#Zurich {
+    background-color: #FF0000;
 }
