@@ -22,7 +22,7 @@ body {
 }
 
 .destination-container {
-    display: flex;
+    display: flex,mooo;
     flex-flow: wrap;
     justify-content: center;
 }
