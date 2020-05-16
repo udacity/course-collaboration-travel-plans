@@ -27,6 +27,18 @@ body {
     justify-content: center;
 }
 
+/* .container {
+    margin: auto;
+    padding: 1em;
+    width: 80%;
+}
+
+.destination-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+} */
+
 .destination {
     background: #03a9f4;
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
