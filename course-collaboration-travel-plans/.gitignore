@@ -1,0 +1,5 @@
+.DS_Store
+.eslintrc.json
+.htmlhintrc
+.stylelintrc
+.editorconfig
