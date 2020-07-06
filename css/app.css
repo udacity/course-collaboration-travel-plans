@@ -51,10 +51,21 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
-    background-color: #4dd0e1;
+#ds1 {
+    background: #4dd0e1;
 }
 
-#barcelona {
+#ds2 {
     background-color: #800000;
+}
+
+#ds3 {
+    background: #482FF7;
+}
+
+#ds4 {
+    background: #A47C84;}
+
+#ds5 {
+    background: #3EC483;
 }
