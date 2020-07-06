@@ -52,9 +52,20 @@ h2 {
 }
 
 #belize {
-    background-color: #4dd0e1;
+    background: #4dd0e1;
 }
 
 #barcelona {
     background-color: #800000;
+}
+
+#sf {
+    background: #482FF7;
+}
+
+#italy {
+    background: #A47C84;}
+
+#fiji {
+    background: #3EC483;
 }
