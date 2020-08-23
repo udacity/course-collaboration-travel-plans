@@ -20,6 +20,13 @@ body {
     height: 100%;
 }
 
+body {
+    display: flex;
+    margin: 0;
+    height: 100%;
+}
+
+
 .container {
     margin: auto;
     padding: 1em;
