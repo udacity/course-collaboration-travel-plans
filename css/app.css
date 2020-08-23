@@ -8,6 +8,11 @@ html {
 *::after {
     box-sizing: inherit;
 }
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 
 body {
     display: flex;
