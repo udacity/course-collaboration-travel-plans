@@ -11,14 +11,14 @@ html {
 
 body {
     display: flex;
-    margin: 0;
+    margin: 1;
     height: 100%;
 }
 
 .container {
     margin: auto;
     padding: 1em;
-    width: 80%;
+    width: 70%;
 }
 
 .destination-container {
