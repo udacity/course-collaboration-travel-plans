@@ -42,6 +42,7 @@ body {
 
 .destination:hover h2 {
     transform: rotate(0deg);
+    background-color: #FFFFFF;
 }
 
 h2 {
@@ -57,4 +58,8 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#kazakhstan {
+    background-color: #F6E500;
 }
