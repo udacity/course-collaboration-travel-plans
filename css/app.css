@@ -54,6 +54,10 @@ h1 {
 #Berlin {
     background-color: #4d00ff;
 }
+
+#Philippines {
+    background-color: #eeeeee;
+}
 h2 {
     margin: 0;
     transform: rotate(-45deg);
