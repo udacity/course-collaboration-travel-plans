@@ -1,4 +1,6 @@
 # Travel Destinations
 
 A simple app to keep track of destinations I'd like to visit.
-Forked and Modified(kaladar).
+
+Hey This is kaladar.
+Computer Science Student Undergraduate.
