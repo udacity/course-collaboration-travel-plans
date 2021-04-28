@@ -43,6 +43,10 @@ body {
 .destination:hover h2 {
     transform: rotate(0deg);
 }
+h1{
+    text-align: center;
+    color: rgb(213, 241, 136);
+}
 
 h2 {
     margin: 0;
