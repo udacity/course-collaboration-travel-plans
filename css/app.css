@@ -11,14 +11,14 @@ html {
 
 body {
     display: flex;
-    margin: 0;
+    margin: 8;
     height: 100%;
 }
 
 .container {
     margin: auto;
     padding: 1em;
-    width: 80%;
+    width: 65%;
 }
 
 .destination-container {
@@ -29,7 +29,7 @@ body {
 
 .destination {
     background: #03a9f4;
-    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 9px 0 rgba(0, 0.6, 0, 0.4);
     color: white;
     margin: 0.5em;
     min-height: 200px;
