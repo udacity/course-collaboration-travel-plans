@@ -39,6 +39,11 @@ body {
     align-items: center;
     text-align: center;
 }
+.test {
+    margin: auto;
+    padding: 2em;
+    width: 90%;
+}
 
 .destination:hover h2 {
     transform: rotate(0deg);
