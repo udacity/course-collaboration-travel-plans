@@ -18,7 +18,7 @@ body {
 .container {
     margin: auto;
     padding: 1em;
-    width: 100%;
+    width: 80%;
 }
 
 .destination-container {
@@ -57,4 +57,16 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#Florida {
+    background-color: #03a9f4;
+}
+
+#Paris {
+    background-color: #d32f2f;
+}
+
+#scotland {
+    background-color: #388e3c;
 }
