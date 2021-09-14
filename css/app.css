@@ -18,7 +18,10 @@ body {
 .container {
     margin: auto;
     padding: 1em;
-    width: 80%;
+    width: 50%;
+    height: 80%;
+    border:3px dashed #4f054c;
+    box-shadow: 0 2px 15px 1px rgba(0, 0, 0.4, 0.8);
 }
 
 .destination-container {
