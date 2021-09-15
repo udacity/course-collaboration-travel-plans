@@ -61,3 +61,27 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+
+/*
+form
+*/
+.name-field{
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.btn-submit {
+  margin:5px;
+  padding: 3px 10px;
+}
+
+.login-form a {
+
+  color: #1400ff;
+  text-decoration: none;
+}
+
+.login-form a:hover {
+  color: red;
+}
