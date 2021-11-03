@@ -9,6 +9,7 @@ I think you should use an
 > the present is our past.
 
 testing headers
+## 2<sup>nd</sup>
 
 # This is an <h1> tag
 
@@ -20,7 +21,7 @@ testing headers
 
 # _nmilo w ma nti7och_
 
-# _nmilo w ma **nti7och** _
+# _nmilo w ma **nti7och**_
 
 list
 
