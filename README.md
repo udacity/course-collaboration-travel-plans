@@ -31,7 +31,8 @@ list
 * Item 2
   * Item 2a
   * Item 2b
-[_Udacity_](https://www.udacity.com/)
+[_Udacity_](https://www.udacity.com/) hello
+[Configure Text Editor by path](https://stackoverflow.com/questions/49054885/how-to-fix-git-commit-with-atom-text-editor)
 
   1. Item 1
   1. Item 2
