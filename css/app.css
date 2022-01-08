@@ -58,3 +58,8 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#lagos {
+    background: linear-gradient(to top right, hsla(122, 39%, 49%, 1), hsla(0, 0%, 100%, 1), hsla(122, 39%, 49%, 1));
+    color: rgba(9, 80, 11, 1);
+}
