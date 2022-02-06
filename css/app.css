@@ -9,6 +9,7 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
     display: flex;
     margin: 0;
@@ -57,4 +58,8 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#florida {
+    background-color: #03a9f4;
 }
