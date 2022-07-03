@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+    display: grid;
     margin: auto;
     padding: 1em;
     width: 80%;
