@@ -13,19 +13,26 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background-color: #ede;
 }
 
-.container {
+.container, .wrapper {
     margin: auto;
     padding: 1em;
     width: 80%;
+  }
+.wrapper{
+    height: 80%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    display: flex;
+    align-items: center; 
+    border-radius: 1rem;
 }
-
 .destination-container {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-}
+ }
 
 .destination {
     background: #03a9f4;
@@ -57,4 +64,7 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+#NewYork{
+    background-color: chocolate;
 }
