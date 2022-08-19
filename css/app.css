@@ -51,10 +51,18 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#accra {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#paris {
     background-color: #800000;
+}
+
+#munich {
+    background-color: #03a9f4;
+}
+
+#london {
+    background-color: #388e3c;
 }
