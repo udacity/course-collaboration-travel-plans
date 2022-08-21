@@ -51,10 +51,20 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#australia {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#qatar {
     background-color: #800000;
+}
+
+#dubai {
+    background-color: #03a9f4;
+}
+
+.header h3{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px grey;
 }
