@@ -39,6 +39,9 @@ body {
     align-items: center;
     text-align: center;
 }
+.florida{
+    background-color: #800000;
+}
 
 .destination:hover h2 {
     transform: rotate(0deg);
