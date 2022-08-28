@@ -2,4 +2,4 @@
 
 A simple app to keep track of destinations I'd like to visit.
 
-Umar Faruq Zubairu
+Umar Faruq Zubairu, Udacity student sponspored by ALX
