@@ -67,3 +67,10 @@ h2 {
 #ghana {
     background-color: red;
 }
+
+.title {
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.45ch;
+    font-size: 1.8em;
+}
