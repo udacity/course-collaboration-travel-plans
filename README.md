@@ -1,3 +1,3 @@
-# Travel Destinations
+# Destinations de voyage
 
-A simple app to keep track of destinations I'd like to visit.
+Une simple application pour garder mes destinations de voyage.
