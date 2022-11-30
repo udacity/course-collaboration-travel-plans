@@ -51,10 +51,22 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#bishkek {
     background-color: #4dd0e1;
 }
 
 #barcelona {
     background-color: #800000;
+}
+
+#moscow {
+    background-color: #400fff;
+}
+
+#istambul {
+    background-color: #f00fff;
+}
+
+#greenland {
+    background-color: #aaafff;
 }
