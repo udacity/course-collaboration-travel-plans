@@ -51,10 +51,34 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
-    background-color: #4dd0e1;
+#tecoman {
+    background-color: #E9967A;
 }
 
-#barcelona {
-    background-color: #800000;
+#manzanillo {
+    background-color: #F0E68C;
+}
+
+#comala {
+    background-color: #AFEEEE;
+}
+
+#mexico city {
+    background-color: #6A5ACD;
+}
+
+#guadalajara {
+    background-color: #DDA0DD;
+}
+
+#tulum {
+    background-color: #F5F5F5;
+}
+
+#cancun {
+    background-color: #2F4F4F;
+}
+
+#merida {
+    background-color: #FFE4E1;
 }
