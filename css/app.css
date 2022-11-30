@@ -11,7 +11,7 @@ html {
 
 body {
     display: flex;
-    margin: 0;
+    margin: 0.5;
     height: 100%;
 }
 
@@ -57,4 +57,7 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+#Addis  {
+    background-color: #008015;
 }
