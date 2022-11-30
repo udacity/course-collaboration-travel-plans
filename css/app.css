@@ -10,6 +10,7 @@ html {
 }
 
 body {
+    background-color: chocolate;
     display: flex;
     margin: 0;
     height: 100%;
@@ -57,4 +58,8 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#New_York {
+    background-color: #80003c;
 }
