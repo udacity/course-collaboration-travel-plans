@@ -58,3 +58,19 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+#nigeria {
+    background-color: green;
+}
+#cameroon {
+    background-color: brown;
+}
+#ghana {
+    background-color: red;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.45ch;
+    font-size: 1.8em;
+}
