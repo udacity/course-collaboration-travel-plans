@@ -58,7 +58,3 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
-
-#valencia {
-    background-color: #696969;
-}
