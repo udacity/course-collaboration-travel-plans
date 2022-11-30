@@ -43,6 +43,10 @@ body {
 .destination:hover h2 {
     transform: rotate(0deg);
 }
+h1{
+    text-align: center;
+    color: rgb(213, 241, 136);
+}
 
 h2 {
     margin: 0;
@@ -58,3 +62,10 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+#cairo {
+    background-color: #008026;
+}
+#Alex {
+    background-color: #4ea8c4;
+}
+
