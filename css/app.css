@@ -32,7 +32,7 @@ body {
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
     color: white;
     margin: 0.5em;
-    min-height: 200px;
+    min-height: 300px;
     flex: 0 1 200px;
     display: flex;
     justify-content: center;
@@ -57,4 +57,12 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#ireland {
+    background-color: #319E2F;
+}
+
+#vietnam {
+    background-color: #D5EE4E;
 }
