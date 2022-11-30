@@ -44,6 +44,20 @@ body {
     transform: rotate(0deg);
 }
 
+h1 {
+    margin: 0;
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #01579b;
+}
+
+#Berlin {
+    background-color: #4d00ff;
+}
+
+#Philippines {
+    background-color: #eeeeee;
+}
 h2 {
     margin: 0;
     transform: rotate(-45deg);
@@ -51,10 +65,10 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#Belize {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#Barcelona {
     background-color: #800000;
 }
