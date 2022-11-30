@@ -38,10 +38,29 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .destination:hover h2 {
     transform: rotate(0deg);
+}
+
+.destination::after {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    display: none;
+    background-image: linear-gradient(to right, #000000, transparent, #000000);
+    content: '';
+}
+
+.destination:hover {
+    top: -10px;
+}
+
+.destination:hover::after {
+    display: block;
 }
 
 h2 {
@@ -57,4 +76,8 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#madrid {
+    background-color: #384727;
 }
