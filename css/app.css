@@ -40,6 +40,10 @@ body {
     text-align: center;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+}
 .destination:hover h2 {
     transform: rotate(0deg);
 }
@@ -57,4 +61,16 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#florida {
+    background-color: #03a903;
+}
+
+#paris {
+    background-color: #a9a603;
+}
+
+#ecosse {
+    background-color: #03a99b;
 }
