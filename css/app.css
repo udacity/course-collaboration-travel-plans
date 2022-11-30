@@ -13,6 +13,7 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    padding: 0;
 }
 
 .container {
@@ -57,4 +58,13 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+#florida {
+    background-color: #10e63e;
+}
+#paris {
+    background-color: #d2f50d;
+}
+#scotland {
+    background-color: #e606c0;
 }
