@@ -51,10 +51,23 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
+#nairobi {
     background-color: #4dd0e1;
 }
 
 #barcelona {
     background-color: #800000;
 }
+
+#paris {
+    background-color: #04721f;
+}
+
+#london {
+    background-color: #cc5708;
+}
+
+#tokyo {
+    background-color: #b61c7b;
+}
+
