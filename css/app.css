@@ -44,6 +44,13 @@ body {
     transform: rotate(0deg);
 }
 
+h1 {
+	margin: 0;
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #01579b;
+}
+
 h2 {
     margin: 0;
     transform: rotate(-45deg);
@@ -56,5 +63,8 @@ h2 {
 }
 
 #barcelona {
+    background-color: #800000;
+}
+#florida {
     background-color: #800000;
 }
