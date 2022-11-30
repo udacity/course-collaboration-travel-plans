@@ -18,7 +18,10 @@ body {
 .container {
     margin: auto;
     padding: 1em;
-    width: 80%;
+    width: 50%;
+    height: 80%;
+    border:3px dashed #4f054c;
+    box-shadow: 0 2px 15px 1px rgba(0, 0, 0.4, 0.8);
 }
 
 .destination-container {
@@ -51,10 +54,42 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
+.reg-form h3 {
+  text-align: center;
+}
+
 #belize {
     background-color: #4dd0e1;
 }
 
 #barcelona {
     background-color: #800000;
+}
+
+
+/*
+form
+*/
+.name-field{
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.btn-submit {
+  margin:5px;
+  padding: 3px 10px;
+  background-color: #01e6df;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.login-form a {
+
+  color: #1400ff;
+  text-decoration: none;
+}
+
+.login-form a:hover {
+  color: red;
 }
