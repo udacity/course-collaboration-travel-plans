@@ -58,3 +58,20 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#paris {
+    background-color: #80f200;
+}
+
+#scotland {
+    background-color: #80f830;
+}
+
+#tanzania{
+	background-color: hsl(245 63% 45%);
+}
+
+#cameroon{
+	background-color: hsla(205, 63%, 45%, .4);
+}
+
