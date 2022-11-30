@@ -51,10 +51,23 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
+#amsterdam {
+    background-color: #00008b;
+}
 #belize {
     background-color: #4dd0e1;
 }
 
-#barcelona {
+#copenhagen {
     background-color: #800000;
+}
+
+#dubrovnik {
+    background-color: #00bfff;
+}
+#paris {
+    background-color: #ff69b4;
+}
+#edinburgh {
+    background-color: #006400;
 }
