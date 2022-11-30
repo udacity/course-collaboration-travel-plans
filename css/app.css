@@ -13,12 +13,23 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background-color: rgb(65, 65, 65);
 }
 
 .container {
-    margin: auto;
+    margin-top: 3ch;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1em;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1{
+    align-items: center;
+    color: white;
+    margin-left: 35%;
 }
 
 .destination-container {
@@ -50,11 +61,14 @@ h2 {
     transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
 }
-
-#belize {
-    background-color: #4dd0e1;
+#trestles {
+    background-color: #116186;
 }
 
-#barcelona {
-    background-color: #800000;
+#obx {
+    background-color: #e06d6d;
+}
+
+#indo {
+    background-color: #46ecd1;
 }
