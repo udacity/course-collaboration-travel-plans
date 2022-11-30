@@ -58,3 +58,16 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#lagos {
+    background: linear-gradient(to top right, hsla(122, 39%, 49%, 1), hsla(0, 0%, 100%, 1), hsla(122, 39%, 49%, 1));
+    color: rgba(9, 80, 11, 1);
+}
+
+#doha {
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 1), hsla(12, 90%, 25%, 1));
+}
+
+#cairo {
+    background: linear-gradient(to top right, hsla(122, 39%, 0%, 1) 30%, hsla(0, 0%, 100%, 1) 70%, hsla(12, 90%, 35%, 1) 30%);
+}
