@@ -46,8 +46,8 @@ body {
 
 h2 {
     margin: 0;
-    transform: rotate(-45deg);
-    transition: transform 0.5s;
+    transform: rotate(-30deg);
+    transition: transform 1.5s;
     text-shadow: 0 0 5px #01579b;
 }
 
@@ -55,6 +55,18 @@ h2 {
     background-color: #4dd0e1;
 }
 
+#tokyo {
+    background-color: #01f7dd;
+}
+
 #barcelona {
     background-color: #800000;
+}
+
+#casablanca {
+    background-color: #d5b60a;
+}
+
+#buenosaires {
+    background-color: #3e9e3f;
 }
