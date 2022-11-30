@@ -49,6 +49,8 @@ h2 {
     transform: rotate(-45deg);
     transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
+
+    
 }
 
 #belize {
@@ -57,4 +59,16 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#nairobi {
+    background-color: #010200;
+}
+
+#dubai {
+    background-color: #862272;
+}
+
+#paris {
+    background-color: #220072;
 }
