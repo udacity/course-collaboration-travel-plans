@@ -3,9 +3,7 @@ html {
     height: 100%;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: inherit;
 }
 
@@ -57,4 +55,16 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#egypt {
+    background-color: chocolate;
+}
+
+#germany{
+    background-color:darkgreen ;
+}
+
+#spain{
+    background-color: goldenrod;
 }
