@@ -9,6 +9,7 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
     display: flex;
     margin: 0;
@@ -57,4 +58,7 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+#milano{
+     background-color: #c6ecd9;
 }
