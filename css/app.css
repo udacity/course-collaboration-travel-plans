@@ -28,7 +28,7 @@ body {
 }
 
 .destination {
-    background: #03a9f4;
+    background: #04f935;
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
     color: white;
     margin: 0.5em;
@@ -39,6 +39,7 @@ body {
     align-items: center;
     text-align: center;
 }
+
 
 .destination:hover h2 {
     transform: rotate(0deg);
@@ -51,10 +52,17 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
-#belize {
-    background-color: #4dd0e1;
+#eGev {
+    background-color: #26abee;
 }
 
-#barcelona {
-    background-color: #800000;
+#rNikra {
+    background-color: #fffb1c;
+}
+#eilat {
+    background-color: #770202;
+}
+
+#palmachim {
+    background-color: #24d33b;
 }
