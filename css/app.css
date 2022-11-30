@@ -30,7 +30,7 @@ body {
 .destination {
     background: #03a9f4;
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
-    color: white;
+    color: #003883;
     margin: 0.5em;
     min-height: 200px;
     flex: 0 1 200px;
@@ -57,4 +57,16 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#Lagos {
+    background-color: #03a9f4;
+}
+
+#Denmark {
+    background-color: #d32f2f;
+}
+
+#Scotland {
+    background-color: #388e3c;
 }
