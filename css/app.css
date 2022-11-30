@@ -13,6 +13,13 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background-color: #fa2341;
+}
+
+.info h3{
+	text-align: center;
+	position: absolute;
+	left: 40%;
 }
 
 .container {
