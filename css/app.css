@@ -2,7 +2,9 @@ html {
     box-sizing: border-box;
     height: 100%;
 }
-
+.someclass {
+    width: 100px
+}
 *,
 *::before,
 *::after {
