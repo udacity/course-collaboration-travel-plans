@@ -28,7 +28,7 @@ body {
 }
 
 .destination {
-    background: #03a9f4;
+    background: #FFA07A;
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
     color: white;
     margin: 0.5em;
@@ -57,4 +57,24 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#florida {
+    background-color: #6352c4;
+}
+
+#paris {
+    background-color: #d1157d;
+}
+
+#scotlanc {
+    background-color: #c6d630;
+}
+
+#italy {
+    background-color: #30bdd6;
+}
+
+#torino {
+    background-color: #500101;
 }
