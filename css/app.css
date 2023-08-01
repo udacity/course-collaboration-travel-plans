@@ -46,9 +46,9 @@ body {
 
 h2 {
     margin: 0;
-    transform: rotate(-45deg);
+    transform: rotate(+90deg);
     transition: transform 0.5s;
-    text-shadow: 0 0 5px #01579b;
+    text-shadow: 0 0 5px #ff69b4;
 }
 
 #belize {
@@ -57,4 +57,16 @@ h2 {
 
 #barcelona {
     background-color: #800000;
+}
+
+#madagascar {
+    background-color: #008000;
+}
+
+#srilanka {
+    background-color: #f80e7b;
+}
+
+#albania {
+    background-color: #ffff00;
 }
