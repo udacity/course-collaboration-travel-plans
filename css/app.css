@@ -58,3 +58,14 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#switzerland {
+    background-color: #4caf50;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
